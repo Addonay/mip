@@ -16,6 +16,8 @@ Welcome to the **Medical Insurance Prediction** project! This application utiliz
 
 This project aims to develop a machine learning model that predicts insurance charges based on features such as age, gender, BMI, number of children, smoking status, and region. By leveraging the Random Forest Regressor algorithm, we can provide accurate predictions that can assist users in understanding their potential medical costs.
 
+You can check the live [demo](https://check-this-out.streamlit.app) by clicking on this link
+
 ## Installation
 
 To set up the project, you will need to install the required dependencies using **Poetry**. Follow these steps:
@@ -29,8 +31,8 @@ To set up the project, you will need to install the required dependencies using 
 2. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/medical-insurance-prediction.git
-   cd medical-insurance-prediction
+   git clone https://github.com/addonayosoro/mip.git
+   cd mip
    ```
 
 3. **Install Dependencies**:
@@ -62,7 +64,7 @@ Once the model is trained, you can test the application:
 1. Run the Streamlit application:
 
    ```bash
-   streamlit run main.py
+   streamlit run src/main.py
    ```
 
 2. Open your web browser and navigate to `http://localhost:8501` to access the application interface.
@@ -86,3 +88,25 @@ Contributions to the project are welcome! If you would like to contribute, pleas
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
+
+
+The presentation will be 10-12 minutes with these items:
+
+- Brief background of the case study selected which would discuss the objective for
+the project, for example: vividly describe a furniture store whose owner would want
+DAT 2102 [July 2024] Semester Project || Page 2
+to predict the costs of different types of wood. This case study can be based on a
+real-life example or a fictional case prepared as a group
+- Description of the dataset used in the project: rows, columns, brief descriptive
+statistics etc.
+- Data cleaning techniques used e.g. dropping columns, log transformation for
+normalisation
+- Modelling approach applied: algorithm used, train/test split ratio, algorithm and
+model validation approach/results e.g. k-fold cross validation.
+- Live demo of application (include the link to your application in this slide as you
+demonstrate the working of the app)
+- Conclusion to business objective set i.e. does the wood cost predictor application
+achieve what the store owner wanted? What features can be added to this
+application to ensure full functionality..
+
+in my case i used random forest regressor and gridsearchcv instead of a simple linear regression. somem of the columns in my dataset include age, bmi,sex, region,smoker, children,occupation and heart_disease_history. the last column and the one being predicted is charges.

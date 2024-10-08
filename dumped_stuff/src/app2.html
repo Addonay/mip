@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Insurance Calculator</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1980e6;
+            --text-color: #ffffff;
+            --border-color: #d0dbe7;
+            --placeholder-color: #4e7397;
+            --background-color: #000000;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Manrope', 'Noto Sans', sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo svg {
+            width: 2rem;
+            height: 2rem;
+        }
+
+        .logo h1 {
+            font-size: 1.5rem;
+            font-weight: 800;
+        }
+
+        nav ul {
+            display: flex;
+            gap: 2rem;
+            list-style-type: none;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: var(--primary-color);
+        }
+
+        .btn {
+            background-color: var(--primary-color);
+            color: var(--text-color);
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 0.5rem;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #1565c0;
+        }
+
+        main {
+            padding: 2rem 0;
+        }
+
+        .calculator {
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+            gap: 1rem;
+        }
+
+        .form-item {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            /* Ensures both inputs take up equal space */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .flex-group {
+            display: flex;
+            align-items: center;
+            /* Align items vertically in the center */
+            gap: 1rem;
+            /* Space between elements */
+        }
+
+        input[type="number"],
+        select {
+            width: 30%;
+            /* Set a width for each input and select */
+            padding: 0.75rem;
+            /* Consistent padding */
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            background-color: transparent;
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        #height-inches {
+            display: none;
+            /* Initially hidden; will show via JavaScript */
+        }
+
+
+
+        input[type="text"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            background-color: transparent;
+            color: var(--text-color);
+            font-size: 1rem;
+        }
+
+        input[type="text"]::placeholder,
+        input[type="number"]::placeholder,
+        select::placeholder {
+            color: var(--placeholder-color);
+        }
+
+        .radio-group {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .radio-option {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        input[type="radio"] {
+            appearance: none;
+            width: 1.25rem;
+            height: 1.25rem;
+            border: 2px solid var(--border-color);
+            border-radius: 50%;
+            outline: none;
+            cursor: pointer;
+        }
+
+        input[type="radio"]:checked {
+            border-color: var(--primary-color);
+            background-color: var(--primary-color);
+            box-shadow: inset 0 0 0 3px var(--background-color);
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.1rem;
+            margin-top: 1rem;
+            text-decoration: #ffffff;
+        }
+
+        footer {
+            text-align: center;
+            color: var(--text-color);
+            font-size: 0.8rem;
+            margin-bottom: 0.5rem;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg viewBox="0 0 48 48" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M44 11.2727C44 14.0109 39.8386 16.3957 33.69 17.6364C39.8386 18.877 44 21.2618 44 24C44 26.7382 39.8386 29.123 33.69 30.3636C39.8386 31.6043 44 33.9891 44 36.7273C44 40.7439 35.0457 44 24 44C12.9543 44 4 40.7439 4 36.7273C4 33.9891 8.16144 31.6043 14.31 30.3636C8.16144 29.123 4 26.7382 4 24C4 21.2618 8.16144 18.877 14.31 17.6364C8.16144 16.3957 4 14.0109 4 11.2727C4 7.25611 12.9543 4 24 4C35.0457 4 44 7.25611 44 11.2727Z">
+                    </path>
+                </svg>
+                <h1>Medical Insurance Predictor</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/src/index.html">Home</a></li>
+                    <li><a href="/src/app2.html">Calculator</a></li>
+                    <li><button class="btn">Get Started</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="calculator">
+                <h2>Predict Your Health Insurance Costs</h2>
+                <form id="insurance-form">
+                    <div class="form-group">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" placeholder="Enter age" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="female" name="gender" value="female" checked>
+                                <label for="female">Female</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="male" name="gender" value="male">
+                                <label for="male">Male</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="children">Number of children</label>
+                        <input type="number" id="children" name="children" placeholder="Enter number of children"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Are you an Active Smoker?</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="non-smoker" name="smoker" value="no" checked>
+                                <label for="non-smoker">No</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="smoker" name="smoker" value="yes">
+                                <label for="smoker">Yes</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="region">What region do you come from?</label>
+                        <select id="region" name="region" required>
+                            <option value="">Select region</option>
+                            <option value="northeast">Northeast</option>
+                            <option value="northwest">Northwest</option>
+                            <option value="southeast">Southeast</option>
+                            <option value="southwest">Southwest</option>
+                        </select>
+                    </div>
+
+                    <!-- <div class="form-group">
+                        <label for="height">Height</label>
+                        <div class="flex-group">
+                            <input type="number" id="height" step="any" name="height" placeholder="Enter height" required>
+                            <input type="number" id="height-inches" name="height-inches" placeholder="Inches"
+                            style="display: none;">
+                            <select id="height-unit" name="height-unit" required>
+                                <option value="metres">Metres</option>
+                                <option value="centimetres">Centimetres</option>
+                                <option value="feet">Feet</option>
+                            </select>
+                        </div>
+                    </div> -->
+                    <div class="form-group flex-group">
+
+                        <div class="form-item">
+                            <label for="height">Height in cm</label>
+                            <input type="number" id="height" step="any" name="height" placeholder="Enter height "
+                                required>
+                        </div>
+                        <div class="form-item">
+                            <label for="height">Weight in Kg's</label>
+                            <input type="number" step="any" id="weight" name="weight" placeholder="Enter weight"
+                                required>
+                        </div>
+                    </div>
+
+
+                    <!-- <div class="form-group">
+                        <label for="weight">Weight</label>
+                        <div class="flex-group">
+                            <input type="number" step="any" id="weight" name="weight" placeholder="Enter weight"
+                                required>
+                            <select id="weight-unit" name="weight-unit" required>
+                                <option value="kgs">Kilograms</option>
+                                <option value="pounds">Pounds</option>
+                            </select>
+                        </div>
+                    </div> -->
+
+
+                    <!-- <div class="form-group">
+                        <label for="bmi">BMI (Body Mass Index)</label>
+                        <input type="number" step="any" id="bmi" name="bmi" placeholder="Your BMI" required>
+                    </div> -->
+
+                    <div class="form-group">
+                        <label>Do you have any Heart Disease History?</label>
+                        <div class="radio-group">
+                            <div class="radio-option">
+                                <input type="radio" id="no-heart-disease" name="heart-disease" value="no" checked>
+                                <label for="no-heart-disease">No</label>
+                            </div>
+                            <div class="radio-option">
+                                <input type="radio" id="heart-disease" name="heart-disease" value="yes">
+                                <label for="heart-disease">Yes</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="occupation">Occupation</label>
+                        <select id="occupation" name="occupation" required>
+                            <option value="">Select occupation</option>
+                            <option value="student">Student</option>
+                            <option value="salaried">Salaried</option>
+                            <option value="business">Business</option>
+                            <option value="unemployed">Unemployed</option>
+                        </select>
+                    </div>
+
+                    <button type="submit" class="btn submit-btn">Predict</button>
+                </form>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2023 Health Insurance Predictor. All rights reserved.</p>
+    </footer>
+    <script>
+        window.onload = function () {
+            const savedAge = window.localStorage.getItem('age');
+            if (savedAge) {
+                document.getElementById('age').value = savedAge;
+            }
+        };
+
+        document.getElementById('height-unit').addEventListener('change', function () {
+            const heightGroup = document.getElementById('height-inches');
+            const heightLabel = document.querySelector('label[for="height"]');
+
+            if (this.value === 'feet') {
+                heightGroup.style.display = 'block';  // Show the inches input
+                heightLabel.textContent = 'Height (feet)'; // Change label
+            } else {
+                heightGroup.style.display = 'none';  // Hide the inches input
+                heightLabel.textContent = 'Height'; // Change label back
+            }
+        });
+
+        document.getElementById('weight').addEventListener('change', function () {
+            calculateBMI();
+        });
+
+        document.getElementById('height').addEventListener('change', function () {
+            calculateBMI();
+        });
+
+        document.getElementById('height-inches').addEventListener('change', function () {
+            calculateBMI();
+        });
+
+        function calculateBMI() {
+            const weightUnit = document.getElementById('weight-unit').value;
+            let weight = parseFloat(document.getElementById('weight').value);  // Ensure float
+
+            // Convert weight to kilograms if it's in pounds
+            if (weightUnit === 'pounds') {
+                weight = weight * 0.453592; // Convert pounds to kilograms
+            }
+
+            const heightUnit = document.getElementById('height-unit').value;
+            let height = parseFloat(document.getElementById('height').value);  // Ensure float
+            let heightInMeters;
+
+            // Convert height to meters based on the unit
+            if (heightUnit === 'feet') {
+                const heightInches = parseFloat(document.getElementById('height-inches').value) || 0; // Get inches value, default to 0
+                heightInMeters = (height * 0.3048) + (heightInches * 0.0254); // Convert feet to meters and add inches
+            } else if (heightUnit === 'metres') {
+                heightInMeters = height; // Already in meters
+            } else if (heightUnit === 'centimetres') {
+                heightInMeters = height / 100; // Convert centimeters to meters
+            }
+
+            // Calculate BMI
+            if (heightInMeters > 0) {
+                const bmi = weight / (heightInMeters * heightInMeters);
+                document.getElementById('bmi').value = bmi.toFixed(2); // Populate BMI input with 2 decimal places
+            }
+        }
+
+        document.getElementById('insurance-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const age = parseInt(document.getElementById('age').value);  // Ensure integer
+            const gender = document.querySelector('input[name="gender"]:checked').value;
+            const children = parseInt(document.getElementById('children').value);  // Ensure integer
+            const smoker = document.querySelector('input[name="smoker"]:checked').value;
+            const region = document.getElementById('region').value;
+            const bmi = parseFloat(document.getElementById('bmi').value);  // Ensure float
+            const heartDisease = document.querySelector('input[name="heart-disease"]:checked').value;
+            const occupation = document.getElementById('occupation').value;
+
+            console.log(age, gender, children, smoker, region, weight, height, bmi, heartDisease, occupation);
+
+            // Send to API
+            fetch('https://f204-41-90-188-45.ngrok-free.app', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    age: age,
+                    gender: gender,
+                    children: children,
+                    smoker: smoker,
+                    region: region,
+                    bmi: bmi,
+                    heartDisease: heartDisease,
+                    occupation: occupation
+                })
+            })
+                .then(response => {
+                    if (!response.ok) {
+                        return response.json().then(err => { throw new Error(err.detail) });
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log('Success:', data);
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                });
+        });
+
+    </script>
+
+</body>
+
+</html>

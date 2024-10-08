@@ -13,6 +13,10 @@ scikit-learn = "^1.5.2"
 streamlit = "^1.38.0"
 jupyter = "^1.1.1"
 nbconvert = "^7.16.4"
+streamlit-shadcn-ui = "^0.1.18"
+seaborn = "^0.13.2"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
 
 
 [tool.poetry.group.dev.dependencies]
