@@ -366,7 +366,7 @@ if st.query_params == {}:
             </main>
         </div>
         <footer>
-            <p>&copy; 2023 Health Insurance Predictor. All rights reserved.</p>
+            <p>&copy; 2024 Health Insurance Predictor. All rights reserved.</p>
         </footer>
 
     </body>
@@ -399,7 +399,7 @@ else:
     weight = st.query_params.get("weight")
     height = st.query_params.get("height")
 
-    bmi = float(weight) / (float(height) * float(height)) *10000
+    bmi = float(weight) / (float(height) * float(height)) * 10000
 
     def gg(value: str, category: str):
         mapping = {
@@ -441,7 +441,7 @@ else:
 <body class="bg-transparent font-sans">
   <div class="container mx-auto mt-10 rounded-lg p-6">
     <div class="mb-4 flex animate-bounce items-center justify-center text-6xl text-green-500">💰</div>
-    <div style="font-family: Tillana;" class="flex items-center justify-center rounded-lg text-3xl font-semibold text-green-600">The Estimated Insurance Amount is <strong> ${int(salary[0]):,}</strong></div>
+    <div style="font-family: Tillana;" class="flex items-center justify-center rounded-lg text-3xl font-semibold text-green-600">The Estimated Insurance Amount is {" "} <strong class="text-4xl ml-3">   ${int(salary[0]):,} </strong></div>
     <div class="mt-8 text-left">
       <h3 class="text-3xl mt-24 font-bold text-gray-800">Insurance Charges Estimation Factors</h3>
       <p class="mt-4 text-xl text-gray-100">The estimated insurance charges are based on several factors. Here's how these factors generally affect your insurance charges:</p>
@@ -502,16 +502,16 @@ else:
     if os.path.exists(file_path):
         with open(file_path, "r") as f:
             try:
-                existing_data = json.load(f)  
+                existing_data = json.load(f)
             except json.JSONDecodeError:
                 existing_data = []
 
     else:
         existing_data = []
 
-    predicted_amount = int(salary[0])  
+    predicted_amount = int(salary[0])
     data_dict["predicted_amount"] = predicted_amount
-    data_dict["bmi"] = inp3  
+    data_dict["bmi"] = inp3
 
     existing_data.append(data_dict)
 
