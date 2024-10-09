@@ -479,5 +479,57 @@
         "occupation": "unemployed",
         "predicted_amount": 15638,
         "bmi": 383.6734693877551
+    },
+    {
+        "age": "72",
+        "gender": "female",
+        "child_count": "39",
+        "smoker": "no",
+        "region": "southamerica",
+        "height": "35",
+        "weight": "47",
+        "heartDisease": "yes",
+        "occupation": "unemployed",
+        "predicted_amount": 15638,
+        "bmi": 383.6734693877551
+    },
+    {
+        "age": "72",
+        "gender": "female",
+        "child_count": "39",
+        "smoker": "no",
+        "region": "southamerica",
+        "height": "35",
+        "weight": "47",
+        "heartDisease": "yes",
+        "occupation": "unemployed",
+        "predicted_amount": 15638,
+        "bmi": 383.6734693877551
+    },
+    {
+        "age": "72",
+        "gender": "female",
+        "child_count": "39",
+        "smoker": "no",
+        "region": "southamerica",
+        "height": "35",
+        "weight": "47",
+        "heartDisease": "yes",
+        "occupation": "unemployed",
+        "predicted_amount": 15638,
+        "bmi": 383.6734693877551
+    },
+    {
+        "age": "72",
+        "gender": "female",
+        "child_count": "39",
+        "smoker": "no",
+        "region": "southamerica",
+        "height": "35",
+        "weight": "47",
+        "heartDisease": "yes",
+        "occupation": "unemployed",
+        "predicted_amount": 15638,
+        "bmi": 383.6734693877551
     }
 ]

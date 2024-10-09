@@ -24,91 +24,140 @@ if st.query_params == {}:
             href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans:wght@400;500;700;900&display=swap"
             rel="stylesheet">
         <style>
-            :root {
-                --primary-color: #1980e6;
-                --text-color: #ffffff;
-                --border-color: #d0dbe7;
-                --placeholder-color: #4e7397;
-                --background-color: #000000;
-            }
+    :root {
+        --primary-color: #1980e6;
+        --text-color: #ffffff;
+        --border-color: #d0dbe7;
+        --placeholder-color: #4e7397;
+        --background-color: #000000;
+    }
 
-            * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-            }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-            body {
-                font-family: 'Manrope', 'Noto Sans', sans-serif;
-                background-color: var(--background-color);
-                color: var(--text-color);
-                line-height: 1.6;
-                min-height: 100vh;
-            }
+    body {
+        font-family: 'Manrope', 'Noto Sans', sans-serif;
+        background-color: var(--background-color);
+        color: var(--text-color);
+        line-height: 1.6;
+        min-height: 100vh;
+    }
 
-            .container {
-                margin: 0 auto;
-                padding: 0 20px;
-                display: flex;
-                flex-direction: column;
-                flex-grow: 1;
-            }
+    .container {
+        margin: 0 auto;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
 
-            header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                border-bottom: 1px solid var(--border-color);
-            }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid var(--border-color);
+        padding: 1rem;
+    }
 
-            .logo {
-                display: flex;
-                align-items: center;
-                gap: 1rem;
-            }
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
 
-            .logo svg {
-                width: 2rem;
-                height: 2rem;
-            }
+    .logo svg {
+        width: 2rem;
+        height: 2rem;
+    }
 
-            .logo h1 {
-                font-size: 1.5rem;
-                font-weight: 800;
-            }
+    .logo h1 {
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
 
-            nav ul {
-                display: flex;
-                gap: 2rem;
-                list-style-type: none;
-                align-items: center;
-            }
+    nav ul {
+        display: flex;
+        gap: 2rem;
+        list-style-type: none;
+        align-items: center;
+    }
 
-            nav a {
-                color: var(--text-color);
-                text-decoration: none;
-                font-weight: 500;
-                transition: color 0.3s ease;
-            }
+    nav a {
+        color: var(--text-color);
+        text-decoration: none;
+        font-weight: 500;
+        transition: color 0.3s ease;
+    }
 
-            nav a:hover {
-                color: var(--primary-color);
-            }
+    nav a:hover {
+        color: var(--primary-color);
+    }
 
-            .btn {
-                background-color: var(--primary-color);
-                color: var(--text-color);
-                padding: 0.75rem 1.5rem;
-                border: none;
-                border-radius: 0.5rem;
-                font-weight: 700;
-                cursor: pointer;
-                transition: background-color 0.3s ease;
-            }
+    .btn {
+        background-color: var(--primary-color);
+        color: var(--text-color);
+        padding: 0.75rem 1.5rem;
+        border: none;
+        border-radius: 0.5rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
 
-            .btn:hover {
-                background-color: #1565c0;
-            }
+    .btn:hover {
+        background-color: #1565c0;
+    }
+
+        .small {
+            display: none;
+        }
+    @media (max-width: 768px) {
+        header {
+            flex-direction: row;
+            align-items: flex-start;
+        }
+
+        .logo {
+            margin-bottom: 1rem;
+        }
+        .logo h1 {
+            display: none;
+        }
+
+        nav ul {
+            flex-direction: row;
+            align-items: flex-start;
+            gap: 1rem;
+            display: flex;
+            align-items: center;
+        }
+        .small {
+            display: block;
+            font-weight: 500;
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .logo h1 {
+            font-size: 1.2rem;
+        }
+
+        nav ul {
+            gap: 0.5rem;
+        }
+
+        nav a {
+            font-size: 0.9rem;
+        }
+
+        .btn {
+            padding: 0.5rem 1rem;
+        }
+    }
 
             main {
                 padding: 2rem 0;
@@ -252,6 +301,7 @@ if st.query_params == {}:
                         </path>
                     </svg>
                     <h1>Medical Insurance Predictor</h1>
+                    <span class="small">MIP </span>
                 </div>
                 <nav>
                     <ul>
