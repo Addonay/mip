@@ -1,9 +1,14 @@
+from streamlit_echarts import st_echarts
 import streamlit as st
 import pandas as pd
 import json
+import numpy as np
 import os
 import matplotlib.pyplot as plt
+import seaborn as sns
 from streamlit.components.v1 import html
+
+st.Page("pages/dashboard.py", title="Medical Insurance Dashboard")
 
 
 # load data
@@ -17,210 +22,173 @@ def load_data(file_path):
                 return pd.DataFrame()
     return pd.DataFrame()
 
-
-def display_login_ui():
-    st.html(
-        """
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Tillana:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-   
-</head>
-<body>
-<style>
-body {
-    font-family: 'Tillana', sans-serif;
-    background-color: #1f2937; /* Dark background for contrast */
-    color: #e5e7eb; /* Light gray text */
-    margin: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    min-height: 50vh;
-    padding: 3rem 1.5rem; /* Adjust padding for all screens */
-}
-
-.header {
-    text-align: center;
-    margin-bottom: 2.5rem; /* Space below header */
-}
-
-.logo {
-    height: 4rem; /* Logo height */
-    width: auto; /* Keep aspect ratio */
-}
-
-.title {
-    margin-top: 2.5rem; /* Space above title */
-    font-size: 2rem; /* Larger title font size */
-    font-weight: bold; /* Bold text */
-}
-
-.form-container {
-    margin-top: 0rem; /* Space above form container */
-    max-width: 25rem; /* Limit form width */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.login-form {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem; /* Space between form elements */
-}
-
-.form-group {
-    display: flex;
-    flex-direction: column;
-}
-
-.label {
-    font-size: 1.125rem; /* Larger text for labels */
-    font-weight: 500; /* Medium weight */
-    margin-bottom: 0.5rem; /* Space below label */
-}
-
-.input {
-    padding: 0.5rem 0.75rem; /* Padding inside inputs */
-    border: 1px solid #9ca3af; /* Light gray border */
-    border-radius: 0.375rem; /* Rounded corners */
-    background: transparent; /* Transparent background */
-    color: #e5e7eb; /* Light gray text */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow */
-    transition: border-color 0.2s ease; /* Transition effect */
-    width: 100%; /* Ensure the input takes full width */
-    min-width: 400px; /* Set a minimum width */
-}
-
-.input::placeholder {
-    color: #a1a1aa; /* Gray placeholder text */
-}
-
-.input:focus {
-    outline: none; /* Remove default outline */
-    border-color: #6366f1; /* Indigo border on focus */
-}
-
-.submit-button {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 0.5rem 1rem; /* Padding for button */
-    border-radius: 0.375rem; /* Rounded corners */
-    background-color: #4338ca; /* Indigo background */
-    color: white; /* White text */
-    font-size: 1.125rem; /* Larger button text */
-    font-weight: 600; /* Semi-bold */
-    transition: background-color 0.2s ease; /* Transition effect */
-}
-
-.submit-button:hover {
-    background-color: #3730a3; /* Darker indigo on hover */
-}
-
-@media (min-width: 640px) {
-    .container {
-        padding: 3rem; /* More padding for larger screens */
-    }
-
-    .title {
-        font-size: 2.25rem; /* Increase title size */
-    }
-
-    .input {
-        font-size: 1rem; /* Larger input text */
-    }
-
-    .submit-button {
-        padding: 0.75rem 1.5rem; /* Larger button padding */
-    }
-}
-
-</style>
-    <div class="container">
-        <div class="header">
-            <img class="logo" src="https://tailwindui.com/plus/img/logos/mark.svg?color=indigo&shade=600" alt="Your Company">
-            <h2 class="title">Sign in to your account</h2>
-        </div>
-
-        <div class="form-container">
-            <form class="login-form" id="login-form">
-                <div class="form-group">
-                    <label for="email" class="label">Email address</label>
-                    <input id="email" name="email" type="email" autocomplete="email" required class="input" />
-                </div>
-
-                <div class="form-group">
-                    <label for="password" class="label">Password</label>
-                    <input id="password" name="password" type="password" autocomplete="current-password" required class="input" />
-                </div>
-
-                <div>
-                    <button type="submit" class="submit-button">Sign in</button>
-                </div>
-            </form>
-        </div>
-    </div>
-</body>
-
-
-
-    """
-    )
-print(st.query_params)
-if st.query_params == {}:
-    st.session_state["logged_in"] = False
-elif st.query_params["email"] == "crazy@ss.bitch" and st.query_params["password"] == "admin":
-    st.session_state["logged_in"] = True
-
-# app logic
-if "logged_in" not in st.session_state:
-    st.session_state["logged_in"] = False
-
-if not st.session_state["logged_in"]:
+def load_dash():
     st.set_page_config(
         page_title="Medical Insurance Dashboard",
         page_icon="🏥",
         layout="wide",
-        initial_sidebar_state="collapsed",
-    )
-    display_login_ui()
-else:
-    st.set_page_config(
-        page_title="Medical Insurance Dashboard",
-        page_icon="🏥",
-        layout="centered",
         initial_sidebar_state="expanded",
     )
     file_path = "data.json"
+    # file_path = "predicted_data.json"
     df = load_data(file_path)
-
+    # df = pd.read_csv("/home/addo/dev/projects/mip/dumped_stuff/assets/insurance_new.csv")
     st.title("Insurance Prediction Dashboard")
-
+    # Display data table
     st.subheader("Data Table")
     st.dataframe(df)
+    col1, col2 = st.columns(2)
+    # column = "charges"
+    column = "predicted_amount"
+    with col1:
+        st.subheader("Frequency Distribution of Predicted Amounts")
+        hist_values, bin_edges = np.histogram(df[column], bins=10)
+        bin_labels = [
+            f"${int(bin_edges[i])} - ${int(bin_edges[i+1])}"
+            for i in range(len(bin_edges) - 1)
+        ]
+        hist_values_list = hist_values.tolist()
+        advanced_chart_options = {
+            "tooltip": {"trigger": "axis", "axisPointer": {"type": "shadow"}},
+            "legend": {"data": ["Frequency", "Trend"], "top": "10%"},
+            "xAxis": {
+                "type": "category",
+                "data": bin_labels,
+                "axisLabel": {
+                    "rotate": 45,
+                },
+            },
+            "yAxis": {"type": "value", "name": "Frequency"},
+            "series": [
+                {
+                    "name": "Frequency",
+                    "type": "bar",
+                    "data": hist_values_list,
+                    "barWidth": "50%",
+                    "itemStyle": {"color": "#6495ED"},
+                },
+                {
+                    "name": "Trend",
+                    "type": "line",
+                    "data": hist_values_list,
+                    "smooth": True,
+                    "lineStyle": {"color": "#FF6347", "width": 2},
+                    "markLine": {
+                        "data": [{"type": "average", "name": "Avg"}],
+                        "lineStyle": {"type": "dashed", "color": "#FF6347"},
+                    },
+                },
+            ],
+        }
+        st_echarts(options=advanced_chart_options, height="500px")
 
-    st.subheader("Predicted Amount Distribution")
-
-    plt.figure(figsize=(10, 5))
-    plt.hist(df["predicted_amount"], bins=20, color="skyblue", edgecolor="black")
-    plt.title("Distribution of Predicted Insurance Amounts")
-    plt.xlabel("Predicted Amount ($)")
-    plt.ylabel("Frequency")
-    st.pyplot(plt)
-
-    st.subheader("Average Predicted Amount by Age")
-    age_group = df.groupby("age")["predicted_amount"].mean().reset_index()
-
-    plt.figure(figsize=(10, 5))
-    plt.plot(age_group["age"], age_group["predicted_amount"], marker="o", color="green")
-    plt.title("Average Predicted Amount by Age")
-    plt.xlabel("Age")
-    plt.ylabel("Average Predicted Amount ($)")
-    st.pyplot(plt)
-
+    with col2:
+        st.subheader("Average Predicted Amount by Age")
+        age_group = df.groupby("age")[column].mean().reset_index()
+        age_chart_options = {
+            "xAxis": {
+                "type": "category",
+                "data": list(age_group["age"]),
+            },
+            "yAxis": {"type": "value"},
+            "series": [
+                {
+                    "data": age_group[column].astype(float).tolist(),
+                    "type": "line",
+                    "smooth": True,
+                    "color": "green",
+                }
+            ],
+        }
+        st_echarts(options=age_chart_options)
+    with col2:
+        st.subheader("Gender Distribution")
+        gender_count = df["gender"].value_counts()
+        gender_pie_options = {
+            "series": [
+                {
+                    "name": "Gender",
+                    "type": "pie",
+                    "radius": "50%",
+                    "data": [
+                        {"value": int(gender_count["female"]), "name": "Female"},
+                        {
+                            "value": int(gender_count.get("male", 0)),
+                            "name": "Male",
+                        },  
+                    ],
+                    "label": {"formatter": "{b}: {d}%"},
+                }
+            ]
+        }
+        st_echarts(options=gender_pie_options)
+    with col1:
+        st.subheader("Predicted Amount by Region")
+        region_group = df["region"].value_counts()
+        region_pie_options = {
+            "series": [
+                {
+                    "name": "Region",
+                    "type": "pie",
+                    "radius": "50%",
+                    "data": [
+                        {"value": int(region_group["africa"]), "name": "Africa"},
+                        {"value": int(region_group.get("asia", 0)), "name": "Asia"},
+                        {"value": int(region_group.get("europe", 0)), "name": "Europe"},
+                        {
+                            "value": int(region_group.get("northamerica", 0)),
+                            "name": "North America",
+                        },
+                        {
+                            "value": int(region_group.get("southamerica", 0)),
+                            "name": "South America",
+                        },
+                        {
+                            "value": int(region_group.get("australia", 0)),
+                            "name": "Australia",
+                        },
+                    ],
+                    "label": {"formatter": "{b}: {d}%"},
+                    "emphasis": {"itemStyle": {"shadowBlur": 10, "shadowOffsetX": 0, "shadowColor": "rgba(0, 0, 0, 0.5)"}},
+                }
+            ]
+        }
+        st_echarts(options=region_pie_options)
+    st.subheader("BMI vs Age")
+    bmi_data = df["bmi"].round(0).tolist()
+    bmi_vs_amount_options = {
+        "xAxis": {
+            "type": "category",
+            "data": bmi_data,
+            "axisLabel": {
+                "rotate": 45,
+            },
+        },
+        "yAxis": {"type": "value", "name": "Age"},
+        "series": [
+            {
+                "data": df["age"].astype(int).tolist(),
+                "type": "line",
+                "smooth": True,
+                "lineStyle": {
+                    "color": "red",
+                },
+            }
+        ],
+        "tooltip": {
+            "trigger": "axis",
+        },
+    }
+    st_echarts(options=bmi_vs_amount_options)
     if st.button("Logout"):
+        st.switch_page("streamlit_app.py")
         st.session_state["logged_in"] = False
-        st.rerun()
+        st.query_params.clear()
+
+if "logged_in" not in st.session_state:
+    st.session_state["logged_in"] = False
+
+if st.session_state["logged_in"]:
+    load_dash()
+else:
+    st.switch_page("pages/login.py")

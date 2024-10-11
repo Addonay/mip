@@ -1,0 +1,2773 @@
+age,sex,bmi,children,smoker,region,charges,heart_disease_history,occupation
+19,female,27.9,0,yes,Oceania,16884.924,no,unemployed
+18,male,33.77,1,no,Asia,1725.5523,no,part-time
+28,male,33.0,3,no,Oceania,4449.462,no,salaried
+33,male,22.705,0,no,South America,21984.47061,no,salaried
+32,male,28.88,0,no,Antarctica,3866.8552,yes,business
+31,female,25.74,0,no,South America,3756.6216,yes,business
+46,female,33.44,1,no,Europe,8240.5896,yes,business
+37,female,27.74,3,no,Africa,7281.5056,yes,salaried
+37,male,29.83,2,no,Africa,6406.4107,yes,salaried
+60,female,25.84,0,no,Oceania,28923.13692,yes,retired
+25,male,26.22,0,no,Oceania,2721.3208,no,business
+62,female,26.29,0,yes,North America,27808.7251,no,unemployed
+23,male,34.4,0,no,North America,1826.843,no,student
+56,female,39.82,0,no,Asia,11090.7178,no,unemployed
+27,male,42.13,0,yes,Antarctica,39611.7577,no,business
+19,male,24.6,1,no,North America,1837.237,no,part-time
+52,female,30.78,1,no,North America,10797.3362,no,salaried
+23,male,23.845,0,no,Europe,2395.17155,no,part-time
+56,male,40.3,0,no,Antarctica,10602.385,no,salaried
+30,male,35.3,0,yes,North America,36837.467,yes,business
+60,female,36.005,0,no,Asia,13228.84695,yes,unemployed
+30,female,32.4,1,no,Antarctica,4149.736,no,unemployed
+18,male,34.1,0,no,Antarctica,1137.011,no,unemployed
+34,female,31.92,1,yes,Oceania,37701.8768,no,salaried
+37,male,28.025,2,no,Antarctica,6203.90175,no,salaried
+59,female,27.72,3,no,Africa,14001.1338,no,business
+63,female,23.085,0,no,Asia,14451.83515,no,retired
+55,female,32.775,2,no,Asia,12268.63225,no,business
+23,male,17.385,1,no,South America,2775.19215,no,student
+31,male,36.3,2,yes,Antarctica,38711.0,yes,salaried
+22,male,35.6,0,yes,Antarctica,35585.576,no,unemployed
+18,female,26.315,0,no,Oceania,2198.18985,no,unemployed
+19,female,28.6,5,no,Oceania,4687.797,no,student
+63,male,28.31,0,no,Oceania,13770.0979,no,retired
+28,male,36.4,1,yes,Africa,51194.55914,no,part-time
+19,male,20.425,0,no,Antarctica,1625.43375,no,unemployed
+62,female,32.965,3,no,Antarctica,15612.19335,yes,unemployed
+26,male,20.8,0,no,Africa,2302.3,no,business
+35,male,36.67,1,yes,North America,39774.2763,no,salaried
+60,male,39.9,0,yes,Africa,48173.361,yes,unemployed
+24,female,26.6,0,no,Asia,3046.062,no,student
+31,female,36.63,2,no,Europe,4949.7587,no,salaried
+41,male,21.78,1,no,Africa,6272.4772,no,salaried
+37,female,30.8,2,no,Asia,6313.759,no,part-time
+38,male,37.05,1,no,North America,6079.6715,no,unemployed
+55,male,37.3,0,no,Africa,20630.28351,no,consultant
+18,female,38.665,2,no,Oceania,3393.35635,no,part-time
+28,female,34.77,0,no,Europe,3556.9223,no,unemployed
+60,female,24.53,0,no,Asia,12629.8967,no,unemployed
+36,male,35.2,1,yes,Oceania,38709.176,no,salaried
+18,female,35.625,0,no,Africa,2211.13075,no,unemployed
+21,female,33.63,2,no,Asia,3579.8287,no,student
+48,male,28.0,1,yes,North America,23568.272,yes,salaried
+36,male,34.43,0,yes,Europe,37742.5757,no,salaried
+40,female,28.69,3,no,South America,8059.6791,yes,salaried
+58,male,36.955,2,yes,South America,47496.49445,yes,business
+58,female,31.825,2,no,North America,13607.36875,no,business
+18,male,31.68,2,yes,North America,34303.1672,no,unemployed
+53,female,22.88,1,yes,South America,23244.7902,yes,business
+34,female,37.335,2,no,North America,5989.52365,no,salaried
+43,male,27.36,3,no,South America,8606.2174,yes,salaried
+25,male,33.66,4,no,Africa,4504.6624,no,salaried
+64,male,24.7,1,no,North America,30166.61817,yes,unemployed
+28,female,25.935,1,no,North America,4133.64165,no,unemployed
+20,female,22.42,0,yes,Africa,14711.7438,no,student
+19,female,28.9,0,no,North America,1743.214,no,student
+61,female,39.1,2,no,Oceania,14235.072,no,unemployed
+40,male,26.315,1,no,North America,6389.37785,no,business
+40,female,36.19,0,no,Africa,5920.1041,no,salaried
+28,male,23.98,3,yes,Oceania,17663.1442,no,part-time
+27,female,24.75,0,yes,Europe,16577.7795,no,unemployed
+31,male,28.5,5,no,Europe,6799.458,yes,salaried
+53,female,28.1,3,no,Africa,11741.726,no,business
+58,male,32.01,1,no,Oceania,11946.6259,no,business
+44,male,27.4,2,no,Africa,7726.854,no,business
+57,male,34.01,0,no,Europe,11356.6609,no,salaried
+29,female,29.59,1,no,Asia,3947.4131,no,salaried
+21,male,35.53,0,no,Oceania,1532.4697,no,unemployed
+22,female,39.805,0,no,Antarctica,2755.02095,no,part-time
+41,female,32.965,0,no,Africa,6571.02435,yes,unemployed
+31,male,26.885,1,no,Oceania,4441.21315,no,business
+45,female,38.285,0,no,Europe,7935.29115,yes,consultant
+22,male,37.62,1,yes,Antarctica,37165.1638,no,part-time
+48,female,41.23,4,no,Africa,11033.6617,yes,business
+37,female,34.8,2,yes,Asia,39836.519,yes,unemployed
+45,male,22.895,2,yes,Antarctica,21098.55405,yes,salaried
+57,female,31.16,0,yes,South America,43578.9394,yes,consultant
+56,female,27.2,0,no,Antarctica,11073.176,no,salaried
+46,female,27.74,0,no,Asia,8026.6666,no,consultant
+55,female,26.98,0,no,North America,11082.5772,no,consultant
+21,female,39.49,0,no,South America,2026.9741,no,part-time
+53,female,24.795,1,no,North America,10942.13205,no,business
+59,male,29.83,3,yes,South America,30184.9367,yes,salaried
+35,male,34.77,2,no,Asia,5729.0053,no,salaried
+64,female,31.3,2,yes,Antarctica,47291.055,yes,unemployed
+28,female,37.62,1,no,Europe,3766.8838,no,salaried
+54,female,30.8,3,no,Oceania,12105.32,no,business
+55,male,38.28,0,no,North America,10226.2842,no,consultant
+56,male,19.95,0,yes,North America,22412.6485,yes,salaried
+38,male,19.3,0,yes,Antarctica,15820.699,yes,salaried
+41,female,31.6,0,no,Antarctica,6186.127,yes,unemployed
+30,male,25.46,0,no,Africa,3645.0894,no,salaried
+18,female,30.115,0,no,Africa,21344.8467,no,student
+61,female,29.92,3,yes,Europe,30942.1918,no,unemployed
+34,female,27.5,1,no,South America,5003.853,yes,business
+20,male,28.025,1,yes,Oceania,17560.37975,no,student
+19,female,28.4,1,no,South America,2331.519,no,part-time
+26,male,30.875,2,no,North America,3877.30425,no,part-time
+29,male,27.94,0,no,Oceania,2867.1196,no,unemployed
+63,male,35.09,0,yes,South America,47055.5321,yes,retired
+54,male,33.63,1,no,North America,10825.2537,no,salaried
+55,female,29.7,2,no,South America,11881.358,no,salaried
+37,male,30.8,0,no,Asia,4646.759,no,business
+21,female,35.72,0,no,South America,2404.7338,no,student
+52,male,32.205,3,no,Europe,11488.31695,no,salaried
+60,male,28.595,0,no,South America,30259.99556,no,retired
+58,male,49.06,0,no,North America,11381.3254,no,unemployed
+29,female,27.94,1,yes,South America,19107.7796,no,salaried
+49,female,27.17,0,no,South America,8601.3293,yes,unemployed
+37,female,23.37,2,no,Europe,6686.4313,no,salaried
+44,male,37.1,2,no,Oceania,7740.337,yes,salaried
+18,male,23.75,0,no,Oceania,1705.6245,no,part-time
+20,female,28.975,0,no,Antarctica,2257.47525,no,student
+44,male,31.35,1,yes,Europe,39556.4945,yes,business
+47,female,33.915,3,no,Oceania,10115.00885,yes,business
+26,female,28.785,0,no,Asia,3385.39915,no,unemployed
+19,female,28.3,0,yes,North America,17081.08,no,student
+52,female,37.4,0,no,North America,9634.538,no,salaried
+32,female,17.765,2,yes,North America,32734.1863,yes,unemployed
+38,male,34.7,2,no,Europe,6082.405,no,part-time
+59,female,26.505,0,no,Asia,12815.44495,no,consultant
+61,female,22.04,0,no,Europe,13616.3586,no,unemployed
+53,female,35.9,2,no,Antarctica,11163.568,no,salaried
+19,male,25.555,0,no,Antarctica,1632.56445,no,part-time
+20,female,28.785,0,no,Europe,2457.21115,no,unemployed
+22,female,28.05,0,no,North America,2155.6815,no,part-time
+19,male,34.1,0,no,Antarctica,1261.442,no,unemployed
+22,male,25.175,0,no,Oceania,2045.68525,no,part-time
+54,female,31.9,3,no,Africa,27322.73386,no,business
+22,female,36.0,0,no,Oceania,2166.732,no,part-time
+34,male,22.42,2,no,Asia,27375.90478,no,unemployed
+26,male,32.49,1,no,Oceania,3490.5491,no,part-time
+34,male,25.3,2,yes,North America,18972.495,no,part-time
+29,male,29.735,2,no,Asia,18157.876,no,unemployed
+30,male,28.69,3,yes,Africa,20745.9891,no,part-time
+29,female,38.83,3,no,Africa,5138.2567,no,part-time
+46,male,30.495,3,yes,Asia,40720.55105,yes,salaried
+51,female,37.73,1,no,Asia,9877.6077,no,business
+53,female,37.43,1,no,North America,10959.6947,no,business
+19,male,28.4,1,no,Asia,1842.519,no,part-time
+35,male,24.13,1,no,Europe,5125.2157,no,salaried
+48,male,29.7,0,no,Africa,7789.635,no,unemployed
+32,female,37.145,3,no,Asia,6334.34355,no,business
+42,female,23.37,0,yes,South America,19964.7463,yes,consultant
+40,female,25.46,1,no,Oceania,7077.1894,yes,business
+44,male,39.52,0,no,Antarctica,6948.7008,yes,salaried
+48,male,24.42,0,yes,Antarctica,21223.6758,yes,consultant
+18,male,25.175,0,yes,Africa,15518.18025,no,unemployed
+30,male,35.53,0,yes,Asia,36950.2567,yes,salaried
+50,female,27.83,3,no,Asia,19749.38338,no,salaried
+42,female,26.6,0,yes,South America,21348.706,no,consultant
+18,female,36.85,0,yes,Antarctica,36149.4835,no,part-time
+54,male,39.6,1,no,Oceania,10450.552,no,salaried
+32,female,29.8,2,no,North America,5152.134,no,business
+37,male,29.64,0,no,Africa,5028.1466,no,business
+47,male,28.215,4,no,Europe,10407.08585,no,salaried
+20,female,37.0,5,no,Oceania,4830.63,no,part-time
+32,female,33.155,3,no,South America,6128.79745,no,part-time
+19,female,31.825,1,no,Europe,2719.27975,no,student
+27,male,18.905,3,no,Africa,4827.90495,no,part-time
+63,male,41.47,0,no,North America,13405.3903,no,unemployed
+49,male,30.3,0,no,Oceania,8116.68,yes,salaried
+18,male,15.96,0,no,South America,1694.7964,no,part-time
+35,female,34.8,1,no,Europe,5246.047,no,salaried
+24,female,33.345,0,no,South America,2855.43755,no,part-time
+63,female,37.7,0,yes,North America,48824.45,yes,retired
+38,male,27.835,2,no,South America,6455.86265,yes,salaried
+54,male,29.2,1,no,Antarctica,10436.096,no,business
+46,female,28.9,2,no,South America,8823.279,yes,business
+41,female,33.155,3,no,North America,8538.28845,yes,business
+58,male,28.595,0,no,Asia,11735.87905,no,consultant
+18,female,38.28,0,no,North America,1631.8212,no,part-time
+22,male,19.95,3,no,North America,4005.4225,no,unemployed
+44,female,26.41,0,no,North America,7419.4779,no,consultant
+44,male,30.69,2,no,North America,7731.4271,yes,salaried
+36,male,41.895,3,yes,Europe,43753.33705,yes,unemployed
+26,female,29.92,2,no,Asia,3981.9768,no,unemployed
+30,female,30.9,3,no,South America,5325.651,no,salaried
+41,female,32.2,1,no,Oceania,6775.961,yes,salaried
+29,female,32.11,2,no,Antarctica,4922.9159,no,business
+61,male,31.57,0,no,Europe,12557.6053,no,retired
+36,female,26.2,0,no,Oceania,4883.866,yes,business
+25,male,25.74,0,no,Antarctica,2137.6536,no,business
+56,female,26.6,1,no,Oceania,12044.342,no,salaried
+18,male,34.43,0,no,Asia,1137.4697,no,unemployed
+19,male,30.59,0,no,South America,1639.5631,no,student
+39,female,32.8,0,no,Africa,5649.715,no,salaried
+45,female,28.6,2,no,Oceania,8516.829,yes,salaried
+51,female,18.05,0,no,Asia,9644.2525,no,consultant
+64,female,39.33,0,no,Asia,14901.5167,yes,retired
+19,female,32.11,0,no,Oceania,2130.6759,no,unemployed
+48,female,32.23,1,no,Antarctica,8871.1517,yes,salaried
+60,female,24.035,0,no,Africa,13012.20865,no,unemployed
+27,female,36.08,0,yes,Africa,37133.8982,no,unemployed
+46,male,22.3,0,no,Africa,7147.105,no,consultant
+28,female,28.88,1,no,Europe,4337.7352,no,part-time
+59,male,26.4,0,no,South America,11743.299,no,consultant
+35,male,27.74,2,yes,Antarctica,20984.0936,yes,part-time
+63,female,31.8,0,no,North America,13880.949,no,retired
+40,male,41.23,1,no,Africa,6610.1097,no,salaried
+20,male,33.0,1,no,North America,1980.07,no,unemployed
+40,male,30.875,4,no,Antarctica,8162.71625,no,business
+24,male,28.5,2,no,Africa,3537.703,no,student
+34,female,26.73,1,no,Africa,5002.7827,no,business
+45,female,30.9,2,no,Oceania,8520.026,yes,business
+41,female,37.1,2,no,Asia,7371.772,yes,business
+53,female,26.6,0,no,Asia,10355.641,no,unemployed
+27,male,23.1,0,no,South America,2483.736,no,salaried
+26,female,29.92,1,no,North America,3392.9768,no,salaried
+24,female,23.21,0,no,Asia,25081.76784,no,unemployed
+34,female,33.7,1,no,North America,5012.471,no,unemployed
+53,female,33.25,0,no,Oceania,10564.8845,no,consultant
+32,male,30.8,3,no,South America,5253.524,no,salaried
+19,male,34.8,0,yes,Asia,34779.615,no,part-time
+42,male,24.64,0,yes,North America,19515.5416,yes,unemployed
+55,male,33.88,3,no,South America,11987.1682,no,salaried
+28,male,38.06,0,no,Oceania,2689.4954,no,unemployed
+58,female,41.91,0,no,Oceania,24227.33724,no,salaried
+41,female,31.635,1,no,Europe,7358.17565,yes,business
+47,male,25.46,2,no,North America,9225.2564,yes,salaried
+42,female,36.195,1,no,North America,7443.64305,yes,salaried
+59,female,27.83,3,no,North America,14001.2867,no,business
+19,female,17.8,0,no,South America,1727.785,no,part-time
+59,male,27.5,1,no,North America,12333.828,no,business
+39,male,24.51,2,no,South America,6710.1919,no,part-time
+40,female,22.22,2,yes,Africa,19444.2658,no,business
+18,female,26.73,0,no,Antarctica,1615.7667,no,part-time
+31,male,38.39,2,no,North America,4463.2051,no,business
+19,male,29.07,0,yes,Asia,17352.6803,no,student
+44,male,38.06,1,no,South America,7152.6714,yes,business
+23,female,36.67,2,yes,Africa,38511.6283,no,part-time
+33,female,22.135,1,no,Antarctica,5354.07465,no,business
+55,female,26.8,1,no,Africa,35160.13457,no,salaried
+40,male,35.3,3,no,Africa,7196.867,no,business
+63,female,27.74,0,yes,South America,29523.1656,yes,unemployed
+54,male,30.02,0,no,Antarctica,24476.47851,no,consultant
+60,female,38.06,0,no,Oceania,12648.7034,yes,retired
+24,male,35.86,0,no,Africa,1986.9334,no,student
+19,male,20.9,1,no,Oceania,1832.094,no,unemployed
+29,male,28.975,1,no,North America,4040.55825,no,business
+18,male,17.29,2,yes,North America,12829.4551,no,unemployed
+63,female,32.2,2,yes,North America,47305.305,yes,retired
+54,male,34.21,2,yes,Antarctica,44260.7499,yes,business
+27,male,30.3,3,no,Africa,4260.744,no,unemployed
+50,male,31.825,0,yes,Asia,41097.16175,no,salaried
+55,female,25.365,3,no,Antarctica,13047.33235,no,salaried
+56,male,33.63,0,yes,Asia,43921.1837,yes,consultant
+38,female,40.15,0,no,Africa,5400.9805,no,salaried
+51,male,24.415,4,no,Europe,11520.09985,no,business
+19,male,31.92,0,yes,Europe,33750.2918,no,student
+58,female,25.2,0,no,North America,11837.16,no,consultant
+20,female,26.84,1,yes,Asia,17085.2676,no,student
+52,male,24.32,3,yes,Asia,24869.8368,yes,salaried
+19,male,36.955,0,yes,Antarctica,36219.40545,no,part-time
+53,female,38.06,3,no,Europe,20462.99766,no,salaried
+46,male,42.35,3,yes,North America,46151.1245,yes,business
+40,male,19.8,1,yes,Antarctica,17179.522,no,business
+59,female,32.395,3,no,Oceania,14590.63205,no,business
+45,male,30.2,1,no,South America,7441.053,yes,business
+49,male,25.84,1,no,Antarctica,9282.4806,no,salaried
+18,male,29.37,1,no,Oceania,1719.4363,no,student
+50,male,34.2,2,yes,Africa,42856.838,no,salaried
+41,male,37.05,2,no,Antarctica,7265.7025,yes,salaried
+50,male,27.455,1,no,South America,9617.66245,no,business
+25,male,27.55,0,no,Europe,2523.1695,no,business
+47,female,26.6,2,no,Oceania,9715.841,no,salaried
+19,male,20.615,2,no,Asia,2803.69785,no,student
+22,female,24.3,0,no,Antarctica,2150.469,no,part-time
+59,male,31.79,2,no,Africa,12928.7911,no,business
+51,female,21.56,1,no,South America,9855.1314,no,business
+40,female,28.12,1,yes,Africa,22331.5668,no,business
+54,male,40.565,3,yes,Oceania,48549.17835,yes,salaried
+30,male,27.645,1,no,Asia,4237.12655,no,unemployed
+55,female,32.395,1,no,North America,11879.10405,no,salaried
+52,female,31.2,0,no,Oceania,9625.92,no,unemployed
+46,male,26.62,1,no,Oceania,7742.1098,no,business
+46,female,48.07,2,no,Africa,9432.9253,yes,business
+63,female,26.22,0,no,South America,14256.1928,yes,retired
+59,female,36.765,1,yes,Europe,47896.79135,yes,business
+52,male,26.4,3,no,North America,25992.82104,no,salaried
+28,female,33.4,0,no,Africa,3172.018,no,business
+29,male,29.64,1,no,North America,20277.80751,no,part-time
+25,male,45.54,2,yes,Africa,42112.2356,no,part-time
+22,female,28.82,0,no,Antarctica,2156.7518,no,unemployed
+25,male,26.8,3,no,Antarctica,3906.127,no,business
+18,male,22.99,0,no,Oceania,1704.5681,no,student
+19,male,27.7,0,yes,North America,16297.846,no,student
+47,male,25.41,1,yes,Europe,21978.6769,no,business
+31,male,34.39,3,yes,Antarctica,38746.3551,yes,business
+48,female,28.88,1,no,Europe,9249.4952,yes,business
+36,male,27.55,3,no,Asia,6746.7425,yes,unemployed
+53,female,22.61,3,yes,North America,24873.3849,yes,business
+56,female,37.51,2,no,Asia,12265.5069,no,business
+28,female,33.0,2,no,South America,4349.462,no,unemployed
+57,female,38.0,2,no,Asia,12646.207,no,salaried
+29,male,33.345,2,no,Asia,19442.3535,no,salaried
+28,female,27.5,2,no,Asia,20177.67113,no,salaried
+30,female,33.33,1,no,Asia,4151.0287,no,salaried
+58,male,34.865,0,no,North America,11944.59435,no,unemployed
+41,female,33.06,2,no,Antarctica,7749.1564,yes,salaried
+50,male,26.6,0,no,North America,8444.474,no,salaried
+19,female,24.7,0,no,North America,1737.376,no,part-time
+43,male,35.97,3,yes,South America,42124.5153,yes,business
+49,male,35.86,0,no,Oceania,8124.4084,yes,salaried
+27,female,31.4,0,yes,Antarctica,34838.873,no,business
+52,male,33.25,0,no,Europe,9722.7695,no,salaried
+50,male,32.205,0,no,Oceania,8835.26495,no,unemployed
+54,male,32.775,0,no,North America,10435.06525,no,salaried
+44,female,27.645,0,no,Asia,7421.19455,yes,unemployed
+32,male,37.335,1,no,Africa,4667.60765,no,unemployed
+34,male,25.27,1,no,North America,4894.7533,no,salaried
+26,female,29.64,4,no,Oceania,24671.66334,no,business
+34,male,30.8,0,yes,Europe,35491.64,yes,business
+57,male,40.945,0,no,Oceania,11566.30055,no,salaried
+29,male,27.2,0,no,South America,2866.091,no,unemployed
+40,male,34.105,1,no,South America,6600.20595,no,salaried
+27,female,23.21,1,no,South America,3561.8889,no,unemployed
+45,male,36.48,2,yes,Europe,42760.5022,yes,business
+64,female,33.8,1,yes,Europe,47928.03,no,retired
+52,male,36.7,0,no,Asia,9144.565,no,consultant
+61,female,36.385,1,yes,South America,48517.56315,yes,unemployed
+52,male,27.36,0,yes,North America,24393.6224,yes,unemployed
+61,female,31.16,0,no,Oceania,13429.0354,no,unemployed
+56,female,28.785,0,no,Europe,11658.37915,no,consultant
+43,female,35.72,2,no,Oceania,19144.57652,yes,business
+64,male,34.5,0,no,South America,13822.803,yes,retired
+60,male,25.74,0,no,Oceania,12142.5786,yes,unemployed
+62,male,27.55,1,no,North America,13937.6665,no,retired
+50,male,32.3,1,yes,Asia,41919.097,no,salaried
+46,female,27.72,1,no,Antarctica,8232.6388,no,salaried
+24,female,27.6,0,no,Africa,18955.22017,no,unemployed
+62,male,30.02,0,no,Oceania,13352.0998,yes,unemployed
+60,female,27.55,0,no,North America,13217.0945,no,unemployed
+63,male,36.765,0,no,South America,13981.85035,no,unemployed
+49,female,41.47,4,no,Africa,10977.2063,yes,business
+34,female,29.26,3,no,Asia,6184.2994,yes,business
+33,male,35.75,2,no,Antarctica,4889.9995,no,unemployed
+46,male,33.345,1,no,South America,8334.45755,yes,business
+36,female,29.92,1,no,Oceania,5478.0368,yes,salaried
+19,male,27.835,0,no,Europe,1635.73365,no,unemployed
+57,female,23.18,0,no,North America,11830.6072,no,salaried
+50,female,25.6,0,no,Oceania,8932.084,no,consultant
+30,female,27.7,0,no,Antarctica,3554.203,no,salaried
+33,male,35.245,0,no,Antarctica,12404.8791,no,salaried
+18,female,38.28,0,no,Oceania,14133.03775,no,student
+46,male,27.6,0,no,Europe,24603.04837,yes,salaried
+46,male,43.89,3,no,Antarctica,8944.1151,yes,salaried
+47,male,29.83,3,no,North America,9620.3307,no,business
+23,male,41.91,0,no,South America,1837.2819,no,student
+18,female,20.79,0,no,South America,1607.5101,no,part-time
+48,female,32.3,2,no,Africa,10043.249,yes,business
+35,male,30.5,1,no,Antarctica,4751.07,no,business
+19,female,21.7,0,yes,Asia,13844.506,no,unemployed
+21,female,26.4,1,no,Asia,2597.779,no,student
+21,female,21.89,2,no,Oceania,3180.5101,no,unemployed
+49,female,30.78,1,no,North America,9778.3472,yes,salaried
+56,female,32.3,3,no,Antarctica,13430.265,no,business
+42,female,24.985,2,no,Antarctica,8017.06115,no,business
+44,male,32.015,2,no,Antarctica,8116.26885,yes,business
+18,male,30.4,3,no,Oceania,3481.868,no,student
+61,female,21.09,0,no,North America,13415.0381,yes,unemployed
+57,female,22.23,0,no,South America,12029.2867,no,unemployed
+42,female,33.155,1,no,South America,7639.41745,yes,business
+26,male,32.9,2,yes,Oceania,36085.219,no,part-time
+20,male,33.33,0,no,South America,1391.5287,no,student
+23,female,28.31,0,yes,Africa,18033.9679,no,part-time
+39,female,24.89,3,yes,Antarctica,21659.9301,yes,business
+24,male,40.15,0,yes,Oceania,38126.2465,no,student
+64,female,30.115,3,no,Europe,16455.70785,no,unemployed
+62,male,31.46,1,no,Asia,27000.98473,no,retired
+27,female,17.955,2,yes,Africa,15006.57945,no,part-time
+55,male,30.685,0,yes,South America,42303.69215,yes,unemployed
+55,male,33.0,0,no,Europe,20781.48892,no,unemployed
+35,female,43.34,2,no,North America,5846.9176,no,unemployed
+44,male,22.135,2,no,Asia,8302.53565,no,salaried
+19,male,34.4,0,no,Asia,1261.859,no,unemployed
+58,female,39.05,0,no,South America,11856.4115,no,salaried
+50,male,25.365,2,no,North America,30284.64294,no,business
+26,female,22.61,0,no,Africa,3176.8159,no,business
+24,female,30.21,3,no,Antarctica,4618.0799,no,part-time
+48,male,35.625,4,no,Asia,10736.87075,yes,business
+19,female,37.43,0,no,Africa,2138.0707,no,part-time
+48,male,31.445,1,no,South America,8964.06055,yes,business
+49,male,31.35,1,no,Africa,9290.1395,yes,salaried
+46,female,32.3,2,no,South America,9411.005,yes,salaried
+46,male,19.855,0,no,South America,7526.70645,no,consultant
+43,female,34.4,3,no,Oceania,8522.003,yes,salaried
+21,male,31.02,0,no,South America,16586.49771,no,part-time
+64,male,25.6,2,no,Europe,14988.432,no,retired
+18,female,38.17,0,no,Antarctica,1631.6683,no,student
+51,female,20.6,0,no,Oceania,9264.797,no,salaried
+47,male,47.52,1,no,Europe,8083.9198,yes,business
+64,female,32.965,0,no,Oceania,14692.66935,yes,unemployed
+49,male,32.3,3,no,Antarctica,10269.46,yes,business
+31,male,20.4,0,no,Europe,3260.199,no,salaried
+52,female,38.38,2,no,South America,11396.9002,no,business
+33,female,24.31,0,no,Oceania,4185.0979,no,salaried
+47,female,23.6,1,no,Asia,8539.671,no,business
+38,male,21.12,3,no,Africa,6652.5288,no,business
+32,male,30.03,1,no,Antarctica,4074.4537,no,unemployed
+19,male,17.48,0,no,Asia,1621.3402,no,student
+44,female,20.235,1,yes,North America,19594.80965,yes,salaried
+26,female,17.195,2,yes,Antarctica,14455.64405,no,business
+25,male,23.9,5,no,Europe,5080.096,no,business
+19,female,35.15,0,no,Antarctica,2134.9015,no,student
+43,female,35.64,1,no,Europe,7345.7266,yes,business
+52,male,34.1,0,no,Africa,9140.951,no,unemployed
+36,female,22.6,2,yes,Oceania,18608.262,yes,unemployed
+64,male,39.16,1,no,Oceania,14418.2804,no,retired
+63,female,26.98,0,yes,North America,28950.4692,yes,unemployed
+64,male,33.88,0,yes,North America,46889.2612,yes,unemployed
+61,male,35.86,0,yes,Africa,46599.1084,no,retired
+40,male,32.775,1,yes,Europe,39125.33225,no,business
+25,male,30.59,0,no,Asia,2727.3951,no,unemployed
+48,male,30.2,2,no,South America,8968.33,yes,salaried
+45,male,24.31,5,no,Europe,9788.8659,no,salaried
+38,female,27.265,1,no,North America,6555.07035,no,part-time
+18,female,29.165,0,no,Antarctica,7323.734819,no,student
+21,female,16.815,1,no,South America,3167.45585,no,student
+27,female,30.4,3,no,Antarctica,18804.7524,no,business
+19,male,33.1,0,no,Europe,23082.95533,no,student
+29,female,20.235,2,no,South America,4906.40965,no,salaried
+42,male,26.9,0,no,Africa,5969.723,yes,salaried
+60,female,30.5,0,no,South America,12638.195,yes,retired
+31,male,28.595,1,no,Africa,4243.59005,no,unemployed
+60,male,33.11,3,no,South America,13919.8229,no,unemployed
+22,male,31.73,0,no,Europe,2254.7967,no,part-time
+35,male,28.9,3,no,South America,5926.846,no,salaried
+52,female,46.75,5,no,Africa,12592.5345,no,business
+26,male,29.45,0,no,Antarctica,2897.3235,no,salaried
+31,female,32.68,1,no,Asia,4738.2682,no,part-time
+33,female,33.5,0,yes,Asia,37079.372,yes,salaried
+18,male,43.01,0,no,South America,1149.3959,no,student
+59,female,36.52,1,no,Africa,28287.89766,no,salaried
+56,male,26.695,1,yes,South America,26109.32905,yes,salaried
+45,female,33.1,0,no,South America,7345.084,yes,consultant
+60,male,29.64,0,no,North America,12730.9996,no,unemployed
+56,female,25.65,0,no,North America,11454.0215,no,salaried
+40,female,29.6,0,no,Europe,5910.944,no,unemployed
+35,male,38.6,1,no,Europe,4762.329,no,unemployed
+39,male,29.6,4,no,North America,7512.267,no,unemployed
+30,male,24.13,1,no,Antarctica,4032.2407,no,unemployed
+24,male,23.4,0,no,Europe,1969.614,no,unemployed
+20,male,29.735,0,no,Europe,1769.53165,no,unemployed
+32,male,46.53,2,no,Europe,4686.3887,no,salaried
+59,male,37.4,0,no,Oceania,21797.0004,no,consultant
+55,female,30.14,2,no,Asia,11881.9696,no,salaried
+57,female,30.495,0,no,Asia,11840.77505,no,consultant
+56,male,39.6,0,no,South America,10601.412,no,consultant
+40,female,33.0,3,no,South America,7682.67,no,salaried
+49,female,36.63,3,no,Europe,10381.4787,yes,salaried
+42,male,30.0,0,yes,Oceania,22144.032,yes,consultant
+62,female,38.095,2,no,Oceania,15230.32405,no,retired
+56,male,25.935,0,no,Oceania,11165.41765,no,unemployed
+19,male,25.175,0,no,Oceania,1632.03625,no,part-time
+30,female,28.38,1,yes,Antarctica,19521.9682,no,business
+60,female,28.7,1,no,North America,13224.693,no,retired
+56,female,33.82,2,no,Africa,12643.3778,no,business
+28,female,24.32,1,no,Antarctica,23288.9284,no,business
+18,female,24.09,1,no,South America,2201.0971,no,student
+27,male,32.67,0,no,Africa,2497.0383,no,unemployed
+18,female,30.115,0,no,Asia,2203.47185,no,part-time
+19,female,29.8,0,no,Asia,1744.465,no,part-time
+47,female,33.345,0,no,Antarctica,20878.78443,yes,salaried
+54,male,25.1,3,yes,Asia,25382.297,yes,business
+61,male,28.31,1,yes,North America,28868.6639,no,retired
+24,male,28.5,0,yes,South America,35147.52848,no,part-time
+25,male,35.625,0,no,Europe,2534.39375,no,business
+21,male,36.85,0,no,Asia,1534.3045,no,unemployed
+23,male,32.56,0,no,South America,1824.2854,no,unemployed
+63,male,41.325,3,no,Asia,15555.18875,yes,retired
+49,male,37.51,2,no,Antarctica,9304.7019,yes,salaried
+18,female,31.35,0,no,North America,1622.1885,no,part-time
+51,female,39.5,1,no,Africa,9880.068,no,salaried
+48,male,34.3,3,no,Africa,9563.029,yes,salaried
+31,female,31.065,0,no,Europe,4347.02335,no,business
+54,female,21.47,3,no,North America,12475.3513,no,business
+19,male,28.7,0,no,Oceania,1253.936,no,part-time
+44,female,38.06,0,yes,North America,48885.13561,yes,consultant
+53,male,31.16,1,no,Africa,10461.9794,no,business
+19,female,32.9,0,no,Asia,1748.774,no,unemployed
+61,female,25.08,0,no,South America,24513.09126,no,retired
+18,female,25.08,0,no,Europe,2196.4732,no,student
+61,male,43.4,0,no,Asia,12574.049,yes,unemployed
+21,male,25.7,4,yes,North America,17942.106,no,unemployed
+20,male,27.93,0,no,Asia,1967.0227,no,unemployed
+31,female,23.6,2,no,Oceania,4931.647,no,unemployed
+45,male,28.7,2,no,Oceania,8027.968,yes,business
+44,female,23.98,2,no,Asia,8211.1002,no,business
+62,female,39.2,0,no,South America,13470.86,no,retired
+29,male,34.4,0,yes,Europe,36197.699,no,salaried
+43,male,26.03,0,no,Antarctica,6837.3687,no,salaried
+51,male,23.21,1,yes,Europe,22218.1149,yes,salaried
+19,male,30.25,0,yes,North America,32548.3405,no,student
+38,female,28.93,1,no,Africa,5974.3847,yes,part-time
+37,male,30.875,3,no,South America,6796.86325,no,business
+22,male,31.35,1,no,Africa,2643.2685,no,unemployed
+21,male,23.75,2,no,Asia,3077.0955,no,part-time
+24,female,25.27,0,no,North America,3044.2133,no,student
+57,female,28.7,0,no,Asia,11455.28,no,consultant
+56,male,32.11,1,no,North America,11763.0009,no,business
+27,male,33.66,0,no,Africa,2498.4144,no,salaried
+51,male,22.42,0,no,North America,9361.3268,no,salaried
+19,male,30.4,0,no,Europe,1256.299,no,student
+39,male,28.3,1,yes,Antarctica,21082.16,yes,unemployed
+58,male,35.7,0,no,Europe,11362.755,no,consultant
+20,male,35.31,1,no,Europe,27724.28875,no,part-time
+45,male,30.495,2,no,North America,8413.46305,yes,salaried
+35,female,31.0,1,no,Africa,5240.765,no,business
+31,male,30.875,0,no,Oceania,3857.75925,no,business
+50,female,27.36,0,no,Oceania,25656.57526,no,unemployed
+32,female,44.22,0,no,South America,3994.1778,no,business
+51,female,33.915,0,no,Antarctica,9866.30485,no,consultant
+38,female,37.73,0,no,North America,5397.6167,no,salaried
+42,male,26.07,1,yes,Africa,38245.59327,no,salaried
+18,female,33.88,0,no,South America,11482.63485,no,part-time
+19,female,30.59,2,no,Europe,24059.68019,no,student
+51,female,25.8,1,no,South America,9861.025,no,salaried
+46,male,39.425,1,no,North America,8342.90875,yes,business
+18,male,25.46,0,no,Europe,1708.0014,no,part-time
+57,male,42.13,1,yes,Europe,48675.5177,yes,business
+62,female,31.73,0,no,Africa,14043.4767,no,unemployed
+59,male,29.7,2,no,Europe,12925.886,no,business
+37,male,36.19,0,no,Africa,19214.70553,no,salaried
+64,male,40.48,0,no,Oceania,13831.1152,yes,retired
+38,male,28.025,1,no,North America,6067.12675,no,salaried
+33,female,38.9,3,no,Europe,5972.378,no,salaried
+46,female,30.2,2,no,North America,8825.086,yes,salaried
+46,female,28.05,1,no,Antarctica,8233.0975,no,salaried
+53,male,31.35,0,no,South America,27346.04207,no,unemployed
+34,female,38.0,3,no,South America,6196.448,no,salaried
+20,female,31.79,2,no,Antarctica,3056.3881,no,student
+63,female,36.3,0,no,Europe,13887.204,yes,retired
+54,female,47.41,0,yes,North America,63770.42801,yes,unemployed
+54,male,30.21,0,no,North America,10231.4999,no,salaried
+49,male,25.84,2,yes,Africa,23807.2406,no,business
+28,male,35.435,0,no,Oceania,3268.84665,no,unemployed
+54,female,46.7,2,no,Antarctica,11538.421,no,business
+25,female,28.595,0,no,Antarctica,3213.62205,no,salaried
+43,female,46.2,0,yes,North America,45863.205,yes,consultant
+63,male,30.8,0,no,Europe,13390.559,no,retired
+32,female,28.93,0,no,North America,3972.9247,no,business
+62,male,21.4,0,no,Europe,12957.118,yes,unemployed
+52,female,31.73,2,no,Africa,11187.6567,no,salaried
+25,female,41.325,0,no,North America,17878.90068,no,business
+28,male,23.8,2,no,Africa,3847.674,no,unemployed
+46,male,33.44,1,no,North America,8334.5896,yes,business
+34,male,34.21,0,no,Europe,3935.1799,no,salaried
+35,female,34.105,3,yes,Europe,39983.42595,no,salaried
+19,male,35.53,0,no,Asia,1646.4297,no,unemployed
+46,female,19.95,2,no,Africa,9193.8385,no,business
+54,female,32.68,0,no,Europe,10923.9332,no,unemployed
+27,male,30.5,0,no,Oceania,2494.022,no,business
+50,male,44.77,1,no,Oceania,9058.7303,no,business
+18,female,32.12,2,no,Antarctica,2801.2588,no,unemployed
+19,female,30.495,0,no,North America,2128.43105,no,unemployed
+38,female,40.565,1,no,South America,6373.55735,no,salaried
+41,male,30.59,2,no,Oceania,7256.7231,yes,salaried
+49,female,31.9,5,no,Oceania,11552.904,yes,salaried
+48,male,40.565,2,yes,Africa,45702.02235,yes,salaried
+31,female,29.1,0,no,Africa,3761.292,no,business
+18,female,37.29,1,no,Antarctica,2219.4451,no,unemployed
+30,female,43.12,2,no,Antarctica,4753.6368,no,business
+62,female,36.86,1,no,Asia,31620.00106,yes,unemployed
+57,female,34.295,2,no,Antarctica,13224.05705,no,business
+58,female,27.17,0,no,South America,12222.8983,no,consultant
+22,male,26.84,0,no,Africa,1664.9996,no,student
+31,female,38.095,1,yes,Africa,58571.07448,yes,unemployed
+52,male,30.2,1,no,Antarctica,9724.53,no,salaried
+25,female,23.465,0,no,Africa,3206.49135,no,business
+59,male,25.46,1,no,Africa,12913.9924,no,business
+19,male,30.59,0,no,North America,1639.5631,no,part-time
+39,male,45.43,2,no,Oceania,6356.2707,no,part-time
+32,female,23.65,1,no,Antarctica,17626.23951,no,part-time
+19,male,20.7,0,no,Oceania,1242.816,no,student
+33,female,28.27,1,no,Europe,4779.6023,yes,unemployed
+21,male,20.235,3,no,Europe,3861.20965,no,unemployed
+34,female,30.21,1,yes,Europe,43943.8761,no,business
+61,female,35.91,0,no,Oceania,13635.6379,no,retired
+38,female,30.69,1,no,North America,5976.8311,no,business
+58,female,29.0,0,no,Africa,11842.442,no,consultant
+47,male,19.57,1,no,Oceania,8428.0693,no,business
+20,male,31.13,2,no,South America,2566.4707,no,part-time
+21,female,21.85,1,yes,South America,15359.1045,no,student
+41,male,40.26,0,no,North America,5709.1644,yes,unemployed
+46,female,33.725,1,no,Antarctica,8823.98575,yes,salaried
+42,female,29.48,2,no,Antarctica,7640.3092,no,salaried
+34,female,33.25,1,no,South America,5594.8455,no,unemployed
+43,male,32.6,2,no,Antarctica,7441.501,yes,business
+52,female,37.525,2,no,Africa,33471.97189,no,salaried
+18,female,39.16,0,no,Antarctica,1633.0444,no,unemployed
+51,male,31.635,0,no,Asia,9174.13565,no,unemployed
+56,female,25.3,0,no,Europe,11070.535,no,unemployed
+64,female,39.05,3,no,North America,16085.1275,yes,unemployed
+19,female,28.31,0,yes,Asia,17468.9839,no,unemployed
+51,female,34.1,0,no,Asia,9283.562,no,consultant
+27,female,25.175,0,no,Antarctica,3558.62025,no,unemployed
+59,female,23.655,0,yes,Oceania,25678.77845,yes,unemployed
+28,male,26.98,2,no,South America,4435.0942,no,business
+30,male,37.8,2,yes,Europe,39241.442,yes,unemployed
+47,female,29.37,1,no,South America,8547.6913,no,salaried
+38,female,34.8,2,no,Africa,6571.544,no,business
+18,female,33.155,0,no,Asia,2207.69745,no,unemployed
+34,female,19.0,3,no,Europe,6753.038,no,unemployed
+20,female,33.0,0,no,Oceania,1880.07,no,unemployed
+47,female,36.63,1,yes,Oceania,42969.8527,yes,salaried
+56,female,28.595,0,no,Europe,11658.11505,no,unemployed
+49,male,25.6,2,yes,Africa,23306.547,yes,salaried
+19,female,33.11,0,yes,Asia,34439.8559,no,unemployed
+55,female,37.1,0,no,North America,10713.644,no,unemployed
+30,male,31.4,1,no,Europe,3659.346,no,business
+37,male,34.1,4,yes,Europe,40182.246,no,business
+49,female,21.3,1,no,Antarctica,9182.17,no,business
+18,male,33.535,0,yes,North America,34617.84065,no,part-time
+59,male,28.785,0,no,South America,12129.61415,no,unemployed
+29,female,26.03,0,no,Antarctica,3736.4647,no,business
+36,male,28.88,3,no,Oceania,6748.5912,no,business
+33,male,42.46,1,no,North America,11326.71487,no,business
+58,male,38.0,0,no,Oceania,11365.952,no,unemployed
+44,female,38.95,0,yes,Asia,42983.4585,yes,consultant
+53,male,36.1,1,no,Europe,10085.846,no,business
+24,male,29.3,0,no,South America,1977.815,no,part-time
+29,female,35.53,0,no,Antarctica,3366.6697,no,unemployed
+40,male,22.705,2,no,North America,7173.35995,no,salaried
+51,male,39.7,1,no,Asia,9391.346,no,business
+64,male,38.19,0,no,North America,14410.9321,yes,unemployed
+19,female,24.51,1,no,Oceania,2709.1119,no,student
+35,female,38.095,2,no,North America,24915.04626,no,salaried
+39,male,26.41,0,yes,Africa,20149.3229,yes,business
+56,male,33.66,4,no,Oceania,12949.1554,no,business
+33,male,42.4,5,no,Antarctica,6666.243,no,unemployed
+42,male,28.31,3,yes,Asia,32787.45859,no,salaried
+61,male,33.915,0,no,Europe,13143.86485,yes,unemployed
+23,female,34.96,3,no,Oceania,4466.6214,no,part-time
+43,male,35.31,2,no,Asia,18806.14547,yes,business
+48,male,30.78,3,no,Africa,10141.1362,yes,salaried
+39,male,26.22,1,no,Oceania,6123.5688,yes,salaried
+40,female,23.37,3,no,Asia,8252.2843,no,salaried
+18,male,28.5,0,no,South America,1712.227,no,unemployed
+58,female,32.965,0,no,Asia,12430.95335,no,salaried
+49,female,42.68,2,no,Africa,9800.8882,yes,salaried
+53,female,39.6,1,no,Antarctica,10579.711,no,business
+48,female,31.13,0,no,Asia,8280.6227,yes,unemployed
+45,female,36.3,2,no,Antarctica,8527.532,yes,salaried
+59,female,35.2,0,no,Asia,12244.531,no,salaried
+52,female,25.3,2,yes,South America,24667.419,yes,business
+26,female,42.4,1,no,Africa,3410.324,no,salaried
+27,male,33.155,2,no,Europe,4058.71245,no,unemployed
+48,female,35.91,1,no,South America,26392.26029,yes,salaried
+57,female,28.785,4,no,Europe,14394.39815,no,salaried
+37,male,46.53,3,no,Oceania,6435.6237,no,business
+57,female,23.98,1,no,Asia,22192.43711,no,business
+32,female,31.54,1,no,South America,5148.5526,no,business
+18,male,33.66,0,no,North America,1136.3994,no,student
+64,female,22.99,0,yes,Asia,27037.9141,no,retired
+43,male,38.06,2,yes,Asia,42560.4304,yes,business
+49,male,28.7,1,no,North America,8703.456,no,business
+40,female,32.775,2,yes,North America,40003.33225,no,salaried
+62,male,32.015,0,yes,Antarctica,45710.20785,yes,retired
+40,female,29.81,1,no,South America,6500.2359,no,salaried
+30,male,31.57,3,no,Europe,4837.5823,no,part-time
+29,female,31.16,0,no,Oceania,3943.5954,no,business
+36,male,29.7,0,no,Africa,4399.731,no,salaried
+41,female,31.02,0,no,South America,6185.3208,yes,consultant
+44,female,43.89,2,yes,Europe,46200.9851,yes,business
+45,male,21.375,0,no,Africa,7222.78625,no,salaried
+55,female,40.81,3,no,South America,12485.8009,no,business
+60,male,31.35,3,yes,Oceania,46130.5265,yes,retired
+56,male,36.1,3,no,Oceania,12363.547,no,salaried
+49,female,23.18,2,no,Asia,10156.7832,no,business
+21,female,17.4,1,no,Antarctica,2585.269,no,part-time
+19,male,20.3,0,no,Africa,1242.26,no,unemployed
+39,male,35.3,2,yes,Europe,40103.89,yes,unemployed
+53,male,24.32,0,no,Oceania,9863.4718,no,salaried
+33,female,18.5,1,no,Africa,4766.022,no,unemployed
+53,male,26.41,2,no,Antarctica,11244.3769,no,business
+42,male,26.125,2,no,South America,7729.64575,no,business
+40,male,41.69,0,no,Africa,5438.7491,no,salaried
+47,female,24.1,1,no,Asia,26236.57997,no,business
+27,male,31.13,1,yes,North America,34806.4677,no,salaried
+21,male,27.36,0,no,Europe,2104.1134,no,part-time
+47,male,36.2,1,no,Asia,8068.185,yes,salaried
+20,male,32.395,1,no,Oceania,2362.22905,no,unemployed
+24,male,23.655,0,no,North America,2352.96845,no,part-time
+27,female,34.8,1,no,Africa,3577.999,no,business
+26,female,40.185,0,no,Africa,3201.24515,no,salaried
+53,female,32.3,2,no,South America,29186.48236,no,salaried
+41,male,35.75,1,yes,Africa,40273.6455,yes,business
+56,male,33.725,0,no,Asia,10976.24575,no,unemployed
+23,female,39.27,2,no,Oceania,3500.6123,no,unemployed
+21,female,34.87,0,no,Antarctica,2020.5523,no,student
+50,female,44.745,0,no,Asia,9541.69555,no,unemployed
+53,male,41.47,0,no,South America,9504.3103,no,consultant
+34,female,26.41,1,no,Asia,5385.3379,no,salaried
+47,female,29.545,1,no,Europe,8930.93455,yes,salaried
+33,female,32.9,2,no,Antarctica,5375.038,no,salaried
+51,female,38.06,0,yes,Antarctica,44400.4064,yes,salaried
+49,male,28.69,3,no,North America,10264.4421,yes,business
+31,female,30.495,3,no,North America,6113.23105,no,unemployed
+36,female,27.74,0,no,South America,5469.0066,yes,business
+18,male,35.2,1,no,Antarctica,1727.54,no,student
+50,female,23.54,2,no,Antarctica,10107.2206,no,salaried
+43,female,30.685,2,no,North America,8310.83915,yes,salaried
+20,male,40.47,0,no,Africa,1984.4533,no,part-time
+24,female,22.6,0,no,North America,2457.502,no,unemployed
+60,male,28.9,0,no,Europe,12146.971,yes,retired
+49,female,22.61,1,no,Antarctica,9566.9909,no,salaried
+60,male,24.32,1,no,Asia,13112.6048,yes,unemployed
+51,female,36.67,2,no,North America,10848.1343,no,business
+58,female,33.44,0,no,Antarctica,12231.6136,no,unemployed
+51,female,40.66,0,no,Oceania,9875.6804,no,salaried
+53,male,36.6,3,no,Asia,11264.541,no,salaried
+62,male,37.4,0,no,Asia,12979.358,yes,retired
+19,male,35.4,0,no,Africa,1263.249,no,unemployed
+50,female,27.075,1,no,South America,10106.13425,no,salaried
+30,female,39.05,3,yes,Antarctica,40932.4295,yes,business
+41,male,28.405,1,no,North America,6664.68595,no,business
+29,female,21.755,1,yes,South America,16657.71745,no,unemployed
+18,female,40.28,0,no,North America,2217.6012,no,student
+41,female,36.08,1,no,Asia,6781.3542,yes,business
+35,male,24.42,3,yes,North America,19361.9988,no,business
+53,male,21.4,1,no,Asia,10065.413,no,business
+24,female,30.1,3,no,Antarctica,4234.927,no,unemployed
+48,female,27.265,1,no,Oceania,9447.25035,yes,salaried
+59,female,32.1,3,no,South America,14007.222,no,salaried
+49,female,34.77,1,no,Africa,9583.8933,yes,salaried
+37,female,38.39,0,yes,Africa,40419.0191,no,business
+26,male,23.7,2,no,South America,3484.331,no,unemployed
+23,male,31.73,3,yes,Asia,36189.1017,no,student
+29,male,35.5,2,yes,South America,44585.45587,no,part-time
+45,male,24.035,2,no,Asia,8604.48365,no,business
+27,male,29.15,0,yes,North America,18246.4955,no,business
+53,male,34.105,0,yes,Oceania,43254.41795,yes,unemployed
+31,female,26.62,0,no,South America,3757.8448,yes,business
+50,male,26.41,0,no,Oceania,8827.2099,no,unemployed
+50,female,30.115,1,no,Europe,9910.35985,no,salaried
+34,male,27.0,2,no,Africa,11737.84884,no,unemployed
+19,male,21.755,0,no,South America,1627.28245,no,student
+47,female,36.0,1,no,South America,8556.907,yes,business
+28,male,30.875,0,no,Asia,3062.50825,no,salaried
+37,female,26.4,0,yes,South America,19539.243,yes,salaried
+21,male,28.975,0,no,Africa,1906.35825,no,student
+64,male,37.905,0,no,Antarctica,14210.53595,yes,retired
+58,female,22.77,0,no,South America,11833.7823,no,consultant
+24,male,33.63,4,no,Africa,17128.42608,no,unemployed
+31,male,27.645,2,no,Antarctica,5031.26955,no,business
+39,female,22.8,3,no,North America,7985.815,no,business
+47,female,27.83,0,yes,Europe,23065.4207,yes,consultant
+30,male,37.43,3,no,Antarctica,5428.7277,no,business
+18,male,38.17,0,yes,Europe,36307.7983,no,student
+22,female,34.58,2,no,Antarctica,3925.7582,no,student
+23,male,35.2,1,no,Oceania,2416.955,no,unemployed
+33,male,27.1,1,yes,Antarctica,19040.876,yes,business
+27,male,26.03,0,no,Africa,3070.8087,no,unemployed
+45,female,25.175,2,no,South America,9095.06825,yes,business
+57,female,31.825,0,no,Asia,11842.62375,no,consultant
+47,male,32.3,1,no,South America,8062.764,yes,salaried
+42,female,29.0,1,no,Antarctica,7050.642,yes,business
+64,female,39.7,0,no,Asia,14319.031,no,retired
+38,female,19.475,2,no,North America,6933.24225,no,unemployed
+61,male,36.1,3,no,Asia,27941.28758,yes,unemployed
+53,female,26.7,2,no,Asia,11150.78,no,business
+44,female,36.48,0,no,Antarctica,12797.20962,yes,unemployed
+19,female,28.88,0,yes,Asia,17748.5062,no,unemployed
+41,male,34.2,2,no,Europe,7261.741,yes,salaried
+51,male,33.33,3,no,Europe,10560.4917,no,salaried
+40,male,32.3,2,no,Europe,6986.697,no,salaried
+45,male,39.805,0,no,South America,7448.40395,yes,salaried
+35,male,34.32,3,no,Europe,5934.3798,no,part-time
+53,male,28.88,0,no,Europe,9869.8102,no,consultant
+30,male,24.4,3,yes,North America,18259.216,yes,salaried
+18,male,41.14,0,no,Africa,1146.7966,no,part-time
+51,male,35.97,1,no,Oceania,9386.1613,no,salaried
+50,female,27.6,1,yes,Asia,24520.264,no,business
+31,female,29.26,1,no,Asia,4350.5144,no,unemployed
+35,female,27.7,3,no,Antarctica,6414.178,no,business
+60,male,36.955,0,no,South America,12741.16745,no,retired
+21,male,36.86,0,no,Oceania,1917.3184,no,unemployed
+29,male,22.515,3,no,South America,5209.57885,no,unemployed
+62,female,29.92,0,no,Europe,13457.9608,no,unemployed
+39,female,41.8,0,no,South America,5662.225,no,business
+19,male,27.6,0,no,Oceania,1252.407,no,unemployed
+22,female,23.18,0,no,North America,2731.9122,no,student
+53,male,20.9,0,yes,South America,21195.818,yes,consultant
+39,female,31.92,2,no,Africa,7209.4918,no,unemployed
+27,male,28.5,0,yes,Africa,18310.742,no,unemployed
+30,male,44.22,2,no,South America,4266.1658,no,salaried
+30,female,22.895,1,no,North America,4719.52405,no,salaried
+58,female,33.1,0,no,Asia,11848.141,no,salaried
+33,male,24.795,0,yes,Asia,17904.52705,no,salaried
+42,female,26.18,1,no,Antarctica,7046.7222,no,business
+64,female,35.97,0,no,Asia,14313.8463,no,unemployed
+21,male,22.3,1,no,Europe,2103.08,no,unemployed
+18,female,42.24,0,yes,Antarctica,38792.6856,no,student
+23,male,26.51,0,no,Oceania,1815.8759,no,part-time
+45,female,35.815,0,no,North America,7731.85785,yes,consultant
+40,female,41.42,1,no,North America,28476.73499,no,business
+19,female,36.575,0,no,Antarctica,2136.88225,no,student
+18,male,30.14,0,no,South America,1131.5066,no,part-time
+25,male,25.84,1,no,Asia,3309.7926,no,part-time
+46,female,30.8,3,no,Oceania,9414.92,yes,salaried
+33,female,42.94,3,no,Antarctica,6360.9936,no,salaried
+54,male,21.01,2,no,Asia,11013.7119,no,salaried
+28,male,22.515,2,no,Africa,4428.88785,no,part-time
+36,male,34.43,2,no,Europe,5584.3057,no,business
+20,female,31.46,0,no,Africa,1877.9294,no,student
+24,female,24.225,0,no,Oceania,2842.76075,no,unemployed
+23,male,37.1,3,no,Africa,3597.596,no,student
+47,female,26.125,1,yes,Asia,23401.30575,yes,business
+33,female,35.53,0,yes,Europe,55135.40209,no,business
+45,male,33.7,1,no,Africa,7445.918,yes,business
+26,male,17.67,0,no,Antarctica,2680.9493,no,unemployed
+18,female,31.13,0,no,Africa,1621.8827,no,part-time
+44,female,29.81,2,no,Africa,8219.2039,no,business
+60,male,24.32,0,no,South America,12523.6048,no,retired
+64,female,31.825,2,no,Africa,16069.08475,yes,unemployed
+56,male,31.79,2,yes,Europe,43813.8661,yes,business
+36,male,28.025,1,yes,Oceania,20773.62775,no,part-time
+41,male,30.78,3,yes,Oceania,39597.4072,yes,business
+39,male,21.85,1,no,Antarctica,6117.4945,no,salaried
+63,male,33.1,0,no,North America,13393.756,no,unemployed
+36,female,25.84,0,no,Europe,5266.3656,yes,salaried
+28,female,23.845,2,no,Europe,4719.73655,no,salaried
+58,male,34.39,0,no,Oceania,11743.9341,no,salaried
+36,male,33.82,1,no,North America,5377.4578,no,unemployed
+42,male,35.97,2,no,Antarctica,7160.3303,yes,salaried
+36,male,31.5,0,no,South America,4402.233,no,business
+56,female,28.31,0,no,South America,11657.7189,no,salaried
+35,female,23.465,2,no,Asia,6402.29135,no,salaried
+59,female,31.35,0,no,North America,12622.1795,no,salaried
+21,male,31.1,0,no,North America,1526.312,no,unemployed
+59,male,24.7,0,no,Oceania,12323.936,no,unemployed
+23,female,32.78,2,yes,Antarctica,36021.0112,no,part-time
+57,female,29.81,0,yes,Asia,27533.9129,yes,consultant
+53,male,30.495,0,no,South America,10072.05505,no,consultant
+60,female,32.45,0,yes,North America,45008.9555,no,unemployed
+51,female,34.2,1,no,Asia,9872.701,no,salaried
+23,male,50.38,1,no,Oceania,2438.0552,no,unemployed
+27,female,24.1,0,no,South America,2974.126,no,business
+55,male,32.775,0,no,Africa,10601.63225,no,consultant
+37,female,30.78,0,yes,Africa,37270.1512,yes,salaried
+61,male,32.3,2,no,Asia,14119.62,yes,unemployed
+46,female,35.53,0,yes,South America,42111.6647,yes,salaried
+53,female,23.75,2,no,Europe,11729.6795,no,salaried
+49,female,23.845,3,yes,North America,24106.91255,yes,salaried
+20,female,29.6,0,no,Europe,1875.344,no,unemployed
+48,female,33.11,0,yes,Africa,40974.1649,yes,salaried
+25,male,24.13,0,yes,Africa,15817.9857,no,business
+25,female,32.23,1,no,Asia,18218.16139,no,part-time
+57,male,28.1,0,no,Asia,10965.446,no,unemployed
+37,female,47.6,2,yes,South America,46113.511,yes,business
+38,female,28.0,3,no,North America,7151.092,no,unemployed
+55,female,33.535,2,no,North America,12269.68865,no,salaried
+36,female,19.855,0,no,Asia,5458.04645,no,salaried
+51,male,25.4,0,no,Asia,8782.469,no,salaried
+40,male,29.9,2,no,Africa,6600.361,no,business
+18,male,37.29,0,no,Oceania,1141.4451,no,part-time
+57,male,43.7,1,no,Asia,11576.13,no,business
+61,male,23.655,0,no,North America,13129.60345,yes,unemployed
+25,female,24.3,3,no,Europe,4391.652,no,salaried
+50,male,36.2,0,no,Oceania,8457.818,no,unemployed
+26,female,29.48,1,no,Asia,3392.3652,no,part-time
+42,male,24.86,0,no,South America,5966.8874,no,consultant
+43,male,30.1,1,no,Asia,6849.026,yes,business
+44,male,21.85,3,no,Europe,8891.1395,no,salaried
+23,female,28.12,0,no,Oceania,2690.1138,no,part-time
+49,female,27.1,1,no,South America,26140.3603,no,salaried
+33,male,33.44,5,no,North America,6653.7886,no,part-time
+41,male,28.8,1,no,Antarctica,6282.235,no,salaried
+37,female,29.5,2,no,South America,6311.952,no,salaried
+22,male,34.8,3,no,Antarctica,3443.064,no,student
+23,male,27.36,1,no,Antarctica,2789.0574,no,unemployed
+21,female,22.135,0,no,Europe,2585.85065,no,unemployed
+51,female,37.05,3,yes,Europe,46255.1125,yes,business
+25,male,26.695,4,no,Europe,4877.98105,no,part-time
+32,male,28.93,1,yes,North America,19719.6947,yes,business
+57,male,28.975,0,yes,South America,27218.43725,yes,salaried
+36,female,30.02,0,no,Antarctica,5272.1758,no,salaried
+22,male,39.5,0,no,Europe,1682.597,no,student
+57,male,33.63,1,no,Africa,11945.1327,no,salaried
+64,female,26.885,0,yes,Asia,29330.98315,yes,retired
+36,female,29.04,4,no,North America,7243.8136,yes,part-time
+54,male,24.035,0,no,South America,10422.91665,no,consultant
+47,male,38.94,2,yes,Antarctica,44202.6536,yes,business
+62,male,32.11,0,no,Africa,13555.0049,no,unemployed
+61,female,44.0,0,no,South America,13063.883,yes,unemployed
+43,female,20.045,2,yes,North America,19798.05455,yes,business
+19,male,25.555,1,no,South America,2221.56445,no,part-time
+18,female,40.26,0,no,Africa,1634.5734,no,student
+19,female,22.515,0,no,Africa,2117.33885,no,part-time
+49,male,22.515,0,no,Antarctica,8688.85885,no,salaried
+60,male,40.92,0,yes,Europe,48673.5588,yes,unemployed
+26,male,27.265,3,no,Asia,4661.28635,no,unemployed
+49,male,36.85,0,no,Oceania,8125.7845,yes,unemployed
+60,female,35.1,0,no,Europe,12644.589,no,retired
+26,female,29.355,2,no,Asia,4564.19145,no,salaried
+27,male,32.585,3,no,Antarctica,4846.92015,no,business
+44,female,32.34,1,no,Africa,7633.7206,yes,business
+63,male,39.8,3,no,Oceania,15170.069,no,retired
+32,female,24.6,0,yes,Oceania,17496.306,yes,business
+22,male,28.31,1,no,Antarctica,2639.0429,no,unemployed
+18,male,31.73,0,yes,North America,33732.6867,no,unemployed
+59,female,26.695,3,no,Africa,14382.70905,no,salaried
+44,female,27.5,1,no,North America,7626.993,yes,business
+33,male,24.605,2,no,Antarctica,5257.50795,no,unemployed
+24,female,33.99,0,no,Asia,2473.3341,no,part-time
+43,female,26.885,0,yes,Europe,21774.32215,no,consultant
+45,male,22.895,0,yes,Europe,35069.37452,yes,salaried
+61,female,28.2,0,no,Antarctica,13041.921,no,unemployed
+35,female,34.21,1,no,Africa,5245.2269,no,salaried
+62,female,25.0,0,no,Asia,13451.122,no,retired
+62,female,33.2,0,no,South America,13462.52,no,unemployed
+38,male,31.0,1,no,Africa,5488.262,no,business
+34,male,35.815,0,no,Asia,4320.41085,no,business
+43,male,23.2,0,no,Europe,6250.435,no,consultant
+50,male,32.11,2,no,North America,25333.33284,no,salaried
+19,female,23.4,2,no,Oceania,2913.569,no,part-time
+57,female,20.1,1,no,Asia,12032.326,no,salaried
+62,female,39.16,0,no,Europe,13470.8044,yes,unemployed
+41,male,34.21,1,no,Antarctica,6289.7549,yes,salaried
+26,male,46.53,1,no,North America,2927.0647,no,business
+39,female,32.5,1,no,South America,6238.298,no,business
+46,male,25.8,5,no,Europe,10096.97,no,business
+45,female,35.3,0,no,Europe,7348.142,yes,unemployed
+32,male,37.18,2,no,Europe,4673.3922,no,business
+59,female,27.5,0,no,Antarctica,12233.828,no,unemployed
+44,male,29.735,2,no,Oceania,32108.66282,no,business
+39,female,24.225,5,no,Antarctica,8965.79575,no,salaried
+18,male,26.18,2,no,North America,2304.0022,no,student
+53,male,29.48,0,no,Asia,9487.6442,no,salaried
+18,male,23.21,0,no,Antarctica,1121.8739,no,unemployed
+50,female,46.09,1,no,North America,9549.5651,no,business
+18,female,40.185,0,no,North America,2217.46915,no,part-time
+19,male,22.61,0,no,Oceania,1628.4709,no,student
+62,male,39.93,0,no,Oceania,12982.8747,no,retired
+56,female,35.8,1,no,Africa,11674.13,no,salaried
+42,male,35.8,2,no,Asia,7160.094,yes,salaried
+37,male,34.2,1,yes,Africa,39047.285,yes,salaried
+42,male,31.255,0,no,Oceania,6358.77645,yes,consultant
+25,male,29.7,3,yes,South America,19933.458,no,business
+57,male,18.335,0,no,Africa,11534.87265,no,salaried
+51,male,42.9,2,yes,Oceania,47462.894,yes,salaried
+30,female,28.405,1,no,Africa,4527.18295,no,salaried
+44,male,30.2,2,yes,Europe,38998.546,yes,business
+34,male,27.835,1,yes,Africa,20009.63365,no,salaried
+31,male,39.49,1,no,North America,3875.7341,no,business
+54,male,30.8,1,yes,North America,41999.52,yes,business
+24,male,26.79,1,no,North America,12609.88702,no,student
+43,male,34.96,1,yes,North America,41034.2214,yes,salaried
+48,male,36.67,1,no,Asia,28468.91901,yes,salaried
+19,female,39.615,1,no,Antarctica,2730.10785,no,part-time
+29,female,25.9,0,no,North America,3353.284,no,unemployed
+63,female,35.2,1,no,Oceania,14474.675,yes,unemployed
+46,male,24.795,3,no,Oceania,9500.57305,no,salaried
+52,male,36.765,2,no,Oceania,26467.09737,no,salaried
+35,male,27.1,1,no,Oceania,4746.344,yes,business
+51,male,24.795,2,yes,Europe,23967.38305,yes,business
+44,male,25.365,1,no,North America,7518.02535,no,business
+21,male,25.745,2,no,Antarctica,3279.86855,no,student
+39,female,34.32,5,no,Africa,8596.8278,no,unemployed
+50,female,28.16,3,no,South America,10702.6424,no,salaried
+34,female,23.56,0,no,Oceania,4992.3764,no,salaried
+22,female,20.235,0,no,Africa,2527.81865,no,part-time
+19,female,40.5,0,no,Antarctica,1759.338,no,unemployed
+26,male,35.42,0,no,South America,2322.6218,no,salaried
+29,male,22.895,0,yes,South America,16138.76205,no,salaried
+48,male,40.15,0,no,Asia,7804.1605,yes,salaried
+26,male,29.15,1,no,Oceania,2902.9065,no,salaried
+45,female,39.995,3,no,South America,9704.66805,yes,business
+36,female,29.92,0,no,Europe,4889.0368,no,business
+54,male,25.46,1,no,Europe,25517.11363,no,salaried
+34,male,21.375,0,no,Antarctica,4500.33925,no,business
+31,male,25.9,3,yes,South America,19199.944,yes,business
+27,female,30.59,1,no,South America,16796.41194,no,business
+20,male,30.115,5,no,South America,4915.05985,no,part-time
+44,female,25.8,1,no,Oceania,7624.63,no,salaried
+43,male,30.115,3,no,Europe,8410.04685,yes,salaried
+45,female,27.645,1,no,Africa,28340.18885,yes,salaried
+34,male,34.675,0,no,North America,4518.82625,no,business
+24,female,20.52,0,yes,Europe,14571.8908,no,student
+26,female,19.8,1,no,Antarctica,3378.91,no,part-time
+38,female,27.835,2,no,North America,7144.86265,yes,unemployed
+50,female,31.6,2,no,North America,10118.424,no,business
+38,male,28.27,1,no,Oceania,5484.4673,yes,part-time
+27,female,20.045,3,yes,North America,16420.49455,no,part-time
+39,female,23.275,3,no,Oceania,7986.47525,no,part-time
+39,female,34.1,3,no,Asia,7418.522,no,business
+63,female,36.85,0,no,South America,13887.9685,no,unemployed
+33,female,36.29,3,no,North America,6551.7501,no,business
+36,female,26.885,0,no,Europe,5267.81815,yes,salaried
+30,male,22.99,2,yes,Oceania,17361.7661,no,salaried
+24,male,32.7,0,yes,Asia,34472.841,no,part-time
+24,male,25.8,0,no,North America,1972.95,no,unemployed
+48,male,29.6,0,no,Europe,21232.18226,yes,unemployed
+47,male,19.19,1,no,North America,8627.5411,no,business
+29,male,31.73,2,no,South America,4433.3877,no,unemployed
+28,male,29.26,2,no,South America,4438.2634,no,part-time
+47,male,28.215,3,yes,Asia,24915.22085,no,business
+25,male,24.985,2,no,Oceania,23241.47453,no,unemployed
+51,male,27.74,1,no,South America,9957.7216,no,salaried
+48,female,22.8,0,no,Antarctica,8269.044,no,consultant
+43,male,20.13,2,yes,Europe,18767.7377,yes,salaried
+61,female,33.33,4,no,Africa,36580.28216,yes,retired
+48,male,32.3,1,no,Oceania,8765.249,yes,salaried
+38,female,27.6,0,no,Africa,5383.536,yes,business
+59,male,25.46,0,no,Asia,12124.9924,no,salaried
+19,female,24.605,1,no,Oceania,2709.24395,no,part-time
+26,female,34.2,2,no,Africa,3987.926,no,unemployed
+54,female,35.815,3,no,Africa,12495.29085,no,salaried
+21,female,32.68,2,no,Africa,26018.95052,no,unemployed
+51,male,37.0,0,no,Asia,8798.593,no,unemployed
+22,female,31.02,3,yes,Asia,35595.5898,no,part-time
+47,male,36.08,1,yes,Europe,42211.1382,yes,business
+18,male,23.32,1,no,Europe,1711.0268,no,unemployed
+47,female,45.32,1,no,Europe,8569.8618,yes,salaried
+21,female,34.6,0,no,Europe,2020.177,no,part-time
+19,male,26.03,1,yes,Oceania,16450.8947,no,part-time
+23,male,18.715,0,no,Oceania,21595.38229,no,part-time
+54,male,31.6,0,no,Antarctica,9850.432,no,unemployed
+37,female,17.29,2,no,Africa,6877.9801,no,business
+46,female,23.655,1,yes,Asia,21677.28345,yes,salaried
+55,female,35.2,0,yes,Antarctica,44423.803,yes,unemployed
+30,female,27.93,0,no,Antarctica,4137.5227,yes,salaried
+18,male,21.565,0,yes,Oceania,13747.87235,no,student
+61,male,38.38,0,no,Antarctica,12950.0712,no,retired
+54,female,23.0,3,no,Antarctica,12094.478,no,business
+22,male,37.07,2,yes,Africa,37484.4493,no,part-time
+45,female,30.495,1,yes,North America,39725.51805,yes,business
+22,male,28.88,0,no,Oceania,2250.8352,no,part-time
+19,male,27.265,2,no,Antarctica,22493.65964,no,part-time
+35,female,28.025,0,yes,Antarctica,20234.85475,yes,salaried
+18,male,23.085,0,no,Asia,1704.70015,no,part-time
+20,male,30.685,0,yes,South America,33475.81715,no,student
+28,female,25.8,0,no,Asia,3161.454,no,business
+55,male,35.245,1,no,South America,11394.06555,no,salaried
+43,female,24.7,2,yes,Antarctica,21880.82,yes,business
+43,female,25.08,0,no,North America,7325.0482,no,salaried
+22,male,52.58,1,yes,South America,44501.3982,no,part-time
+25,female,22.515,1,no,North America,3594.17085,no,unemployed
+49,male,30.9,0,yes,North America,39727.614,yes,unemployed
+44,female,36.955,1,no,Oceania,8023.13545,yes,salaried
+64,male,26.41,0,no,Africa,14394.5579,no,unemployed
+49,male,29.83,1,no,Europe,9288.0267,yes,business
+47,male,29.8,3,yes,South America,25309.489,no,business
+27,female,21.47,0,no,Antarctica,3353.4703,no,salaried
+55,male,27.645,0,no,Oceania,10594.50155,no,salaried
+48,female,28.9,0,no,Europe,8277.523,yes,unemployed
+45,female,31.79,0,no,North America,17929.30337,yes,consultant
+24,female,39.49,0,no,Europe,2480.9791,no,student
+32,male,33.82,1,no,South America,4462.7218,no,business
+24,male,32.01,0,no,South America,1981.5819,no,part-time
+57,male,27.94,1,no,Asia,11554.2236,no,business
+59,male,41.14,1,yes,Oceania,48970.2476,yes,business
+36,male,28.595,3,no,Africa,6548.19505,yes,business
+29,female,25.6,4,no,South America,5708.867,no,part-time
+42,female,25.3,1,no,Africa,7045.499,no,salaried
+48,male,37.29,2,no,Asia,8978.1851,yes,business
+39,male,42.655,0,no,Antarctica,5757.41345,no,business
+63,male,21.66,1,no,South America,14349.8544,yes,retired
+54,female,31.9,1,no,Antarctica,10928.849,no,salaried
+37,male,37.07,1,yes,Oceania,39871.7043,yes,business
+63,male,31.445,0,no,Africa,13974.45555,yes,retired
+21,male,31.255,0,no,Europe,1909.52745,no,part-time
+54,female,28.88,2,no,Africa,12096.6512,no,salaried
+60,female,18.335,0,no,South America,13204.28565,yes,unemployed
+32,female,29.59,1,no,Europe,4562.8421,no,part-time
+47,female,32.0,1,no,Antarctica,8551.347,yes,salaried
+21,male,26.03,0,no,South America,2102.2647,no,student
+28,male,31.68,0,yes,Oceania,34672.1472,no,business
+63,male,33.66,3,no,Europe,15161.5344,no,unemployed
+18,male,21.78,2,no,Antarctica,11884.04858,no,unemployed
+32,male,27.835,1,no,South America,4454.40265,no,business
+38,male,19.95,1,no,Asia,5855.9025,no,part-time
+32,male,31.5,1,no,Oceania,4076.497,no,part-time
+62,female,30.495,2,no,South America,15019.76005,yes,unemployed
+39,female,18.3,5,yes,Africa,19023.26,no,business
+55,male,28.975,0,no,Oceania,10796.35025,no,unemployed
+57,male,31.54,0,no,Antarctica,11353.2276,no,unemployed
+52,male,47.74,1,no,Europe,9748.9106,no,salaried
+56,male,22.1,0,no,Asia,10577.087,no,salaried
+47,male,36.19,0,yes,South America,41676.0811,yes,consultant
+55,female,29.83,0,no,Oceania,11286.5387,no,consultant
+23,male,32.7,3,no,Oceania,3591.48,no,part-time
+22,female,30.4,0,yes,South America,33907.548,no,unemployed
+50,female,33.7,4,no,Europe,11299.343,no,salaried
+18,female,31.35,4,no,Antarctica,4561.1885,no,student
+51,female,34.96,2,yes,Antarctica,44641.1974,yes,business
+22,male,33.77,0,no,Africa,1674.6323,no,part-time
+52,female,30.875,0,no,Africa,23045.56616,no,consultant
+25,female,33.99,1,no,Europe,3227.1211,no,salaried
+33,female,19.095,2,yes,Antarctica,16776.30405,yes,salaried
+53,male,28.6,3,no,Oceania,11253.421,no,business
+29,male,38.94,1,no,Africa,3471.4096,no,salaried
+58,male,36.08,0,no,Antarctica,11363.2832,no,salaried
+37,male,29.8,0,no,Antarctica,20420.60465,yes,salaried
+54,female,31.24,0,no,Europe,10338.9316,no,salaried
+49,female,29.925,0,no,North America,8988.15875,no,salaried
+50,female,26.22,2,no,Africa,10493.9458,no,business
+26,male,30.0,1,no,Oceania,2904.088,no,salaried
+45,male,20.35,3,no,Europe,8605.3615,no,salaried
+54,female,32.3,1,no,Africa,11512.405,no,business
+38,male,38.39,3,yes,North America,41949.2441,no,business
+48,female,25.85,3,yes,Antarctica,24180.9335,yes,salaried
+28,female,26.315,3,no,North America,5312.16985,no,unemployed
+23,male,24.51,0,no,North America,2396.0959,no,part-time
+55,male,32.67,1,no,Asia,10807.4863,no,business
+41,male,29.64,5,no,Africa,9222.4026,yes,business
+25,male,33.33,2,yes,Asia,36124.5737,no,unemployed
+33,male,35.75,1,yes,Oceania,38282.7495,yes,part-time
+30,female,19.95,3,no,Asia,5693.4305,no,salaried
+23,female,31.4,0,yes,Europe,34166.273,no,student
+46,male,38.17,2,no,Asia,8347.1643,yes,business
+53,female,36.86,3,yes,Antarctica,46661.4424,yes,business
+27,female,32.395,1,no,Oceania,18903.49141,no,unemployed
+23,female,42.75,1,yes,Antarctica,40904.1995,no,part-time
+63,female,25.08,0,no,Asia,14254.6082,yes,retired
+55,male,29.9,0,no,Africa,10214.636,no,salaried
+35,female,35.86,2,no,Europe,5836.5204,no,unemployed
+34,male,32.8,1,no,South America,14358.36437,no,salaried
+19,female,18.6,0,no,South America,1728.897,no,unemployed
+39,female,23.87,5,no,Asia,8582.3023,no,unemployed
+27,male,45.9,2,no,Europe,3693.428,no,part-time
+57,male,40.28,0,no,Europe,20709.02034,no,unemployed
+52,female,18.335,0,no,North America,9991.03765,no,consultant
+28,male,33.82,0,no,Asia,19673.33573,no,unemployed
+50,female,28.12,3,no,Antarctica,11085.5868,no,salaried
+44,female,25.0,1,no,Europe,7623.518,no,salaried
+26,female,22.23,0,no,North America,3176.2877,no,salaried
+33,male,30.25,0,no,Oceania,3704.3545,no,salaried
+19,female,32.49,0,yes,Antarctica,36898.73308,no,student
+50,male,37.07,1,no,Europe,9048.0273,no,business
+41,female,32.6,3,no,Europe,7954.517,yes,business
+52,female,24.86,0,no,Asia,27117.99378,no,salaried
+39,male,32.34,2,no,Asia,6338.0756,no,salaried
+50,male,32.3,2,no,Antarctica,9630.397,no,business
+52,male,32.775,3,no,Antarctica,11289.10925,no,business
+60,male,32.8,0,yes,Africa,52590.82939,no,unemployed
+20,female,31.92,0,no,Asia,2261.5688,no,unemployed
+55,male,21.5,1,no,Africa,10791.96,no,business
+42,male,34.1,0,no,Antarctica,5979.731,yes,consultant
+18,female,30.305,0,no,Europe,2203.73595,no,part-time
+58,female,36.48,0,no,Antarctica,12235.8392,no,unemployed
+43,female,32.56,3,yes,Oceania,40941.2854,yes,business
+35,female,35.815,1,no,Antarctica,5630.45785,no,business
+48,female,27.93,4,no,North America,11015.1747,no,business
+36,female,22.135,3,no,Asia,7228.21565,no,unemployed
+19,male,44.88,0,yes,Europe,39722.7462,no,part-time
+23,female,23.18,2,no,North America,14426.07385,no,student
+20,female,30.59,0,no,South America,2459.7201,no,unemployed
+32,female,41.1,0,no,Oceania,3989.841,no,salaried
+43,female,34.58,1,no,Oceania,7727.2532,yes,salaried
+34,male,42.13,2,no,Asia,5124.1887,no,part-time
+30,male,38.83,1,no,Africa,18963.17192,no,business
+18,female,28.215,0,no,Asia,2200.83085,no,part-time
+41,female,28.31,1,no,Europe,7153.5539,yes,salaried
+35,female,26.125,0,no,Antarctica,5227.98875,yes,salaried
+57,male,40.37,0,no,Africa,10982.5013,no,consultant
+29,female,24.6,2,no,Antarctica,4529.477,no,unemployed
+32,male,35.2,2,no,Asia,4670.64,no,unemployed
+37,female,34.105,1,no,North America,6112.35295,no,part-time
+18,male,27.36,1,yes,Asia,17178.6824,no,unemployed
+43,female,26.7,2,yes,South America,22478.6,no,business
+56,female,41.91,0,no,South America,11093.6229,no,consultant
+38,male,29.26,2,no,Africa,6457.8434,no,business
+29,male,32.11,2,no,South America,4433.9159,no,salaried
+22,female,27.1,0,no,Europe,2154.361,no,part-time
+52,female,24.13,1,yes,Antarctica,23887.6627,yes,salaried
+40,female,27.4,1,no,Europe,6496.886,no,business
+23,female,34.865,0,no,North America,2899.48935,no,student
+31,male,29.81,0,yes,Oceania,19350.3689,yes,business
+42,female,41.325,1,no,Oceania,7650.77375,yes,salaried
+24,female,29.925,0,no,Antarctica,2850.68375,no,student
+25,female,30.3,0,no,Africa,2632.992,no,unemployed
+48,female,27.36,1,no,Asia,9447.3824,no,business
+23,female,28.49,1,yes,Asia,18328.2381,no,student
+45,male,23.56,2,no,North America,8603.8234,no,salaried
+20,male,35.625,3,yes,South America,37465.34375,no,unemployed
+62,female,32.68,0,no,Europe,13844.7972,no,unemployed
+43,female,25.27,1,yes,North America,21771.3423,yes,business
+23,female,28.0,0,no,North America,13126.67745,no,student
+31,female,32.775,2,no,Oceania,5327.40025,no,salaried
+41,female,21.755,1,no,Africa,13725.47184,no,salaried
+58,female,32.395,1,no,Asia,13019.16105,no,business
+48,female,36.575,0,no,Oceania,8671.19125,yes,salaried
+31,female,21.755,0,no,Europe,4134.08245,no,business
+19,female,27.93,3,no,Africa,18838.70366,no,unemployed
+19,female,30.02,0,yes,Asia,33307.5508,no,student
+41,male,33.55,0,no,South America,5699.8375,yes,salaried
+40,male,29.355,1,no,Asia,6393.60345,yes,salaried
+31,female,25.8,2,no,South America,4934.705,yes,salaried
+37,male,24.32,2,no,Europe,6198.7518,no,salaried
+46,male,40.375,2,no,North America,8733.22925,yes,salaried
+22,male,32.11,0,no,South America,2055.3249,no,unemployed
+51,male,32.3,1,no,Europe,9964.06,no,business
+18,female,27.28,3,yes,South America,18223.4512,no,part-time
+35,male,17.86,1,no,North America,5116.5004,no,unemployed
+59,female,34.8,2,no,Asia,36910.60803,no,business
+36,male,33.4,2,yes,Asia,38415.474,yes,part-time
+37,female,25.555,1,yes,Asia,20296.86345,no,unemployed
+59,male,37.1,1,no,Oceania,12347.172,no,business
+36,male,30.875,1,no,Asia,5373.36425,no,part-time
+39,male,34.1,2,no,North America,23563.01618,no,unemployed
+18,male,21.47,0,no,Europe,1702.4553,no,unemployed
+52,female,33.3,2,no,Antarctica,10806.839,no,business
+27,female,31.255,1,no,Oceania,3956.07145,no,part-time
+18,male,39.14,0,no,Antarctica,12890.05765,no,unemployed
+40,male,25.08,0,no,South America,5415.6612,yes,salaried
+29,male,37.29,2,no,Asia,4058.1161,no,business
+46,female,34.6,1,yes,Oceania,41661.602,yes,salaried
+38,female,30.21,3,no,Africa,7537.1639,no,salaried
+30,female,21.945,1,no,South America,4718.20355,no,salaried
+40,male,24.97,2,no,Africa,6593.5083,no,salaried
+50,male,25.3,0,no,Europe,8442.667,no,consultant
+20,female,24.42,0,yes,Antarctica,26125.67477,no,part-time
+41,male,23.94,1,no,Antarctica,6858.4796,no,salaried
+33,female,39.82,1,no,Asia,4795.6568,no,salaried
+38,male,16.815,2,no,South America,6640.54485,no,unemployed
+42,male,37.18,2,no,Antarctica,7162.0122,yes,salaried
+56,male,34.43,0,no,Africa,10594.2257,no,unemployed
+58,male,30.305,0,no,Europe,11938.25595,no,unemployed
+52,male,34.485,3,yes,Asia,60021.39897,yes,business
+20,female,21.8,0,yes,Antarctica,20167.33603,no,unemployed
+54,female,24.605,3,no,Africa,12479.70895,no,business
+58,male,23.3,0,no,South America,11345.519,no,unemployed
+45,female,27.83,2,no,Antarctica,8515.7587,yes,salaried
+26,male,31.065,0,no,Antarctica,2699.56835,no,business
+63,female,21.66,0,no,Antarctica,14449.8544,yes,unemployed
+58,female,28.215,0,no,Antarctica,12224.35085,no,salaried
+37,male,22.705,3,no,Europe,6985.50695,no,salaried
+25,female,42.13,1,no,Africa,3238.4357,no,salaried
+52,male,41.8,2,yes,North America,47269.854,yes,salaried
+64,male,36.96,2,yes,Oceania,49577.6624,no,retired
+22,female,21.28,3,no,Oceania,4296.2712,no,unemployed
+28,female,33.11,0,no,Africa,3171.6149,no,unemployed
+18,male,33.33,0,no,Oceania,1135.9407,no,part-time
+28,male,24.3,5,no,Antarctica,5615.369,no,salaried
+45,female,25.7,3,no,North America,9101.798,yes,business
+33,male,29.4,4,no,Oceania,6059.173,yes,unemployed
+18,female,39.82,0,no,Antarctica,1633.9618,no,unemployed
+32,male,33.63,1,yes,Asia,37607.5277,no,unemployed
+24,male,29.83,0,yes,Oceania,18648.4217,no,unemployed
+19,male,19.8,0,no,Oceania,1241.565,no,part-time
+20,male,27.3,0,yes,North America,16232.847,no,student
+40,female,29.3,4,no,Africa,15828.82173,yes,business
+34,female,27.72,0,no,Oceania,4415.1588,no,business
+42,female,37.9,0,no,Asia,6474.013,yes,salaried
+51,female,36.385,3,no,Asia,11436.73815,no,salaried
+54,female,27.645,1,no,Antarctica,11305.93455,no,salaried
+55,male,37.715,3,no,Asia,30063.58055,no,business
+52,female,23.18,0,no,Europe,10197.7722,no,consultant
+32,female,20.52,0,no,Africa,4544.2348,no,salaried
+28,male,37.1,1,no,Oceania,3277.161,no,business
+41,female,28.05,1,no,Europe,6770.1925,no,salaried
+43,female,29.9,1,no,Africa,7337.748,yes,business
+49,female,33.345,2,no,Oceania,10370.91255,yes,salaried
+64,male,23.76,0,yes,North America,26926.5144,no,retired
+55,female,30.5,0,no,Asia,10704.47,no,unemployed
+24,male,31.065,0,yes,North America,34254.05335,no,unemployed
+20,female,33.3,0,no,Asia,1880.487,no,student
+45,male,27.5,3,no,North America,8615.3,no,business
+26,male,33.915,1,no,Asia,3292.52985,no,business
+25,female,34.485,0,no,Europe,3021.80915,no,unemployed
+43,male,25.52,5,no,North America,14478.33015,yes,business
+35,male,27.61,1,no,North America,4747.0529,no,salaried
+26,male,27.06,0,yes,Antarctica,17043.3414,no,business
+57,male,23.7,0,no,Oceania,10959.33,no,consultant
+22,female,30.4,0,no,South America,2741.948,no,student
+32,female,29.735,0,no,South America,4357.04365,no,business
+39,male,29.925,1,yes,South America,22462.04375,yes,part-time
+25,female,26.79,2,no,Oceania,4189.1131,no,unemployed
+48,female,33.33,0,no,Europe,8283.6807,yes,salaried
+47,female,27.645,2,yes,Europe,24535.69855,yes,business
+18,female,21.66,0,yes,North America,14283.4594,no,part-time
+18,male,30.03,1,no,Africa,1720.3537,no,unemployed
+61,male,36.3,1,yes,Antarctica,47403.88,no,unemployed
+47,female,24.32,0,no,South America,8534.6718,no,consultant
+28,female,17.29,0,no,Asia,3732.6251,no,unemployed
+36,female,25.9,1,no,Antarctica,5472.449,yes,business
+20,male,39.4,2,yes,North America,38344.566,no,part-time
+44,male,34.32,1,no,Europe,7147.4728,yes,salaried
+38,female,19.95,2,no,North America,7133.9025,no,business
+19,male,34.9,0,yes,Antarctica,34828.654,no,unemployed
+21,male,23.21,0,no,Asia,1515.3449,no,unemployed
+46,male,25.745,3,no,Oceania,9301.89355,no,salaried
+58,male,25.175,0,no,North America,11931.12525,no,salaried
+20,male,22.0,1,no,Antarctica,1964.78,no,student
+18,male,26.125,0,no,Asia,1708.92575,no,student
+28,female,26.51,2,no,Oceania,4340.4409,no,unemployed
+33,male,27.455,2,no,Africa,5261.46945,no,salaried
+19,female,25.745,1,no,Oceania,2710.82855,no,unemployed
+45,male,30.36,0,yes,South America,62592.87309,yes,unemployed
+62,male,30.875,3,yes,South America,46718.16325,yes,unemployed
+25,female,20.8,1,no,South America,3208.787,no,business
+43,male,27.8,0,yes,Africa,37829.7242,yes,consultant
+42,male,24.605,2,yes,Oceania,21259.37795,yes,business
+24,female,27.72,0,no,Oceania,2464.6188,no,student
+29,female,21.85,0,yes,Africa,16115.3045,no,unemployed
+32,male,28.12,4,yes,North America,21472.4788,no,salaried
+25,female,30.2,0,yes,South America,33900.653,no,unemployed
+41,male,32.2,2,no,Africa,6875.961,yes,salaried
+42,male,26.315,1,no,North America,6940.90985,no,salaried
+33,female,26.695,0,no,South America,4571.41305,yes,salaried
+34,male,42.9,1,no,Oceania,4536.259,no,unemployed
+19,female,34.7,2,yes,Antarctica,36397.576,no,part-time
+30,female,23.655,3,yes,Oceania,18765.87545,yes,business
+18,male,28.31,1,no,Africa,11272.33139,no,student
+19,female,20.6,0,no,Europe,1731.677,no,unemployed
+18,male,53.13,0,no,Oceania,1163.4627,no,student
+35,male,39.71,4,no,Africa,19496.71917,no,unemployed
+39,female,26.315,2,no,Asia,7201.70085,no,unemployed
+31,male,31.065,3,no,Europe,5425.02335,no,salaried
+62,male,26.695,0,yes,South America,28101.33305,no,unemployed
+62,male,38.83,0,no,Africa,12981.3457,no,unemployed
+42,female,40.37,2,yes,Asia,43896.3763,yes,salaried
+31,male,25.935,1,no,Oceania,4239.89265,yes,salaried
+61,male,33.535,0,no,Europe,13143.33665,yes,unemployed
+42,female,32.87,0,no,South America,7050.0213,yes,unemployed
+51,male,30.03,1,no,Asia,9377.9047,no,salaried
+23,female,24.225,2,no,Europe,22395.74424,no,part-time
+52,male,38.6,2,no,Africa,10325.206,no,salaried
+57,female,25.74,2,no,Oceania,12629.1656,no,salaried
+23,female,33.4,0,no,North America,10795.93733,no,student
+52,female,44.7,3,no,Antarctica,11411.685,no,business
+50,male,30.97,3,no,Oceania,10600.5483,no,salaried
+18,female,31.92,0,no,Europe,2205.9808,no,unemployed
+18,female,36.85,0,no,North America,1629.8335,no,part-time
+21,female,25.8,0,no,Oceania,2007.945,no,unemployed
+61,female,29.07,0,yes,Europe,29141.3603,yes,retired
+23,male,34.4,0,no,South America,1826.843,no,unemployed
+56,female,39.82,0,no,Africa,11090.7178,no,salaried
+27,male,42.13,0,yes,North America,39611.7577,no,unemployed
+19,male,24.6,1,no,Antarctica,1837.237,no,part-time
+52,female,30.78,1,no,South America,10797.3362,no,business
+23,male,23.845,0,no,South America,2395.17155,no,student
+56,male,40.3,0,no,Europe,10602.385,no,salaried
+30,male,35.3,0,yes,Africa,36837.467,no,salaried
+58,female,28.215,0,no,Asia,12224.35085,no,consultant
+37,male,22.705,3,no,Africa,6985.50695,no,salaried
+25,female,42.13,1,no,Asia,3238.4357,no,unemployed
+52,male,41.8,2,yes,Africa,47269.854,yes,salaried
+64,male,36.96,2,yes,Antarctica,49577.6624,no,unemployed
+22,female,21.28,3,no,North America,4296.2712,no,student
+28,female,33.11,0,no,North America,3171.6149,no,salaried
+18,male,33.33,0,no,Asia,1135.9407,no,unemployed
+28,male,24.3,5,no,North America,5615.369,no,salaried
+45,female,25.7,3,no,South America,9101.798,no,salaried
+33,male,29.4,4,no,North America,6059.173,yes,part-time
+18,female,39.82,0,no,South America,1633.9618,no,part-time
+32,male,33.63,1,yes,Europe,37607.5277,no,part-time
+19,female,23.4,2,no,South America,2913.569,no,student
+57,female,20.1,1,no,Asia,12032.326,no,business
+62,female,39.16,0,no,Antarctica,13470.8044,yes,retired
+41,male,34.21,1,no,Asia,6289.7549,yes,salaried
+26,male,46.53,1,no,Antarctica,2927.0647,no,part-time
+39,female,32.5,1,no,Oceania,6238.298,no,salaried
+46,male,25.8,5,no,Europe,10096.97,no,salaried
+45,female,35.3,0,no,Africa,7348.142,yes,unemployed
+32,male,37.18,2,no,Europe,4673.3922,no,salaried
+59,female,27.5,0,no,North America,12233.828,no,unemployed
+44,male,29.735,2,no,Oceania,32108.66282,yes,salaried
+39,female,24.225,5,no,Asia,8965.79575,no,part-time
+18,male,26.18,2,no,Africa,2304.0022,no,student
+53,male,29.48,0,no,Asia,9487.6442,no,salaried
+18,male,23.21,0,no,North America,1121.8739,no,student
+26,female,34.2,2,no,Antarctica,3987.926,no,salaried
+54,female,35.815,3,no,Africa,12495.29085,no,salaried
+21,female,32.68,2,no,Asia,26018.95052,no,unemployed
+51,male,37.0,0,no,Oceania,8798.593,no,unemployed
+22,female,31.02,3,yes,South America,35595.5898,no,student
+47,male,36.08,1,yes,Antarctica,42211.1382,yes,salaried
+18,male,23.32,1,no,Europe,1711.0268,no,unemployed
+47,female,45.32,1,no,North America,8569.8618,yes,business
+21,female,34.6,0,no,South America,2020.177,no,student
+19,male,26.03,1,yes,Europe,16450.8947,no,student
+23,male,18.715,0,no,Antarctica,21595.38229,no,part-time
+54,male,31.6,0,no,Asia,9850.432,no,unemployed
+19,female,27.9,0,yes,Asia,16884.924,no,unemployed
+18,male,33.77,1,no,Europe,1725.5523,no,part-time
+28,male,33.0,3,no,Oceania,4449.462,no,part-time
+33,male,22.705,0,no,Europe,21984.47061,no,business
+32,male,28.88,0,no,Asia,3866.8552,no,salaried
+31,female,25.74,0,no,Africa,3756.6216,no,business
+46,female,33.44,1,no,Africa,8240.5896,yes,business
+37,female,27.74,3,no,North America,7281.5056,no,business
+37,male,29.83,2,no,Europe,6406.4107,yes,salaried
+60,female,25.84,0,no,Europe,28923.13692,yes,unemployed
+25,male,26.22,0,no,Antarctica,2721.3208,no,business
+62,female,26.29,0,yes,Asia,27808.7251,no,unemployed
+23,male,34.4,0,no,Europe,1826.843,no,student
+56,female,39.82,0,no,Africa,11090.7178,no,consultant
+27,male,42.13,0,yes,Europe,39611.7577,no,unemployed
+19,male,24.6,1,no,North America,1837.237,no,part-time
+52,female,30.78,1,no,Oceania,10797.3362,no,business
+23,male,23.845,0,no,Oceania,2395.17155,no,student
+56,male,40.3,0,no,North America,10602.385,no,salaried
+30,male,35.3,0,yes,Asia,36837.467,yes,salaried
+60,female,36.005,0,no,North America,13228.84695,yes,retired
+30,female,32.4,1,no,Oceania,4149.736,no,part-time
+18,male,34.1,0,no,Europe,1137.011,no,unemployed
+34,female,31.92,1,yes,South America,37701.8768,yes,salaried
+37,male,28.025,2,no,Antarctica,6203.90175,no,unemployed
+59,female,27.72,3,no,Oceania,14001.1338,no,salaried
+63,female,23.085,0,no,North America,14451.83515,no,retired
+55,female,32.775,2,no,South America,12268.63225,no,salaried
+23,male,17.385,1,no,Europe,2775.19215,no,unemployed
+31,male,36.3,2,yes,Europe,38711.0,yes,business
+22,male,35.6,0,yes,Asia,35585.576,no,student
+18,female,26.315,0,no,Africa,2198.18985,no,student
+19,female,28.6,5,no,Oceania,4687.797,no,part-time
+63,male,28.31,0,no,Antarctica,13770.0979,yes,unemployed
+28,male,36.4,1,yes,Oceania,51194.55914,no,unemployed
+19,male,20.425,0,no,North America,1625.43375,no,part-time
+62,female,32.965,3,no,Europe,15612.19335,no,retired
+26,male,20.8,0,no,Asia,2302.3,no,business
+35,male,36.67,1,yes,Oceania,39774.2763,no,unemployed
+60,male,39.9,0,yes,Oceania,48173.361,no,retired
+24,female,26.6,0,no,South America,3046.062,no,part-time
+31,female,36.63,2,no,North America,4949.7587,no,part-time
+41,male,21.78,1,no,Antarctica,6272.4772,no,salaried
+37,female,30.8,2,no,Asia,6313.759,no,unemployed
+38,male,37.05,1,no,South America,6079.6715,no,unemployed
+55,male,37.3,0,no,Africa,20630.28351,no,consultant
+18,female,38.665,2,no,Africa,3393.35635,no,part-time
+28,female,34.77,0,no,Asia,3556.9223,no,business
+60,female,24.53,0,no,Asia,12629.8967,yes,retired
+36,male,35.2,1,yes,South America,38709.176,no,part-time
+18,female,35.625,0,no,Africa,2211.13075,no,student
+21,female,33.63,2,no,Asia,3579.8287,no,unemployed
+48,male,28.0,1,yes,North America,23568.272,yes,business
+36,male,34.43,0,yes,Africa,37742.5757,yes,business
+40,female,28.69,3,no,North America,8059.6791,no,salaried
+58,male,36.955,2,yes,South America,47496.49445,yes,salaried
+58,female,31.825,2,no,Oceania,13607.36875,no,salaried
+18,male,31.68,2,yes,Antarctica,34303.1672,no,student
+53,female,22.88,1,yes,Africa,23244.7902,yes,business
+34,female,37.335,2,no,Oceania,5989.52365,no,business
+43,male,27.36,3,no,South America,8606.2174,no,salaried
+25,male,33.66,4,no,Asia,4504.6624,no,business
+64,male,24.7,1,no,Asia,30166.61817,no,unemployed
+28,female,25.935,1,no,Asia,4133.64165,no,part-time
+20,female,22.42,0,yes,Africa,14711.7438,no,student
+19,female,28.9,0,no,South America,1743.214,no,student
+61,female,39.1,2,no,Antarctica,14235.072,no,unemployed
+40,male,26.315,1,no,Africa,6389.37785,yes,salaried
+40,female,36.19,0,no,Europe,5920.1041,no,unemployed
+28,male,23.98,3,yes,Antarctica,17663.1442,no,part-time
+27,female,24.75,0,yes,North America,16577.7795,no,salaried
+31,male,28.5,5,no,Antarctica,6799.458,no,part-time
+53,female,28.1,3,no,Europe,11741.726,no,business
+58,male,32.01,1,no,Europe,11946.6259,no,business
+44,male,27.4,2,no,South America,7726.854,yes,business
+57,male,34.01,0,no,Oceania,11356.6609,no,unemployed
+29,female,29.59,1,no,North America,3947.4131,no,salaried
+21,male,35.53,0,no,Asia,1532.4697,no,unemployed
+22,female,39.805,0,no,Asia,2755.02095,no,student
+41,female,32.965,0,no,Oceania,6571.02435,yes,unemployed
+31,male,26.885,1,no,Antarctica,4441.21315,yes,business
+45,female,38.285,0,no,Oceania,7935.29115,yes,unemployed
+22,male,37.62,1,yes,Europe,37165.1638,no,part-time
+48,female,41.23,4,no,Africa,11033.6617,yes,salaried
+37,female,34.8,2,yes,Oceania,39836.519,yes,salaried
+45,male,22.895,2,yes,Antarctica,21098.55405,yes,business
+57,female,31.16,0,yes,Antarctica,43578.9394,yes,consultant
+56,female,27.2,0,no,Oceania,11073.176,no,consultant
+46,female,27.74,0,no,South America,8026.6666,no,consultant
+55,female,26.98,0,no,Antarctica,11082.5772,no,consultant
+21,female,39.49,0,no,Antarctica,2026.9741,no,student
+53,female,24.795,1,no,Oceania,10942.13205,no,salaried
+59,male,29.83,3,yes,Asia,30184.9367,yes,business
+35,male,34.77,2,no,Oceania,5729.0053,no,part-time
+64,female,31.3,2,yes,Asia,47291.055,no,retired
+28,female,37.62,1,no,North America,3766.8838,no,part-time
+54,female,30.8,3,no,Africa,12105.32,no,salaried
+55,male,38.28,0,no,Europe,10226.2842,no,salaried
+56,male,19.95,0,yes,South America,22412.6485,yes,salaried
+38,male,19.3,0,yes,Asia,15820.699,no,salaried
+41,female,31.6,0,no,Africa,6186.127,yes,consultant
+30,male,25.46,0,no,Asia,3645.0894,yes,business
+18,female,30.115,0,no,Europe,21344.8467,no,part-time
+61,female,29.92,3,yes,Oceania,30942.1918,no,retired
+34,female,27.5,1,no,Africa,5003.853,no,part-time
+20,male,28.025,1,yes,Asia,17560.37975,no,unemployed
+19,female,28.4,1,no,Antarctica,2331.519,no,unemployed
+26,male,30.875,2,no,Antarctica,3877.30425,no,unemployed
+29,male,27.94,0,no,Oceania,2867.1196,no,business
+63,male,35.09,0,yes,South America,47055.5321,yes,retired
+54,male,33.63,1,no,Antarctica,10825.2537,no,business
+55,female,29.7,2,no,Oceania,11881.358,no,business
+37,male,30.8,0,no,Oceania,4646.759,no,business
+21,female,35.72,0,no,Oceania,2404.7338,no,student
+52,male,32.205,3,no,Europe,11488.31695,no,salaried
+60,male,28.595,0,no,North America,30259.99556,no,retired
+58,male,49.06,0,no,Africa,11381.3254,no,consultant
+29,female,27.94,1,yes,Oceania,19107.7796,no,unemployed
+49,female,27.17,0,no,Oceania,8601.3293,no,unemployed
+37,female,23.37,2,no,Asia,6686.4313,no,salaried
+44,male,37.1,2,no,Asia,7740.337,yes,business
+18,male,23.75,0,no,Asia,1705.6245,no,unemployed
+20,female,28.975,0,no,Asia,2257.47525,no,student
+44,male,31.35,1,yes,Oceania,39556.4945,yes,business
+47,female,33.915,3,no,Africa,10115.00885,yes,salaried
+26,female,28.785,0,no,South America,3385.39915,no,unemployed
+19,female,28.3,0,yes,Oceania,17081.08,no,student
+52,female,37.4,0,no,Oceania,9634.538,no,unemployed
+32,female,17.765,2,yes,Asia,32734.1863,no,salaried
+38,male,34.7,2,no,Oceania,6082.405,no,salaried
+59,female,26.505,0,no,Asia,12815.44495,no,salaried
+61,female,22.04,0,no,North America,13616.3586,yes,unemployed
+53,female,35.9,2,no,Africa,11163.568,no,business
+19,male,25.555,0,no,North America,1632.56445,no,student
+20,female,28.785,0,no,Antarctica,2457.21115,no,part-time
+22,female,28.05,0,no,Oceania,2155.6815,no,student
+19,male,34.1,0,no,North America,1261.442,no,unemployed
+22,male,25.175,0,no,Asia,2045.68525,no,student
+54,female,31.9,3,no,North America,27322.73386,no,business
+22,female,36.0,0,no,South America,2166.732,no,part-time
+34,male,22.42,2,no,North America,27375.90478,no,business
+26,male,32.49,1,no,Antarctica,3490.5491,no,unemployed
+34,male,25.3,2,yes,North America,18972.495,yes,unemployed
+29,male,29.735,2,no,Asia,18157.876,no,business
+30,male,28.69,3,yes,Antarctica,20745.9891,yes,part-time
+29,female,38.83,3,no,Europe,5138.2567,no,part-time
+46,male,30.495,3,yes,Europe,40720.55105,yes,business
+51,female,37.73,1,no,Oceania,9877.6077,no,salaried
+53,female,37.43,1,no,Antarctica,10959.6947,no,business
+19,male,28.4,1,no,South America,1842.519,no,unemployed
+35,male,24.13,1,no,Africa,5125.2157,no,unemployed
+48,male,29.7,0,no,North America,7789.635,yes,consultant
+32,female,37.145,3,no,South America,6334.34355,no,unemployed
+42,female,23.37,0,yes,South America,19964.7463,yes,salaried
+40,female,25.46,1,no,Africa,7077.1894,no,salaried
+44,male,39.52,0,no,Asia,6948.7008,yes,consultant
+48,male,24.42,0,yes,Europe,21223.6758,yes,unemployed
+18,male,25.175,0,yes,Antarctica,15518.18025,no,student
+30,male,35.53,0,yes,South America,36950.2567,no,salaried
+50,female,27.83,3,no,Europe,19749.38338,no,salaried
+42,female,26.6,0,yes,North America,21348.706,no,unemployed
+18,female,36.85,0,yes,South America,36149.4835,no,unemployed
+54,male,39.6,1,no,Oceania,10450.552,no,business
+32,female,29.8,2,no,Antarctica,5152.134,no,salaried
+37,male,29.64,0,no,Asia,5028.1466,yes,business
+47,male,28.215,4,no,South America,10407.08585,no,business
+20,female,37.0,5,no,South America,4830.63,no,part-time
+32,female,33.155,3,no,Africa,6128.79745,no,salaried
+19,female,31.825,1,no,Asia,2719.27975,no,unemployed
+27,male,18.905,3,no,Oceania,4827.90495,no,salaried
+63,male,41.47,0,no,Antarctica,13405.3903,no,retired
+49,male,30.3,0,no,North America,8116.68,yes,unemployed
+18,male,15.96,0,no,South America,1694.7964,no,student
+35,female,34.8,1,no,North America,5246.047,no,unemployed
+24,female,33.345,0,no,Europe,2855.43755,no,student
+63,female,37.7,0,yes,North America,48824.45,no,unemployed
+38,male,27.835,2,no,Africa,6455.86265,no,part-time
+54,male,29.2,1,no,Europe,10436.096,no,business
+46,female,28.9,2,no,South America,8823.279,yes,business
+41,female,33.155,3,no,North America,8538.28845,yes,salaried
+58,male,28.595,0,no,Africa,11735.87905,no,consultant
+18,female,38.28,0,no,Oceania,1631.8212,no,part-time
+22,male,19.95,3,no,South America,4005.4225,no,student
+44,female,26.41,0,no,North America,7419.4779,no,salaried
+44,male,30.69,2,no,Africa,7731.4271,yes,salaried
+36,male,41.895,3,yes,Europe,43753.33705,yes,unemployed
+26,female,29.92,2,no,Africa,3981.9768,no,part-time
+30,female,30.9,3,no,Antarctica,5325.651,no,part-time
+41,female,32.2,1,no,Africa,6775.961,yes,salaried
+29,female,32.11,2,no,Europe,4922.9159,no,salaried
+61,male,31.57,0,no,Europe,12557.6053,yes,unemployed
+36,female,26.2,0,no,Oceania,4883.866,no,salaried
+25,male,25.74,0,no,Asia,2137.6536,no,salaried
+56,female,26.6,1,no,North America,12044.342,no,business
+18,male,34.43,0,no,Oceania,1137.4697,no,part-time
+19,male,30.59,0,no,South America,1639.5631,no,unemployed
+39,female,32.8,0,no,South America,5649.715,no,business
+45,female,28.6,2,no,South America,8516.829,no,business
+51,female,18.05,0,no,Oceania,9644.2525,no,salaried
+64,female,39.33,0,no,Oceania,14901.5167,no,retired
+19,female,32.11,0,no,Asia,2130.6759,no,student
+48,female,32.23,1,no,Asia,8871.1517,yes,business
+60,female,24.035,0,no,Asia,13012.20865,no,unemployed
+27,female,36.08,0,yes,Africa,37133.8982,no,unemployed
+46,male,22.3,0,no,South America,7147.105,no,salaried
+28,female,28.88,1,no,Europe,4337.7352,no,unemployed
+59,male,26.4,0,no,North America,11743.299,no,consultant
+35,male,27.74,2,yes,Africa,20984.0936,yes,part-time
+63,female,31.8,0,no,Asia,13880.949,no,unemployed
+40,male,41.23,1,no,North America,6610.1097,no,salaried
+20,male,33.0,1,no,Europe,1980.07,no,unemployed
+40,male,30.875,4,no,North America,8162.71625,no,business
+24,male,28.5,2,no,Africa,3537.703,no,part-time
+34,female,26.73,1,no,North America,5002.7827,no,part-time
+45,female,30.9,2,no,Antarctica,8520.026,yes,business
+41,female,37.1,2,no,Antarctica,7371.772,yes,business
+53,female,26.6,0,no,North America,10355.641,no,consultant
+27,male,23.1,0,no,Africa,2483.736,no,business
+26,female,29.92,1,no,Asia,3392.9768,no,salaried
+24,female,23.21,0,no,South America,25081.76784,no,part-time
+34,female,33.7,1,no,Europe,5012.471,no,salaried
+53,female,33.25,0,no,South America,10564.8845,no,salaried
+32,male,30.8,3,no,North America,5253.524,no,unemployed
+19,male,34.8,0,yes,Antarctica,34779.615,no,unemployed
+42,male,24.64,0,yes,Europe,19515.5416,yes,consultant
+55,male,33.88,3,no,Asia,11987.1682,no,business
+28,male,38.06,0,no,Oceania,2689.4954,no,unemployed
+58,female,41.91,0,no,Europe,24227.33724,no,consultant
+41,female,31.635,1,no,Asia,7358.17565,yes,business
+47,male,25.46,2,no,Africa,9225.2564,no,business
+42,female,36.195,1,no,Asia,7443.64305,yes,salaried
+59,female,27.83,3,no,Asia,14001.2867,no,salaried
+19,female,17.8,0,no,North America,1727.785,no,part-time
+59,male,27.5,1,no,Europe,12333.828,no,salaried
+39,male,24.51,2,no,Antarctica,6710.1919,no,unemployed
+40,female,22.22,2,yes,South America,19444.2658,no,business
+18,female,26.73,0,no,South America,1615.7667,no,unemployed
+31,male,38.39,2,no,North America,4463.2051,no,part-time
+19,male,29.07,0,yes,Oceania,17352.6803,no,student
+44,male,38.06,1,no,Africa,7152.6714,yes,business
+23,female,36.67,2,yes,Africa,38511.6283,no,part-time
+33,female,22.135,1,no,Asia,5354.07465,no,salaried
+55,female,26.8,1,no,Asia,35160.13457,no,business
+40,male,35.3,3,no,North America,7196.867,no,business
+63,female,27.74,0,yes,Asia,29523.1656,yes,retired
+54,male,30.02,0,no,South America,24476.47851,no,salaried
+60,female,38.06,0,no,Africa,12648.7034,no,unemployed
+24,male,35.86,0,no,Asia,1986.9334,no,student
+19,male,20.9,1,no,Europe,1832.094,no,part-time
+29,male,28.975,1,no,Europe,4040.55825,no,salaried
+18,male,17.29,2,yes,Europe,12829.4551,no,unemployed
+63,female,32.2,2,yes,Asia,47305.305,yes,unemployed
+54,male,34.21,2,yes,South America,44260.7499,yes,business
+27,male,30.3,3,no,North America,4260.744,no,business
+50,male,31.825,0,yes,Africa,41097.16175,no,unemployed
+55,female,25.365,3,no,Antarctica,13047.33235,no,business
+56,male,33.63,0,yes,Africa,43921.1837,yes,salaried
+38,female,40.15,0,no,Antarctica,5400.9805,no,salaried
+51,male,24.415,4,no,South America,11520.09985,no,business
+19,male,31.92,0,yes,Europe,33750.2918,no,unemployed
+58,female,25.2,0,no,Europe,11837.16,no,consultant
+20,female,26.84,1,yes,Oceania,17085.2676,no,unemployed
+52,male,24.32,3,yes,North America,24869.8368,yes,business
+19,male,36.955,0,yes,Asia,36219.40545,no,student
+53,female,38.06,3,no,North America,20462.99766,no,business
+46,male,42.35,3,yes,Antarctica,46151.1245,yes,salaried
+40,male,19.8,1,yes,Oceania,17179.522,no,business
+59,female,32.395,3,no,Europe,14590.63205,no,business
+45,male,30.2,1,no,North America,7441.053,yes,business
+49,male,25.84,1,no,Asia,9282.4806,yes,business
+18,male,29.37,1,no,Africa,1719.4363,no,unemployed
+50,male,34.2,2,yes,Africa,42856.838,no,salaried
+41,male,37.05,2,no,Europe,7265.7025,yes,salaried
+50,male,27.455,1,no,Africa,9617.66245,no,business
+25,male,27.55,0,no,Oceania,2523.1695,no,salaried
+47,female,26.6,2,no,South America,9715.841,yes,salaried
+19,male,20.615,2,no,Europe,2803.69785,no,unemployed
+22,female,24.3,0,no,North America,2150.469,no,student
+59,male,31.79,2,no,Africa,12928.7911,no,business
+51,female,21.56,1,no,Europe,9855.1314,no,business
+40,female,28.12,1,yes,Africa,22331.5668,yes,salaried
+54,male,40.565,3,yes,Antarctica,48549.17835,yes,salaried
+30,male,27.645,1,no,Antarctica,4237.12655,no,unemployed
+55,female,32.395,1,no,Europe,11879.10405,no,business
+52,female,31.2,0,no,South America,9625.92,no,unemployed
+46,male,26.62,1,no,Oceania,7742.1098,yes,business
+46,female,48.07,2,no,North America,9432.9253,yes,salaried
+63,female,26.22,0,no,South America,14256.1928,yes,retired
+59,female,36.765,1,yes,South America,47896.79135,yes,salaried
+52,male,26.4,3,no,Oceania,25992.82104,no,salaried
+28,female,33.4,0,no,North America,3172.018,no,unemployed
+29,male,29.64,1,no,North America,20277.80751,no,salaried
+25,male,45.54,2,yes,Africa,42112.2356,no,business
+22,female,28.82,0,no,Oceania,2156.7518,no,part-time
+25,male,26.8,3,no,North America,3906.127,no,part-time
+18,male,22.99,0,no,North America,1704.5681,no,unemployed
+19,male,27.7,0,yes,Africa,16297.846,no,student
+47,male,25.41,1,yes,Africa,21978.6769,yes,business
+31,male,34.39,3,yes,Asia,38746.3551,yes,part-time
+48,female,28.88,1,no,Europe,9249.4952,no,salaried
+36,male,27.55,3,no,South America,6746.7425,yes,unemployed
+53,female,22.61,3,yes,Oceania,24873.3849,yes,salaried
+56,female,37.51,2,no,Oceania,12265.5069,no,business
+28,female,33.0,2,no,Europe,4349.462,no,business
+57,female,38.0,2,no,Asia,12646.207,no,business
+29,male,33.345,2,no,Asia,19442.3535,no,salaried
+28,female,27.5,2,no,North America,20177.67113,no,business
+30,female,33.33,1,no,North America,4151.0287,no,part-time
+58,male,34.865,0,no,Asia,11944.59435,no,unemployed
+41,female,33.06,2,no,South America,7749.1564,yes,business
+50,male,26.6,0,no,Antarctica,8444.474,no,salaried
+19,female,24.7,0,no,Asia,1737.376,no,unemployed
+43,male,35.97,3,yes,South America,42124.5153,yes,business
+49,male,35.86,0,no,Oceania,8124.4084,yes,unemployed
+27,female,31.4,0,yes,Europe,34838.873,no,business
+52,male,33.25,0,no,Oceania,9722.7695,no,salaried
+50,male,32.205,0,no,South America,8835.26495,no,salaried
+54,male,32.775,0,no,Asia,10435.06525,no,consultant
+44,female,27.645,0,no,Asia,7421.19455,no,salaried
+32,male,37.335,1,no,Antarctica,4667.60765,no,part-time
+34,male,25.27,1,no,South America,4894.7533,no,unemployed
+26,female,29.64,4,no,Africa,24671.66334,no,part-time
+34,male,30.8,0,yes,Antarctica,35491.64,no,salaried
+57,male,40.945,0,no,North America,11566.30055,no,consultant
+29,male,27.2,0,no,Oceania,2866.091,no,unemployed
+40,male,34.105,1,no,Africa,6600.20595,no,business
+27,female,23.21,1,no,Antarctica,3561.8889,no,business
+45,male,36.48,2,yes,Oceania,42760.5022,yes,business
+64,female,33.8,1,yes,Oceania,47928.03,no,retired
+52,male,36.7,0,no,Antarctica,9144.565,no,consultant
+61,female,36.385,1,yes,Africa,48517.56315,yes,retired
+52,male,27.36,0,yes,Africa,24393.6224,yes,consultant
+61,female,31.16,0,no,Europe,13429.0354,no,retired
+56,female,28.785,0,no,South America,11658.37915,no,consultant
+43,female,35.72,2,no,North America,19144.57652,yes,business
+64,male,34.5,0,no,North America,13822.803,yes,retired
+60,male,25.74,0,no,Antarctica,12142.5786,no,retired
+62,male,27.55,1,no,Asia,13937.6665,yes,retired
+50,male,32.3,1,yes,Antarctica,41919.097,no,salaried
+46,female,27.72,1,no,Antarctica,8232.6388,yes,business
+24,female,27.6,0,no,Oceania,18955.22017,no,student
+62,male,30.02,0,no,Asia,13352.0998,yes,retired
+60,female,27.55,0,no,Africa,13217.0945,yes,unemployed
+63,male,36.765,0,no,South America,13981.85035,no,retired
+49,female,41.47,4,no,Asia,10977.2063,yes,business
+34,female,29.26,3,no,Oceania,6184.2994,yes,part-time
+33,male,35.75,2,no,North America,4889.9995,no,unemployed
+46,male,33.345,1,no,Africa,8334.45755,yes,salaried
+36,female,29.92,1,no,Africa,5478.0368,no,salaried
+19,male,27.835,0,no,Antarctica,1635.73365,no,unemployed
+57,female,23.18,0,no,South America,11830.6072,no,unemployed
+50,female,25.6,0,no,Antarctica,8932.084,no,salaried
+30,female,27.7,0,no,Africa,3554.203,yes,salaried
+33,male,35.245,0,no,South America,12404.8791,no,salaried
+18,female,38.28,0,no,North America,14133.03775,no,unemployed
+46,male,27.6,0,no,Asia,24603.04837,no,consultant
+46,male,43.89,3,no,South America,8944.1151,yes,salaried
+47,male,29.83,3,no,Europe,9620.3307,no,business
+23,male,41.91,0,no,Asia,1837.2819,no,part-time
+18,female,20.79,0,no,Asia,1607.5101,no,student
+48,female,32.3,2,no,Oceania,10043.249,yes,business
+35,male,30.5,1,no,South America,4751.07,no,business
+19,female,21.7,0,yes,Europe,13844.506,no,part-time
+21,female,26.4,1,no,North America,2597.779,no,unemployed
+21,female,21.89,2,no,Asia,3180.5101,no,part-time
+49,female,30.78,1,no,Asia,9778.3472,yes,business
+56,female,32.3,3,no,Antarctica,13430.265,no,business
+42,female,24.985,2,no,Oceania,8017.06115,no,business
+44,male,32.015,2,no,North America,8116.26885,yes,business
+18,male,30.4,3,no,Asia,3481.868,no,part-time
+61,female,21.09,0,no,Oceania,13415.0381,yes,retired
+57,female,22.23,0,no,Europe,12029.2867,no,consultant
+42,female,33.155,1,no,Asia,7639.41745,yes,salaried
+26,male,32.9,2,yes,Africa,36085.219,no,part-time
+20,male,33.33,0,no,South America,1391.5287,no,unemployed
+23,female,28.31,0,yes,Oceania,18033.9679,no,part-time
+39,female,24.89,3,yes,Europe,21659.9301,yes,salaried
+24,male,40.15,0,yes,Oceania,38126.2465,no,part-time
+64,female,30.115,3,no,Europe,16455.70785,yes,retired
+62,male,31.46,1,no,Oceania,27000.98473,no,unemployed
+27,female,17.955,2,yes,Asia,15006.57945,no,business
+55,male,30.685,0,yes,Africa,42303.69215,yes,consultant
+55,male,33.0,0,no,South America,20781.48892,no,salaried
+35,female,43.34,2,no,North America,5846.9176,no,salaried
+44,male,22.135,2,no,Africa,8302.53565,no,salaried
+19,male,34.4,0,no,Africa,1261.859,no,unemployed
+58,female,39.05,0,no,Africa,11856.4115,no,consultant
+50,male,25.365,2,no,Oceania,30284.64294,no,salaried
+26,female,22.61,0,no,Africa,3176.8159,no,business
+24,female,30.21,3,no,Oceania,4618.0799,no,student
+48,male,35.625,4,no,Africa,10736.87075,yes,salaried
+19,female,37.43,0,no,South America,2138.0707,no,student
+48,male,31.445,1,no,Africa,8964.06055,yes,salaried
+49,male,31.35,1,no,Oceania,9290.1395,yes,salaried
+46,female,32.3,2,no,Asia,9411.005,yes,salaried
+46,male,19.855,0,no,North America,7526.70645,no,unemployed
+43,female,34.4,3,no,Oceania,8522.003,yes,business
+21,male,31.02,0,no,South America,16586.49771,no,student
+64,male,25.6,2,no,Europe,14988.432,yes,retired
+18,female,38.17,0,no,Asia,1631.6683,no,unemployed
+51,female,20.6,0,no,North America,9264.797,no,salaried
+47,male,47.52,1,no,Asia,8083.9198,yes,salaried
+64,female,32.965,0,no,South America,14692.66935,yes,unemployed
+49,male,32.3,3,no,Africa,10269.46,yes,salaried
+31,male,20.4,0,no,Europe,3260.199,no,business
+52,female,38.38,2,no,Asia,11396.9002,no,salaried
+33,female,24.31,0,no,Asia,4185.0979,no,salaried
+47,female,23.6,1,no,North America,8539.671,no,salaried
+38,male,21.12,3,no,Antarctica,6652.5288,no,part-time
+32,male,30.03,1,no,Asia,4074.4537,no,salaried
+19,male,17.48,0,no,South America,1621.3402,no,student
+44,female,20.235,1,yes,Asia,19594.80965,yes,business
+26,female,17.195,2,yes,Africa,14455.64405,no,unemployed
+25,male,23.9,5,no,Oceania,5080.096,no,part-time
+19,female,35.15,0,no,Africa,2134.9015,no,student
+43,female,35.64,1,no,Antarctica,7345.7266,yes,business
+52,male,34.1,0,no,South America,9140.951,no,salaried
+36,female,22.6,2,yes,South America,18608.262,yes,salaried
+64,male,39.16,1,no,North America,14418.2804,yes,retired
+63,female,26.98,0,yes,Oceania,28950.4692,no,retired
+64,male,33.88,0,yes,North America,46889.2612,no,retired
+61,male,35.86,0,yes,Europe,46599.1084,yes,unemployed
+40,male,32.775,1,yes,Oceania,39125.33225,no,business
+25,male,30.59,0,no,Europe,2727.3951,no,business
+48,male,30.2,2,no,North America,8968.33,yes,salaried
+45,male,24.31,5,no,Africa,9788.8659,no,business
+38,female,27.265,1,no,Oceania,6555.07035,no,part-time
+18,female,29.165,0,no,Antarctica,7323.734819,no,unemployed
+21,female,16.815,1,no,Asia,3167.45585,no,student
+27,female,30.4,3,no,South America,18804.7524,no,business
+19,male,33.1,0,no,North America,23082.95533,no,student
+29,female,20.235,2,no,Africa,4906.40965,no,business
+42,male,26.9,0,no,Africa,5969.723,no,consultant
+60,female,30.5,0,no,Asia,12638.195,no,unemployed
+31,male,28.595,1,no,Africa,4243.59005,no,salaried
+60,male,33.11,3,no,Oceania,13919.8229,yes,unemployed
+22,male,31.73,0,no,Asia,2254.7967,no,student
+35,male,28.9,3,no,Oceania,5926.846,yes,part-time
+52,female,46.75,5,no,Oceania,12592.5345,no,business
+26,male,29.45,0,no,Oceania,2897.3235,no,business
+31,female,32.68,1,no,South America,4738.2682,no,unemployed
+33,female,33.5,0,yes,South America,37079.372,no,business
+18,male,43.01,0,no,Asia,1149.3959,no,unemployed
+59,female,36.52,1,no,North America,28287.89766,no,business
+56,male,26.695,1,yes,Oceania,26109.32905,yes,salaried
+45,female,33.1,0,no,Europe,7345.084,yes,consultant
+60,male,29.64,0,no,Antarctica,12730.9996,no,unemployed
+56,female,25.65,0,no,South America,11454.0215,no,salaried
+40,female,29.6,0,no,Europe,5910.944,yes,unemployed
+35,male,38.6,1,no,South America,4762.329,no,unemployed
+39,male,29.6,4,no,North America,7512.267,no,salaried
+30,male,24.13,1,no,North America,4032.2407,no,salaried
+24,male,23.4,0,no,North America,1969.614,no,student
+20,male,29.735,0,no,Europe,1769.53165,no,student
+32,male,46.53,2,no,Antarctica,4686.3887,no,part-time
+59,male,37.4,0,no,Africa,21797.0004,no,unemployed
+55,female,30.14,2,no,Asia,11881.9696,no,salaried
+57,female,30.495,0,no,Antarctica,11840.77505,no,consultant
+56,male,39.6,0,no,Antarctica,10601.412,no,salaried
+40,female,33.0,3,no,Antarctica,7682.67,no,business
+49,female,36.63,3,no,Europe,10381.4787,yes,business
+42,male,30.0,0,yes,Oceania,22144.032,yes,salaried
+62,female,38.095,2,no,Antarctica,15230.32405,yes,retired
+56,male,25.935,0,no,South America,11165.41765,no,unemployed
+19,male,25.175,0,no,South America,1632.03625,no,part-time
+30,female,28.38,1,yes,Antarctica,19521.9682,yes,salaried
+60,female,28.7,1,no,North America,13224.693,no,unemployed
+56,female,33.82,2,no,North America,12643.3778,no,salaried
+28,female,24.32,1,no,Europe,23288.9284,no,business
+18,female,24.09,1,no,North America,2201.0971,no,student
+27,male,32.67,0,no,Antarctica,2497.0383,no,salaried
+18,female,30.115,0,no,Oceania,2203.47185,no,unemployed
+19,female,29.8,0,no,Antarctica,1744.465,no,unemployed
+47,female,33.345,0,no,Antarctica,20878.78443,yes,salaried
+54,male,25.1,3,yes,South America,25382.297,yes,business
+61,male,28.31,1,yes,Oceania,28868.6639,yes,retired
+24,male,28.5,0,yes,Africa,35147.52848,no,student
+25,male,35.625,0,no,Oceania,2534.39375,no,unemployed
+21,male,36.85,0,no,Africa,1534.3045,no,unemployed
+23,male,32.56,0,no,South America,1824.2854,no,unemployed
+63,male,41.325,3,no,South America,15555.18875,yes,retired
+49,male,37.51,2,no,South America,9304.7019,yes,salaried
+18,female,31.35,0,no,Asia,1622.1885,no,unemployed
+51,female,39.5,1,no,Oceania,9880.068,no,salaried
+48,male,34.3,3,no,Europe,9563.029,yes,business
+31,female,31.065,0,no,North America,4347.02335,no,salaried
+54,female,21.47,3,no,Europe,12475.3513,no,salaried
+19,male,28.7,0,no,Oceania,1253.936,no,part-time
+44,female,38.06,0,yes,Asia,48885.13561,yes,unemployed
+53,male,31.16,1,no,Europe,10461.9794,no,business
+19,female,32.9,0,no,North America,1748.774,no,unemployed
+61,female,25.08,0,no,Antarctica,24513.09126,no,unemployed
+18,female,25.08,0,no,North America,2196.4732,no,part-time
+61,male,43.4,0,no,North America,12574.049,yes,unemployed
+21,male,25.7,4,yes,Europe,17942.106,no,unemployed
+20,male,27.93,0,no,Antarctica,1967.0227,no,part-time
+31,female,23.6,2,no,Europe,4931.647,no,salaried
+45,male,28.7,2,no,Antarctica,8027.968,no,business
+44,female,23.98,2,no,North America,8211.1002,no,business
+62,female,39.2,0,no,South America,13470.86,no,unemployed
+29,male,34.4,0,yes,Europe,36197.699,no,unemployed
+43,male,26.03,0,no,Europe,6837.3687,no,salaried
+51,male,23.21,1,yes,Asia,22218.1149,yes,business
+19,male,30.25,0,yes,Asia,32548.3405,no,unemployed
+38,female,28.93,1,no,Antarctica,5974.3847,no,part-time
+37,male,30.875,3,no,Antarctica,6796.86325,no,part-time
+22,male,31.35,1,no,Antarctica,2643.2685,no,student
+21,male,23.75,2,no,Oceania,3077.0955,no,part-time
+24,female,25.27,0,no,North America,3044.2133,no,student
+57,female,28.7,0,no,Antarctica,11455.28,no,consultant
+56,male,32.11,1,no,Asia,11763.0009,no,salaried
+27,male,33.66,0,no,Europe,2498.4144,no,business
+51,male,22.42,0,no,Antarctica,9361.3268,no,salaried
+19,male,30.4,0,no,Europe,1256.299,no,part-time
+39,male,28.3,1,yes,North America,21082.16,yes,part-time
+58,male,35.7,0,no,Europe,11362.755,no,consultant
+20,male,35.31,1,no,North America,27724.28875,no,student
+45,male,30.495,2,no,Oceania,8413.46305,yes,salaried
+35,female,31.0,1,no,Oceania,5240.765,no,unemployed
+31,male,30.875,0,no,North America,3857.75925,no,salaried
+50,female,27.36,0,no,Europe,25656.57526,no,consultant
+32,female,44.22,0,no,North America,3994.1778,no,business
+51,female,33.915,0,no,Europe,9866.30485,no,salaried
+38,female,37.73,0,no,Europe,5397.6167,no,business
+42,male,26.07,1,yes,Antarctica,38245.59327,no,salaried
+18,female,33.88,0,no,South America,11482.63485,no,student
+19,female,30.59,2,no,Asia,24059.68019,no,part-time
+51,female,25.8,1,no,North America,9861.025,no,business
+46,male,39.425,1,no,Asia,8342.90875,yes,salaried
+18,male,25.46,0,no,Europe,1708.0014,no,student
+57,male,42.13,1,yes,Oceania,48675.5177,yes,salaried
+62,female,31.73,0,no,Asia,14043.4767,yes,retired
+59,male,29.7,2,no,Europe,12925.886,no,salaried
+37,male,36.19,0,no,South America,19214.70553,no,salaried
+64,male,40.48,0,no,Europe,13831.1152,no,retired
+38,male,28.025,1,no,Oceania,6067.12675,yes,unemployed
+33,female,38.9,3,no,Asia,5972.378,no,business
+46,female,30.2,2,no,Europe,8825.086,yes,salaried
+46,female,28.05,1,no,Africa,8233.0975,no,salaried
+53,male,31.35,0,no,Antarctica,27346.04207,no,consultant
+34,female,38.0,3,no,Africa,6196.448,no,business
+20,female,31.79,2,no,South America,3056.3881,no,part-time
+63,female,36.3,0,no,Oceania,13887.204,no,retired
+54,female,47.41,0,yes,Asia,63770.42801,yes,consultant
+54,male,30.21,0,no,Europe,10231.4999,no,salaried
+49,male,25.84,2,yes,South America,23807.2406,yes,business
+28,male,35.435,0,no,Africa,3268.84665,no,salaried
+54,female,46.7,2,no,Oceania,11538.421,no,business
+25,female,28.595,0,no,Europe,3213.62205,no,salaried
+43,female,46.2,0,yes,Oceania,45863.205,yes,salaried
+63,male,30.8,0,no,North America,13390.559,yes,unemployed
+32,female,28.93,0,no,Asia,3972.9247,yes,business
+62,male,21.4,0,no,Europe,12957.118,no,retired
+52,female,31.73,2,no,South America,11187.6567,no,business
+25,female,41.325,0,no,Europe,17878.90068,no,unemployed
+28,male,23.8,2,no,Africa,3847.674,no,unemployed
+46,male,33.44,1,no,North America,8334.5896,yes,salaried
+34,male,34.21,0,no,North America,3935.1799,no,business
+35,female,34.105,3,yes,South America,39983.42595,no,unemployed
+19,male,35.53,0,no,Europe,1646.4297,no,student
+46,female,19.95,2,no,Antarctica,9193.8385,no,business
+54,female,32.68,0,no,North America,10923.9332,no,consultant
+27,male,30.5,0,no,Asia,2494.022,no,unemployed
+50,male,44.77,1,no,Africa,9058.7303,no,business
+18,female,32.12,2,no,North America,2801.2588,no,unemployed
+19,female,30.495,0,no,Antarctica,2128.43105,no,part-time
+38,female,40.565,1,no,Europe,6373.55735,no,part-time
+41,male,30.59,2,no,Africa,7256.7231,yes,business
+49,female,31.9,5,no,Africa,11552.904,yes,salaried
+48,male,40.565,2,yes,Oceania,45702.02235,yes,salaried
+31,female,29.1,0,no,Antarctica,3761.292,no,business
+18,female,37.29,1,no,North America,2219.4451,no,unemployed
+30,female,43.12,2,no,South America,4753.6368,no,unemployed
+62,female,36.86,1,no,Asia,31620.00106,yes,retired
+57,female,34.295,2,no,Europe,13224.05705,no,business
+58,female,27.17,0,no,Europe,12222.8983,no,consultant
+22,male,26.84,0,no,Africa,1664.9996,no,part-time
+31,female,38.095,1,yes,Antarctica,58571.07448,no,business
+52,male,30.2,1,no,Asia,9724.53,no,business
+25,female,23.465,0,no,South America,3206.49135,no,business
+59,male,25.46,1,no,Oceania,12913.9924,no,business
+19,male,30.59,0,no,Africa,1639.5631,no,part-time
+39,male,45.43,2,no,North America,6356.2707,no,salaried
+32,female,23.65,1,no,Antarctica,17626.23951,no,salaried
+19,male,20.7,0,no,Oceania,1242.816,no,part-time
+33,female,28.27,1,no,North America,4779.6023,no,part-time
+21,male,20.235,3,no,North America,3861.20965,no,student
+34,female,30.21,1,yes,Europe,43943.8761,yes,salaried
+61,female,35.91,0,no,Oceania,13635.6379,yes,unemployed
+38,female,30.69,1,no,Africa,5976.8311,no,salaried
+58,female,29.0,0,no,North America,11842.442,no,salaried
+47,male,19.57,1,no,Europe,8428.0693,no,business
+20,male,31.13,2,no,Oceania,2566.4707,no,student
+21,female,21.85,1,yes,Asia,15359.1045,no,part-time
+41,male,40.26,0,no,Africa,5709.1644,yes,consultant
+46,female,33.725,1,no,Europe,8823.98575,yes,business
+42,female,29.48,2,no,Antarctica,7640.3092,yes,salaried
+34,female,33.25,1,no,Africa,5594.8455,no,unemployed
+43,male,32.6,2,no,Antarctica,7441.501,yes,business
+52,female,37.525,2,no,Africa,33471.97189,no,business
+18,female,39.16,0,no,Antarctica,1633.0444,no,part-time
+51,male,31.635,0,no,South America,9174.13565,no,salaried
+56,female,25.3,0,no,Antarctica,11070.535,no,salaried
+64,female,39.05,3,no,Asia,16085.1275,no,unemployed
+19,female,28.31,0,yes,Antarctica,17468.9839,no,part-time
+51,female,34.1,0,no,Oceania,9283.562,no,salaried
+27,female,25.175,0,no,Asia,3558.62025,no,unemployed
+59,female,23.655,0,yes,South America,25678.77845,yes,unemployed
+28,male,26.98,2,no,Europe,4435.0942,no,unemployed
+30,male,37.8,2,yes,North America,39241.442,no,unemployed
+47,female,29.37,1,no,Oceania,8547.6913,yes,salaried
+38,female,34.8,2,no,North America,6571.544,no,salaried
+18,female,33.155,0,no,South America,2207.69745,no,student
+34,female,19.0,3,no,Antarctica,6753.038,no,business
+20,female,33.0,0,no,North America,1880.07,no,part-time
+47,female,36.63,1,yes,Asia,42969.8527,yes,salaried
+56,female,28.595,0,no,Africa,11658.11505,no,salaried
+49,male,25.6,2,yes,Europe,23306.547,yes,salaried
+19,female,33.11,0,yes,South America,34439.8559,no,student
+55,female,37.1,0,no,Antarctica,10713.644,no,unemployed
+30,male,31.4,1,no,Oceania,3659.346,no,part-time
+37,male,34.1,4,yes,Antarctica,40182.246,yes,part-time
+49,female,21.3,1,no,South America,9182.17,no,business
+18,male,33.535,0,yes,North America,34617.84065,no,student
+59,male,28.785,0,no,South America,12129.61415,no,salaried
+29,female,26.03,0,no,Europe,3736.4647,no,business
+36,male,28.88,3,no,Europe,6748.5912,no,unemployed
+33,male,42.46,1,no,South America,11326.71487,no,business
+58,male,38.0,0,no,North America,11365.952,no,consultant
+44,female,38.95,0,yes,North America,42983.4585,yes,consultant
+53,male,36.1,1,no,North America,10085.846,no,salaried
+24,male,29.3,0,no,South America,1977.815,no,student
+29,female,35.53,0,no,Antarctica,3366.6697,no,salaried
+40,male,22.705,2,no,North America,7173.35995,no,salaried
+51,male,39.7,1,no,Oceania,9391.346,no,business
+64,male,38.19,0,no,Europe,14410.9321,no,unemployed
+19,female,24.51,1,no,Oceania,2709.1119,no,part-time
+35,female,38.095,2,no,Asia,24915.04626,no,salaried
+39,male,26.41,0,yes,Antarctica,20149.3229,no,business
+56,male,33.66,4,no,South America,12949.1554,no,salaried
+33,male,42.4,5,no,Oceania,6666.243,no,salaried
+42,male,28.31,3,yes,Oceania,32787.45859,no,salaried
+61,male,33.915,0,no,Africa,13143.86485,no,retired
+23,female,34.96,3,no,North America,4466.6214,no,unemployed
+43,male,35.31,2,no,Asia,18806.14547,yes,business
+48,male,30.78,3,no,North America,10141.1362,yes,salaried
+39,male,26.22,1,no,Oceania,6123.5688,no,unemployed
+40,female,23.37,3,no,North America,8252.2843,no,salaried
+18,male,28.5,0,no,North America,1712.227,no,unemployed
+58,female,32.965,0,no,Antarctica,12430.95335,no,unemployed
+49,female,42.68,2,no,Africa,9800.8882,yes,salaried
+53,female,39.6,1,no,North America,10579.711,no,business
+48,female,31.13,0,no,South America,8280.6227,yes,consultant
+45,female,36.3,2,no,Europe,8527.532,yes,business
+59,female,35.2,0,no,Oceania,12244.531,no,salaried
+52,female,25.3,2,yes,Antarctica,24667.419,yes,salaried
+26,female,42.4,1,no,South America,3410.324,no,salaried
+27,male,33.155,2,no,North America,4058.71245,no,unemployed
+48,female,35.91,1,no,Asia,26392.26029,yes,salaried
+57,female,28.785,4,no,Asia,14394.39815,no,salaried
+37,male,46.53,3,no,Antarctica,6435.6237,no,part-time
+57,female,23.98,1,no,Oceania,22192.43711,no,business
+32,female,31.54,1,no,Africa,5148.5526,no,unemployed
+18,male,33.66,0,no,Africa,1136.3994,no,part-time
+64,female,22.99,0,yes,North America,27037.9141,no,unemployed
+43,male,38.06,2,yes,Europe,42560.4304,yes,salaried
+49,male,28.7,1,no,Oceania,8703.456,yes,salaried
+40,female,32.775,2,yes,South America,40003.33225,no,business
+62,male,32.015,0,yes,Asia,45710.20785,yes,retired
+40,female,29.81,1,no,Oceania,6500.2359,no,salaried
+30,male,31.57,3,no,Oceania,4837.5823,no,part-time
+29,female,31.16,0,no,South America,3943.5954,no,salaried
+36,male,29.7,0,no,Asia,4399.731,no,business
+41,female,31.02,0,no,South America,6185.3208,yes,unemployed
+44,female,43.89,2,yes,North America,46200.9851,yes,salaried
+45,male,21.375,0,no,South America,7222.78625,no,unemployed
+55,female,40.81,3,no,Europe,12485.8009,no,business
+60,male,31.35,3,yes,Asia,46130.5265,yes,retired
+56,male,36.1,3,no,Europe,12363.547,no,salaried
+49,female,23.18,2,no,Europe,10156.7832,no,salaried
+21,female,17.4,1,no,Asia,2585.269,no,student
+19,male,20.3,0,no,North America,1242.26,no,part-time
+39,male,35.3,2,yes,South America,40103.89,yes,unemployed
+53,male,24.32,0,no,North America,9863.4718,no,consultant
+33,female,18.5,1,no,South America,4766.022,no,part-time
+53,male,26.41,2,no,Oceania,11244.3769,no,business
+42,male,26.125,2,no,Asia,7729.64575,no,salaried
+40,male,41.69,0,no,Asia,5438.7491,no,unemployed
+47,female,24.1,1,no,Africa,26236.57997,no,business
+27,male,31.13,1,yes,Europe,34806.4677,no,unemployed
+21,male,27.36,0,no,South America,2104.1134,no,student
+47,male,36.2,1,no,Europe,8068.185,yes,salaried
+20,male,32.395,1,no,Oceania,2362.22905,no,student
+24,male,23.655,0,no,South America,2352.96845,no,student
+27,female,34.8,1,no,Asia,3577.999,no,salaried
+26,female,40.185,0,no,North America,3201.24515,no,business
+53,female,32.3,2,no,South America,29186.48236,no,business
+41,male,35.75,1,yes,Antarctica,40273.6455,yes,business
+56,male,33.725,0,no,Europe,10976.24575,no,unemployed
+23,female,39.27,2,no,Antarctica,3500.6123,no,student
+21,female,34.87,0,no,South America,2020.5523,no,part-time
+50,female,44.745,0,no,Asia,9541.69555,no,salaried
+53,male,41.47,0,no,Oceania,9504.3103,no,salaried
+34,female,26.41,1,no,Africa,5385.3379,yes,unemployed
+47,female,29.545,1,no,Europe,8930.93455,no,business
+33,female,32.9,2,no,Antarctica,5375.038,no,unemployed
+51,female,38.06,0,yes,Asia,44400.4064,yes,unemployed
+49,male,28.69,3,no,Oceania,10264.4421,no,business
+31,female,30.495,3,no,Antarctica,6113.23105,no,part-time
+36,female,27.74,0,no,Oceania,5469.0066,yes,salaried
+18,male,35.2,1,no,Oceania,1727.54,no,unemployed
+50,female,23.54,2,no,Asia,10107.2206,no,salaried
+43,female,30.685,2,no,Oceania,8310.83915,yes,business
+20,male,40.47,0,no,Asia,1984.4533,no,student
+24,female,22.6,0,no,South America,2457.502,no,student
+60,male,28.9,0,no,South America,12146.971,no,unemployed
+49,female,22.61,1,no,Oceania,9566.9909,no,salaried
+60,male,24.32,1,no,Asia,13112.6048,no,retired
+51,female,36.67,2,no,North America,10848.1343,no,business
+58,female,33.44,0,no,Antarctica,12231.6136,no,consultant
+51,female,40.66,0,no,North America,9875.6804,no,salaried
+53,male,36.6,3,no,South America,11264.541,no,business
+62,male,37.4,0,no,North America,12979.358,no,retired
+19,male,35.4,0,no,Africa,1263.249,no,unemployed
+50,female,27.075,1,no,Africa,10106.13425,no,business
+30,female,39.05,3,yes,South America,40932.4295,no,part-time
+41,male,28.405,1,no,Asia,6664.68595,yes,business
+29,female,21.755,1,yes,Africa,16657.71745,no,salaried
+18,female,40.28,0,no,Europe,2217.6012,no,unemployed
+41,female,36.08,1,no,Oceania,6781.3542,yes,salaried
+35,male,24.42,3,yes,Europe,19361.9988,yes,unemployed
+53,male,21.4,1,no,Europe,10065.413,no,business
+24,female,30.1,3,no,Europe,4234.927,no,part-time
+48,female,27.265,1,no,South America,9447.25035,yes,business
+59,female,32.1,3,no,Antarctica,14007.222,no,business
+49,female,34.77,1,no,Africa,9583.8933,yes,business
+37,female,38.39,0,yes,Antarctica,40419.0191,yes,business
+26,male,23.7,2,no,Africa,3484.331,no,part-time
+23,male,31.73,3,yes,North America,36189.1017,no,student
+29,male,35.5,2,yes,Antarctica,44585.45587,no,unemployed
+45,male,24.035,2,no,Africa,8604.48365,no,business
+27,male,29.15,0,yes,Oceania,18246.4955,no,unemployed
+53,male,34.105,0,yes,Asia,43254.41795,yes,consultant
+31,female,26.62,0,no,North America,3757.8448,yes,business
+50,male,26.41,0,no,Europe,8827.2099,no,salaried
+50,female,30.115,1,no,South America,9910.35985,no,business
+34,male,27.0,2,no,South America,11737.84884,no,part-time
+19,male,21.755,0,no,South America,1627.28245,no,unemployed
+47,female,36.0,1,no,Europe,8556.907,yes,salaried
+28,male,30.875,0,no,Europe,3062.50825,no,business
+37,female,26.4,0,yes,Europe,19539.243,no,salaried
+21,male,28.975,0,no,Oceania,1906.35825,no,unemployed
+64,male,37.905,0,no,North America,14210.53595,yes,retired
+58,female,22.77,0,no,Asia,11833.7823,no,consultant
+24,male,33.63,4,no,North America,17128.42608,no,student
+31,male,27.645,2,no,Asia,5031.26955,yes,unemployed
+39,female,22.8,3,no,Asia,7985.815,no,salaried
+47,female,27.83,0,yes,Antarctica,23065.4207,no,consultant
+30,male,37.43,3,no,Antarctica,5428.7277,no,unemployed
+18,male,38.17,0,yes,Antarctica,36307.7983,no,unemployed
+22,female,34.58,2,no,Africa,3925.7582,no,part-time
+23,male,35.2,1,no,Europe,2416.955,no,part-time
+33,male,27.1,1,yes,Oceania,19040.876,no,business
+27,male,26.03,0,no,Antarctica,3070.8087,no,business
+45,female,25.175,2,no,North America,9095.06825,no,salaried
+57,female,31.825,0,no,Asia,11842.62375,no,consultant
+47,male,32.3,1,no,North America,8062.764,yes,business
+42,female,29.0,1,no,North America,7050.642,no,salaried
+64,female,39.7,0,no,South America,14319.031,yes,retired
+38,female,19.475,2,no,North America,6933.24225,no,part-time
+61,male,36.1,3,no,Asia,27941.28758,yes,unemployed
+53,female,26.7,2,no,Africa,11150.78,no,business
+44,female,36.48,0,no,Antarctica,12797.20962,yes,unemployed
+19,female,28.88,0,yes,Oceania,17748.5062,no,unemployed
+41,male,34.2,2,no,Africa,7261.741,yes,business
+51,male,33.33,3,no,Oceania,10560.4917,no,salaried
+40,male,32.3,2,no,Asia,6986.697,no,salaried
+45,male,39.805,0,no,Antarctica,7448.40395,yes,unemployed
+35,male,34.32,3,no,Antarctica,5934.3798,no,part-time
+53,male,28.88,0,no,Asia,9869.8102,no,salaried
+30,male,24.4,3,yes,Asia,18259.216,yes,salaried
+18,male,41.14,0,no,Antarctica,1146.7966,no,unemployed
+51,male,35.97,1,no,South America,9386.1613,no,business
+50,female,27.6,1,yes,Antarctica,24520.264,no,salaried
+31,female,29.26,1,no,Antarctica,4350.5144,yes,part-time
+35,female,27.7,3,no,Oceania,6414.178,yes,business
+60,male,36.955,0,no,South America,12741.16745,yes,unemployed
+21,male,36.86,0,no,Asia,1917.3184,no,part-time
+29,male,22.515,3,no,North America,5209.57885,no,business
+62,female,29.92,0,no,Oceania,13457.9608,yes,retired
+39,female,41.8,0,no,North America,5662.225,no,business
+19,male,27.6,0,no,Africa,1252.407,no,student
+22,female,23.18,0,no,Antarctica,2731.9122,no,part-time
+53,male,20.9,0,yes,Oceania,21195.818,yes,salaried
+39,female,31.92,2,no,Africa,7209.4918,no,salaried
+27,male,28.5,0,yes,North America,18310.742,no,unemployed
+30,male,44.22,2,no,North America,4266.1658,no,business
+30,female,22.895,1,no,Asia,4719.52405,no,unemployed
+58,female,33.1,0,no,Antarctica,11848.141,no,salaried
+33,male,24.795,0,yes,Antarctica,17904.52705,no,business
+42,female,26.18,1,no,Asia,7046.7222,no,business
+64,female,35.97,0,no,Asia,14313.8463,no,unemployed
+21,male,22.3,1,no,South America,2103.08,no,unemployed
+18,female,42.24,0,yes,South America,38792.6856,no,student
+23,male,26.51,0,no,Asia,1815.8759,no,unemployed
+45,female,35.815,0,no,Europe,7731.85785,yes,salaried
+40,female,41.42,1,no,South America,28476.73499,no,salaried
+19,female,36.575,0,no,Antarctica,2136.88225,no,unemployed
+18,male,30.14,0,no,North America,1131.5066,no,student
+25,male,25.84,1,no,Africa,3309.7926,no,salaried
+46,female,30.8,3,no,Oceania,9414.92,yes,business
+33,female,42.94,3,no,Europe,6360.9936,no,part-time
+54,male,21.01,2,no,South America,11013.7119,no,business
+28,male,22.515,2,no,Asia,4428.88785,no,salaried
+36,male,34.43,2,no,Antarctica,5584.3057,no,salaried
+20,female,31.46,0,no,South America,1877.9294,no,part-time
+24,female,24.225,0,no,Europe,2842.76075,no,unemployed
+23,male,37.1,3,no,Europe,3597.596,no,unemployed
+47,female,26.125,1,yes,Asia,23401.30575,yes,salaried
+33,female,35.53,0,yes,South America,55135.40209,yes,salaried
+45,male,33.7,1,no,Asia,7445.918,yes,salaried
+26,male,17.67,0,no,Asia,2680.9493,no,unemployed
+18,female,31.13,0,no,Oceania,1621.8827,no,unemployed
+44,female,29.81,2,no,Africa,8219.2039,no,salaried
+60,male,24.32,0,no,Oceania,12523.6048,yes,unemployed
+64,female,31.825,2,no,Antarctica,16069.08475,yes,retired
+56,male,31.79,2,yes,Asia,43813.8661,yes,business
+36,male,28.025,1,yes,Asia,20773.62775,no,salaried
+41,male,30.78,3,yes,South America,39597.4072,yes,salaried
+39,male,21.85,1,no,North America,6117.4945,no,salaried
+63,male,33.1,0,no,Africa,13393.756,no,unemployed
+36,female,25.84,0,no,Oceania,5266.3656,yes,salaried
+28,female,23.845,2,no,South America,4719.73655,no,salaried
+58,male,34.39,0,no,Oceania,11743.9341,no,salaried
+36,male,33.82,1,no,Oceania,5377.4578,no,unemployed
+42,male,35.97,2,no,Africa,7160.3303,yes,salaried
+36,male,31.5,0,no,Antarctica,4402.233,no,salaried
+56,female,28.31,0,no,Asia,11657.7189,no,unemployed
+35,female,23.465,2,no,Europe,6402.29135,no,unemployed
+59,female,31.35,0,no,Asia,12622.1795,no,consultant
+21,male,31.1,0,no,North America,1526.312,no,part-time
+59,male,24.7,0,no,Oceania,12323.936,no,salaried
+23,female,32.78,2,yes,Europe,36021.0112,no,part-time
+57,female,29.81,0,yes,Europe,27533.9129,yes,consultant
+53,male,30.495,0,no,Europe,10072.05505,no,consultant
+60,female,32.45,0,yes,Oceania,45008.9555,no,unemployed
+51,female,34.2,1,no,Asia,9872.701,no,business
+23,male,50.38,1,no,Africa,2438.0552,no,unemployed
+27,female,24.1,0,no,Antarctica,2974.126,no,business
+55,male,32.775,0,no,Europe,10601.63225,no,unemployed
+37,female,30.78,0,yes,Europe,37270.1512,no,business
+61,male,32.3,2,no,Antarctica,14119.62,no,retired
+46,female,35.53,0,yes,Antarctica,42111.6647,yes,unemployed
+53,female,23.75,2,no,Africa,11729.6795,no,business
+49,female,23.845,3,yes,North America,24106.91255,yes,business
+20,female,29.6,0,no,North America,1875.344,no,unemployed
+48,female,33.11,0,yes,South America,40974.1649,yes,unemployed
+25,male,24.13,0,yes,North America,15817.9857,no,unemployed
+25,female,32.23,1,no,Oceania,18218.16139,no,unemployed
+57,male,28.1,0,no,Europe,10965.446,no,salaried
+37,female,47.6,2,yes,Antarctica,46113.511,yes,business
+38,female,28.0,3,no,North America,7151.092,yes,unemployed
+55,female,33.535,2,no,South America,12269.68865,no,salaried
+36,female,19.855,0,no,North America,5458.04645,no,salaried
+51,male,25.4,0,no,Asia,8782.469,no,salaried
+40,male,29.9,2,no,North America,6600.361,yes,business
+18,male,37.29,0,no,North America,1141.4451,no,unemployed
+57,male,43.7,1,no,Antarctica,11576.13,no,salaried
+61,male,23.655,0,no,Oceania,13129.60345,no,retired
+25,female,24.3,3,no,Africa,4391.652,no,unemployed
+50,male,36.2,0,no,Oceania,8457.818,no,salaried
+26,female,29.48,1,no,Asia,3392.3652,no,part-time
+42,male,24.86,0,no,Oceania,5966.8874,no,unemployed
+43,male,30.1,1,no,Asia,6849.026,yes,salaried
+44,male,21.85,3,no,South America,8891.1395,no,business
+23,female,28.12,0,no,Asia,2690.1138,no,part-time
+49,female,27.1,1,no,South America,26140.3603,no,salaried
+33,male,33.44,5,no,Oceania,6653.7886,no,part-time
+41,male,28.8,1,no,Oceania,6282.235,no,salaried
+37,female,29.5,2,no,Asia,6311.952,no,business
+22,male,34.8,3,no,Oceania,3443.064,no,student
+23,male,27.36,1,no,South America,2789.0574,no,unemployed
+21,female,22.135,0,no,North America,2585.85065,no,part-time
+51,female,37.05,3,yes,Africa,46255.1125,yes,business
+25,male,26.695,4,no,Antarctica,4877.98105,no,business
+32,male,28.93,1,yes,Antarctica,19719.6947,yes,business
+57,male,28.975,0,yes,Africa,27218.43725,yes,unemployed
+36,female,30.02,0,no,Oceania,5272.1758,no,salaried
+22,male,39.5,0,no,South America,1682.597,no,unemployed
+57,male,33.63,1,no,Africa,11945.1327,no,business
+64,female,26.885,0,yes,Africa,29330.98315,no,unemployed
+36,female,29.04,4,no,Africa,7243.8136,yes,salaried
+54,male,24.035,0,no,Asia,10422.91665,no,salaried
+47,male,38.94,2,yes,North America,44202.6536,yes,business
+62,male,32.11,0,no,Europe,13555.0049,no,unemployed
+61,female,44.0,0,no,South America,13063.883,yes,retired
+43,female,20.045,2,yes,Europe,19798.05455,yes,salaried
+19,male,25.555,1,no,Africa,2221.56445,no,unemployed
+18,female,40.26,0,no,Antarctica,1634.5734,no,student
+19,female,22.515,0,no,North America,2117.33885,no,unemployed
+49,male,22.515,0,no,Asia,8688.85885,no,unemployed
+60,male,40.92,0,yes,Europe,48673.5588,yes,unemployed
+26,male,27.265,3,no,South America,4661.28635,no,unemployed
+49,male,36.85,0,no,North America,8125.7845,yes,salaried
+60,female,35.1,0,no,Europe,12644.589,yes,retired
+26,female,29.355,2,no,Europe,4564.19145,no,salaried
+27,male,32.585,3,no,Africa,4846.92015,no,unemployed
+44,female,32.34,1,no,South America,7633.7206,yes,salaried
+63,male,39.8,3,no,Antarctica,15170.069,no,retired
+32,female,24.6,0,yes,Africa,17496.306,yes,business
+22,male,28.31,1,no,South America,2639.0429,no,part-time
+18,male,31.73,0,yes,South America,33732.6867,no,part-time
+59,female,26.695,3,no,Europe,14382.70905,no,business
+44,female,27.5,1,no,Antarctica,7626.993,yes,salaried
+33,male,24.605,2,no,Europe,5257.50795,no,business
+24,female,33.99,0,no,Europe,2473.3341,no,student
+43,female,26.885,0,yes,Oceania,21774.32215,yes,unemployed
+45,male,22.895,0,yes,Africa,35069.37452,yes,consultant
+61,female,28.2,0,no,Africa,13041.921,yes,unemployed
+35,female,34.21,1,no,Africa,5245.2269,no,salaried
+62,female,25.0,0,no,Antarctica,13451.122,no,retired
+62,female,33.2,0,no,Europe,13462.52,no,unemployed
+38,male,31.0,1,no,Oceania,5488.262,no,business
+34,male,35.815,0,no,Africa,4320.41085,no,salaried
+43,male,23.2,0,no,Europe,6250.435,no,consultant
+50,male,32.11,2,no,North America,25333.33284,no,business
+19,female,23.4,2,no,Asia,2913.569,no,unemployed
+57,female,20.1,1,no,South America,12032.326,no,business
+62,female,39.16,0,no,Asia,13470.8044,no,retired
+41,male,34.21,1,no,Europe,6289.7549,yes,business
+26,male,46.53,1,no,South America,2927.0647,no,unemployed
+39,female,32.5,1,no,North America,6238.298,no,part-time
+46,male,25.8,5,no,South America,10096.97,no,business
+45,female,35.3,0,no,Africa,7348.142,yes,consultant
+32,male,37.18,2,no,South America,4673.3922,no,business
+59,female,27.5,0,no,Europe,12233.828,no,salaried
+44,male,29.735,2,no,Africa,32108.66282,no,salaried
+39,female,24.225,5,no,Africa,8965.79575,no,salaried
+18,male,26.18,2,no,Europe,2304.0022,no,part-time
+53,male,29.48,0,no,Asia,9487.6442,no,unemployed
+18,male,23.21,0,no,Europe,1121.8739,no,unemployed
+50,female,46.09,1,no,South America,9549.5651,no,salaried
+18,female,40.185,0,no,South America,2217.46915,no,student
+19,male,22.61,0,no,North America,1628.4709,no,unemployed
+62,male,39.93,0,no,Europe,12982.8747,no,retired
+56,female,35.8,1,no,Europe,11674.13,no,business
+42,male,35.8,2,no,South America,7160.094,yes,business
+37,male,34.2,1,yes,Antarctica,39047.285,no,business
+42,male,31.255,0,no,Antarctica,6358.77645,yes,salaried
+25,male,29.7,3,yes,North America,19933.458,no,salaried
+57,male,18.335,0,no,Europe,11534.87265,no,consultant
+51,male,42.9,2,yes,Oceania,47462.894,yes,salaried
+30,female,28.405,1,no,Oceania,4527.18295,no,unemployed
+44,male,30.2,2,yes,South America,38998.546,yes,salaried
+34,male,27.835,1,yes,Asia,20009.63365,no,unemployed
+31,male,39.49,1,no,Europe,3875.7341,no,business
+54,male,30.8,1,yes,Africa,41999.52,yes,business
+24,male,26.79,1,no,North America,12609.88702,no,student
+43,male,34.96,1,yes,Oceania,41034.2214,yes,business
+48,male,36.67,1,no,Oceania,28468.91901,yes,business
+19,female,39.615,1,no,South America,2730.10785,no,unemployed
+29,female,25.9,0,no,North America,3353.284,no,salaried
+63,female,35.2,1,no,Oceania,14474.675,yes,retired
+46,male,24.795,3,no,Antarctica,9500.57305,no,salaried
+52,male,36.765,2,no,Antarctica,26467.09737,no,business
+35,male,27.1,1,no,Antarctica,4746.344,yes,unemployed
+51,male,24.795,2,yes,Antarctica,23967.38305,yes,salaried
+44,male,25.365,1,no,Africa,7518.02535,yes,salaried
+21,male,25.745,2,no,Asia,3279.86855,no,unemployed
+39,female,34.32,5,no,Europe,8596.8278,no,business
+50,female,28.16,3,no,Europe,10702.6424,no,salaried
+34,female,23.56,0,no,Europe,4992.3764,no,salaried
+22,female,20.235,0,no,North America,2527.81865,no,student
+19,female,40.5,0,no,Antarctica,1759.338,no,student
+26,male,35.42,0,no,South America,2322.6218,no,salaried
+29,male,22.895,0,yes,South America,16138.76205,no,salaried
+48,male,40.15,0,no,South America,7804.1605,yes,consultant
+26,male,29.15,1,no,Africa,2902.9065,no,part-time
+45,female,39.995,3,no,Africa,9704.66805,yes,business
+36,female,29.92,0,no,Oceania,4889.0368,no,business
+54,male,25.46,1,no,South America,25517.11363,no,salaried
+34,male,21.375,0,no,Antarctica,4500.33925,no,salaried
+31,male,25.9,3,yes,Antarctica,19199.944,no,unemployed
+27,female,30.59,1,no,North America,16796.41194,no,part-time
+20,male,30.115,5,no,Asia,4915.05985,no,student
+44,female,25.8,1,no,Europe,7624.63,yes,business
+43,male,30.115,3,no,Antarctica,8410.04685,yes,business
+45,female,27.645,1,no,Europe,28340.18885,no,salaried
+34,male,34.675,0,no,North America,4518.82625,no,business
+24,female,20.52,0,yes,South America,14571.8908,no,student
+26,female,19.8,1,no,Europe,3378.91,no,salaried
+38,female,27.835,2,no,North America,7144.86265,no,part-time
+50,female,31.6,2,no,Europe,10118.424,no,salaried
+38,male,28.27,1,no,South America,5484.4673,yes,part-time
+27,female,20.045,3,yes,Africa,16420.49455,no,salaried
+39,female,23.275,3,no,Asia,7986.47525,no,business
+39,female,34.1,3,no,Africa,7418.522,no,part-time
+63,female,36.85,0,no,Europe,13887.9685,yes,retired
+33,female,36.29,3,no,South America,6551.7501,no,part-time
+36,female,26.885,0,no,Antarctica,5267.81815,no,business
+30,male,22.99,2,yes,South America,17361.7661,yes,salaried
+24,male,32.7,0,yes,Europe,34472.841,no,student
+24,male,25.8,0,no,Asia,1972.95,no,unemployed
+48,male,29.6,0,no,Africa,21232.18226,yes,salaried
+47,male,19.19,1,no,Asia,8627.5411,no,business
+29,male,31.73,2,no,Asia,4433.3877,no,salaried
+28,male,29.26,2,no,Europe,4438.2634,no,business
+47,male,28.215,3,yes,Oceania,24915.22085,no,salaried
+25,male,24.985,2,no,Africa,23241.47453,no,part-time
+51,male,27.74,1,no,South America,9957.7216,no,business
+48,female,22.8,0,no,Asia,8269.044,no,unemployed
+43,male,20.13,2,yes,Asia,18767.7377,yes,salaried
+61,female,33.33,4,no,South America,36580.28216,yes,retired
+48,male,32.3,1,no,Asia,8765.249,yes,business
+38,female,27.6,0,no,Oceania,5383.536,no,business
+59,male,25.46,0,no,South America,12124.9924,no,unemployed
+19,female,24.605,1,no,Antarctica,2709.24395,no,student
+26,female,34.2,2,no,Oceania,3987.926,no,business
+54,female,35.815,3,no,Europe,12495.29085,no,salaried
+21,female,32.68,2,no,South America,26018.95052,no,unemployed
+51,male,37.0,0,no,Antarctica,8798.593,no,salaried
+22,female,31.02,3,yes,North America,35595.5898,no,student
+47,male,36.08,1,yes,North America,42211.1382,yes,business
+18,male,23.32,1,no,Europe,1711.0268,no,student
+47,female,45.32,1,no,Europe,8569.8618,yes,salaried
+21,female,34.6,0,no,Europe,2020.177,no,student
+19,male,26.03,1,yes,South America,16450.8947,no,student
+23,male,18.715,0,no,Africa,21595.38229,no,part-time
+54,male,31.6,0,no,South America,9850.432,no,consultant
+37,female,17.29,2,no,North America,6877.9801,no,unemployed
+46,female,23.655,1,yes,North America,21677.28345,yes,business
+55,female,35.2,0,yes,South America,44423.803,yes,consultant
+30,female,27.93,0,no,Africa,4137.5227,no,salaried
+18,male,21.565,0,yes,Asia,13747.87235,no,unemployed
+61,male,38.38,0,no,North America,12950.0712,no,retired
+54,female,23.0,3,no,Africa,12094.478,no,salaried
+22,male,37.07,2,yes,North America,37484.4493,no,part-time
+45,female,30.495,1,yes,Europe,39725.51805,yes,salaried
+22,male,28.88,0,no,Antarctica,2250.8352,no,part-time
+19,male,27.265,2,no,Europe,22493.65964,no,part-time
+35,female,28.025,0,yes,North America,20234.85475,no,salaried
+18,male,23.085,0,no,Oceania,1704.70015,no,unemployed
+20,male,30.685,0,yes,Oceania,33475.81715,no,student
+28,female,25.8,0,no,Africa,3161.454,no,salaried
+55,male,35.245,1,no,Asia,11394.06555,no,business
+43,female,24.7,2,yes,Antarctica,21880.82,yes,business
+43,female,25.08,0,no,Africa,7325.0482,yes,salaried
+22,male,52.58,1,yes,Africa,44501.3982,no,part-time
+25,female,22.515,1,no,Asia,3594.17085,no,salaried
+49,male,30.9,0,yes,South America,39727.614,yes,consultant
+44,female,36.955,1,no,North America,8023.13545,yes,salaried
+64,male,26.41,0,no,Antarctica,14394.5579,yes,retired
+49,male,29.83,1,no,Oceania,9288.0267,no,salaried
+47,male,29.8,3,yes,Asia,25309.489,no,salaried
+27,female,21.47,0,no,Africa,3353.4703,no,unemployed
+55,male,27.645,0,no,Europe,10594.50155,no,consultant
+48,female,28.9,0,no,Europe,8277.523,yes,unemployed
+45,female,31.79,0,no,North America,17929.30337,yes,consultant
+24,female,39.49,0,no,Oceania,2480.9791,no,student
+32,male,33.82,1,no,Europe,4462.7218,no,part-time
+24,male,32.01,0,no,Africa,1981.5819,no,part-time
+57,male,27.94,1,no,North America,11554.2236,no,salaried
+59,male,41.14,1,yes,North America,48970.2476,yes,business
+36,male,28.595,3,no,Asia,6548.19505,no,business
+29,female,25.6,4,no,Asia,5708.867,no,salaried
+42,female,25.3,1,no,Antarctica,7045.499,no,salaried
+48,male,37.29,2,no,Oceania,8978.1851,yes,salaried
+39,male,42.655,0,no,Asia,5757.41345,no,salaried
+63,male,21.66,1,no,Asia,14349.8544,yes,unemployed
+54,female,31.9,1,no,Europe,10928.849,no,salaried
+37,male,37.07,1,yes,Africa,39871.7043,yes,salaried
+63,male,31.445,0,no,Asia,13974.45555,yes,retired
+21,male,31.255,0,no,South America,1909.52745,no,student
+54,female,28.88,2,no,Europe,12096.6512,no,salaried
+60,female,18.335,0,no,Europe,13204.28565,no,retired
+32,female,29.59,1,no,South America,4562.8421,no,part-time
+47,female,32.0,1,no,South America,8551.347,yes,salaried
+21,male,26.03,0,no,Africa,2102.2647,no,part-time
+28,male,31.68,0,yes,Antarctica,34672.1472,no,business
+63,male,33.66,3,no,South America,15161.5344,yes,unemployed
+18,male,21.78,2,no,Europe,11884.04858,no,part-time
+32,male,27.835,1,no,Oceania,4454.40265,yes,part-time
+38,male,19.95,1,no,Africa,5855.9025,no,part-time
+32,male,31.5,1,no,Asia,4076.497,no,business
+62,female,30.495,2,no,Europe,15019.76005,no,unemployed
+39,female,18.3,5,yes,Antarctica,19023.26,no,salaried
+55,male,28.975,0,no,Asia,10796.35025,no,salaried
+57,male,31.54,0,no,Antarctica,11353.2276,no,consultant
+52,male,47.74,1,no,North America,9748.9106,no,business
+56,male,22.1,0,no,Africa,10577.087,no,consultant
+47,male,36.19,0,yes,Africa,41676.0811,yes,salaried
+55,female,29.83,0,no,Africa,11286.5387,no,unemployed
+23,male,32.7,3,no,South America,3591.48,no,part-time
+22,female,30.4,0,yes,Europe,33907.548,no,student
+50,female,33.7,4,no,Antarctica,11299.343,no,business
+18,female,31.35,4,no,Asia,4561.1885,no,student
+51,female,34.96,2,yes,North America,44641.1974,yes,salaried
+22,male,33.77,0,no,South America,1674.6323,no,student
+52,female,30.875,0,no,Africa,23045.56616,no,unemployed
+25,female,33.99,1,no,Asia,3227.1211,no,salaried
+33,female,19.095,2,yes,Europe,16776.30405,yes,part-time
+53,male,28.6,3,no,Europe,11253.421,no,salaried
+29,male,38.94,1,no,North America,3471.4096,no,business
+58,male,36.08,0,no,Asia,11363.2832,no,consultant
+37,male,29.8,0,no,Europe,20420.60465,no,salaried
+54,female,31.24,0,no,Europe,10338.9316,no,unemployed
+49,female,29.925,0,no,Antarctica,8988.15875,yes,salaried
+50,female,26.22,2,no,Europe,10493.9458,no,business
+26,male,30.0,1,no,South America,2904.088,no,part-time
+45,male,20.35,3,no,Europe,8605.3615,no,business
+54,female,32.3,1,no,Oceania,11512.405,no,business
+38,male,38.39,3,yes,Africa,41949.2441,yes,part-time
+48,female,25.85,3,yes,Asia,24180.9335,yes,salaried
+28,female,26.315,3,no,Antarctica,5312.16985,no,salaried
+23,male,24.51,0,no,North America,2396.0959,no,unemployed
+55,male,32.67,1,no,Antarctica,10807.4863,no,business
+41,male,29.64,5,no,Asia,9222.4026,no,salaried
+25,male,33.33,2,yes,North America,36124.5737,no,part-time
+33,male,35.75,1,yes,Oceania,38282.7495,yes,unemployed
+30,female,19.95,3,no,Oceania,5693.4305,no,salaried
+23,female,31.4,0,yes,Europe,34166.273,no,part-time
+46,male,38.17,2,no,Asia,8347.1643,yes,business
+53,female,36.86,3,yes,Oceania,46661.4424,yes,business
+27,female,32.395,1,no,Europe,18903.49141,no,part-time
+23,female,42.75,1,yes,North America,40904.1995,no,unemployed
+63,female,25.08,0,no,Asia,14254.6082,yes,retired
+55,male,29.9,0,no,Oceania,10214.636,no,unemployed
+35,female,35.86,2,no,Europe,5836.5204,no,part-time
+34,male,32.8,1,no,Antarctica,14358.36437,no,business
+19,female,18.6,0,no,North America,1728.897,no,student
+39,female,23.87,5,no,Asia,8582.3023,no,part-time
+27,male,45.9,2,no,South America,3693.428,no,business
+57,male,40.28,0,no,Asia,20709.02034,no,unemployed
+52,female,18.335,0,no,Antarctica,9991.03765,no,consultant
+28,male,33.82,0,no,Europe,19673.33573,no,business
+50,female,28.12,3,no,Oceania,11085.5868,no,salaried
+44,female,25.0,1,no,Asia,7623.518,yes,business
+26,female,22.23,0,no,Oceania,3176.2877,no,salaried
+33,male,30.25,0,no,Europe,3704.3545,no,salaried
+19,female,32.49,0,yes,Europe,36898.73308,no,student
+50,male,37.07,1,no,Oceania,9048.0273,no,business
+41,female,32.6,3,no,Oceania,7954.517,yes,salaried
+52,female,24.86,0,no,North America,27117.99378,no,salaried
+39,male,32.34,2,no,Africa,6338.0756,no,salaried
+50,male,32.3,2,no,Africa,9630.397,no,salaried
+52,male,32.775,3,no,Europe,11289.10925,no,business
+60,male,32.8,0,yes,Oceania,52590.82939,yes,unemployed
+20,female,31.92,0,no,North America,2261.5688,no,unemployed
+55,male,21.5,1,no,Asia,10791.96,no,salaried
+42,male,34.1,0,no,North America,5979.731,yes,consultant
+18,female,30.305,0,no,North America,2203.73595,no,unemployed
+58,female,36.48,0,no,Antarctica,12235.8392,no,salaried
+43,female,32.56,3,yes,Antarctica,40941.2854,yes,salaried
+35,female,35.815,1,no,Antarctica,5630.45785,no,business
+48,female,27.93,4,no,Europe,11015.1747,no,business
+36,female,22.135,3,no,Europe,7228.21565,no,salaried
+19,male,44.88,0,yes,South America,39722.7462,no,unemployed
+23,female,23.18,2,no,Asia,14426.07385,no,part-time
+20,female,30.59,0,no,Antarctica,2459.7201,no,student
+32,female,41.1,0,no,Africa,3989.841,no,business
+43,female,34.58,1,no,Antarctica,7727.2532,yes,business
+34,male,42.13,2,no,Oceania,5124.1887,no,salaried
+30,male,38.83,1,no,Europe,18963.17192,no,part-time
+18,female,28.215,0,no,Asia,2200.83085,no,part-time
+41,female,28.31,1,no,Europe,7153.5539,no,salaried
+35,female,26.125,0,no,South America,5227.98875,yes,salaried
+57,male,40.37,0,no,Europe,10982.5013,no,salaried
+29,female,24.6,2,no,South America,4529.477,no,business
+32,male,35.2,2,no,South America,4670.64,no,part-time
+37,female,34.105,1,no,South America,6112.35295,no,part-time
+18,male,27.36,1,yes,North America,17178.6824,no,part-time
+43,female,26.7,2,yes,Africa,22478.6,no,salaried
+56,female,41.91,0,no,Asia,11093.6229,no,consultant
+38,male,29.26,2,no,Oceania,6457.8434,no,unemployed
+29,male,32.11,2,no,Antarctica,4433.9159,no,salaried
+22,female,27.1,0,no,North America,2154.361,no,part-time
+52,female,24.13,1,yes,Africa,23887.6627,yes,salaried
+40,female,27.4,1,no,Africa,6496.886,no,salaried
+23,female,34.865,0,no,South America,2899.48935,no,unemployed
+31,male,29.81,0,yes,North America,19350.3689,no,business
+42,female,41.325,1,no,Europe,7650.77375,yes,salaried
+24,female,29.925,0,no,North America,2850.68375,no,part-time
+25,female,30.3,0,no,Oceania,2632.992,no,unemployed
+48,female,27.36,1,no,Europe,9447.3824,no,business
+23,female,28.49,1,yes,North America,18328.2381,no,part-time
+45,male,23.56,2,no,Africa,8603.8234,no,salaried
+20,male,35.625,3,yes,Oceania,37465.34375,no,unemployed
+62,female,32.68,0,no,Africa,13844.7972,yes,unemployed
+43,female,25.27,1,yes,Asia,21771.3423,yes,salaried
+23,female,28.0,0,no,Africa,13126.67745,no,part-time
+31,female,32.775,2,no,Antarctica,5327.40025,no,salaried
+41,female,21.755,1,no,Asia,13725.47184,no,salaried
+58,female,32.395,1,no,North America,13019.16105,no,business
+48,female,36.575,0,no,Oceania,8671.19125,yes,salaried
+31,female,21.755,0,no,Asia,4134.08245,no,business
+19,female,27.93,3,no,Oceania,18838.70366,no,part-time
+19,female,30.02,0,yes,Antarctica,33307.5508,no,student
+41,male,33.55,0,no,Europe,5699.8375,yes,salaried
+40,male,29.355,1,no,Antarctica,6393.60345,no,salaried
+31,female,25.8,2,no,North America,4934.705,no,business
+37,male,24.32,2,no,Asia,6198.7518,no,part-time
+46,male,40.375,2,no,Asia,8733.22925,yes,business
+22,male,32.11,0,no,Asia,2055.3249,no,student
+51,male,32.3,1,no,Asia,9964.06,no,business
+18,female,27.28,3,yes,Antarctica,18223.4512,no,student
+35,male,17.86,1,no,South America,5116.5004,no,part-time
+59,female,34.8,2,no,Asia,36910.60803,no,business
+36,male,33.4,2,yes,Europe,38415.474,yes,part-time
+37,female,25.555,1,yes,Africa,20296.86345,no,part-time
+59,male,37.1,1,no,Antarctica,12347.172,no,business
+36,male,30.875,1,no,Africa,5373.36425,no,salaried
+39,male,34.1,2,no,Asia,23563.01618,no,part-time
+18,male,21.47,0,no,Europe,1702.4553,no,student
+52,female,33.3,2,no,Europe,10806.839,no,salaried
+27,female,31.255,1,no,Africa,3956.07145,no,business
+18,male,39.14,0,no,Asia,12890.05765,no,student
+40,male,25.08,0,no,Antarctica,5415.6612,yes,unemployed
+29,male,37.29,2,no,Oceania,4058.1161,no,salaried
+46,female,34.6,1,yes,North America,41661.602,yes,business
+38,female,30.21,3,no,South America,7537.1639,no,salaried
+30,female,21.945,1,no,Africa,4718.20355,no,business
+40,male,24.97,2,no,Asia,6593.5083,no,salaried
+50,male,25.3,0,no,Antarctica,8442.667,no,salaried
+20,female,24.42,0,yes,Antarctica,26125.67477,no,unemployed
+41,male,23.94,1,no,Africa,6858.4796,no,business
+33,female,39.82,1,no,Oceania,4795.6568,no,part-time
+38,male,16.815,2,no,Europe,6640.54485,no,salaried
+42,male,37.18,2,no,Antarctica,7162.0122,yes,salaried
+56,male,34.43,0,no,Asia,10594.2257,no,unemployed
+58,male,30.305,0,no,South America,11938.25595,no,consultant
+52,male,34.485,3,yes,North America,60021.39897,yes,salaried
+20,female,21.8,0,yes,North America,20167.33603,no,unemployed
+54,female,24.605,3,no,Antarctica,12479.70895,no,business
+58,male,23.3,0,no,Antarctica,11345.519,no,consultant
+45,female,27.83,2,no,Asia,8515.7587,yes,business
+26,male,31.065,0,no,Europe,2699.56835,no,business
+63,female,21.66,0,no,North America,14449.8544,no,retired
+58,female,28.215,0,no,Europe,12224.35085,no,salaried
+37,male,22.705,3,no,South America,6985.50695,no,business
+25,female,42.13,1,no,Africa,3238.4357,no,business
+52,male,41.8,2,yes,Antarctica,47269.854,yes,salaried
+64,male,36.96,2,yes,Europe,49577.6624,no,retired
+22,female,21.28,3,no,Antarctica,4296.2712,no,student
+28,female,33.11,0,no,Europe,3171.6149,no,unemployed
+18,male,33.33,0,no,North America,1135.9407,no,unemployed
+28,male,24.3,5,no,Antarctica,5615.369,no,business
+45,female,25.7,3,no,Antarctica,9101.798,no,salaried
+33,male,29.4,4,no,North America,6059.173,yes,part-time
+18,female,39.82,0,no,Antarctica,1633.9618,no,part-time
+32,male,33.63,1,yes,Africa,37607.5277,yes,salaried
+24,male,29.83,0,yes,Asia,18648.4217,no,student
+19,male,19.8,0,no,South America,1241.565,no,student
+20,male,27.3,0,yes,Europe,16232.847,no,student
+40,female,29.3,4,no,Europe,15828.82173,no,salaried
+34,female,27.72,0,no,North America,4415.1588,no,business
+42,female,37.9,0,no,Oceania,6474.013,yes,unemployed
+51,female,36.385,3,no,Africa,11436.73815,no,salaried
+54,female,27.645,1,no,Asia,11305.93455,no,salaried
+55,male,37.715,3,no,Antarctica,30063.58055,no,business
+52,female,23.18,0,no,Africa,10197.7722,no,salaried
+32,female,20.52,0,no,North America,4544.2348,no,business
+28,male,37.1,1,no,Asia,3277.161,no,unemployed
+41,female,28.05,1,no,North America,6770.1925,yes,salaried
+43,female,29.9,1,no,Africa,7337.748,no,salaried
+49,female,33.345,2,no,Africa,10370.91255,yes,salaried
+64,male,23.76,0,yes,Oceania,26926.5144,yes,retired
+55,female,30.5,0,no,Oceania,10704.47,no,consultant
+24,male,31.065,0,yes,South America,34254.05335,no,part-time
+20,female,33.3,0,no,Oceania,1880.487,no,unemployed
+45,male,27.5,3,no,Antarctica,8615.3,yes,business
+26,male,33.915,1,no,Europe,3292.52985,no,salaried
+25,female,34.485,0,no,Oceania,3021.80915,no,unemployed
+43,male,25.52,5,no,North America,14478.33015,no,salaried
+35,male,27.61,1,no,South America,4747.0529,yes,unemployed
+26,male,27.06,0,yes,Africa,17043.3414,no,unemployed
+57,male,23.7,0,no,Oceania,10959.33,no,salaried
+22,female,30.4,0,no,Europe,2741.948,no,student
+32,female,29.735,0,no,North America,4357.04365,yes,salaried
+39,male,29.925,1,yes,North America,22462.04375,no,unemployed
+25,female,26.79,2,no,Europe,4189.1131,no,part-time
+48,female,33.33,0,no,Asia,8283.6807,yes,consultant
+47,female,27.645,2,yes,Europe,24535.69855,no,salaried
+18,female,21.66,0,yes,Antarctica,14283.4594,no,student
+18,male,30.03,1,no,North America,1720.3537,no,student
+61,male,36.3,1,yes,Antarctica,47403.88,yes,retired
+47,female,24.32,0,no,Asia,8534.6718,no,salaried
+28,female,17.29,0,no,South America,3732.6251,no,business
+36,female,25.9,1,no,Africa,5472.449,yes,salaried
+20,male,39.4,2,yes,Asia,38344.566,no,student
+44,male,34.32,1,no,North America,7147.4728,yes,business
+38,female,19.95,2,no,Oceania,7133.9025,no,salaried
+19,male,34.9,0,yes,North America,34828.654,no,unemployed
+21,male,23.21,0,no,Europe,1515.3449,no,unemployed
+46,male,25.745,3,no,Asia,9301.89355,no,business
+58,male,25.175,0,no,Oceania,11931.12525,no,consultant
+20,male,22.0,1,no,South America,1964.78,no,part-time
+18,male,26.125,0,no,Europe,1708.92575,no,part-time
+28,female,26.51,2,no,Antarctica,4340.4409,no,business
+33,male,27.455,2,no,Asia,5261.46945,no,part-time
+19,female,25.745,1,no,Europe,2710.82855,no,unemployed
+45,male,30.36,0,yes,South America,62592.87309,yes,unemployed
+62,male,30.875,3,yes,Oceania,46718.16325,no,unemployed
+25,female,20.8,1,no,North America,3208.787,no,unemployed
+43,male,27.8,0,yes,Africa,37829.7242,yes,consultant
+42,male,24.605,2,yes,Oceania,21259.37795,yes,salaried
+24,female,27.72,0,no,North America,2464.6188,no,student
+29,female,21.85,0,yes,Africa,16115.3045,no,salaried
+32,male,28.12,4,yes,North America,21472.4788,yes,part-time
+25,female,30.2,0,yes,North America,33900.653,no,unemployed
+41,male,32.2,2,no,South America,6875.961,yes,salaried
+42,male,26.315,1,no,Oceania,6940.90985,no,salaried
+33,female,26.695,0,no,Asia,4571.41305,yes,business
+34,male,42.9,1,no,Europe,4536.259,no,salaried
+19,female,34.7,2,yes,Antarctica,36397.576,no,unemployed
+30,female,23.655,3,yes,Africa,18765.87545,yes,business
+18,male,28.31,1,no,Oceania,11272.33139,no,part-time
+19,female,20.6,0,no,Asia,1731.677,no,student
+18,male,53.13,0,no,Antarctica,1163.4627,no,unemployed
+35,male,39.71,4,no,South America,19496.71917,no,salaried
+39,female,26.315,2,no,Europe,7201.70085,no,business
+31,male,31.065,3,no,North America,5425.02335,no,unemployed
+62,male,26.695,0,yes,Oceania,28101.33305,no,unemployed
+62,male,38.83,0,no,Oceania,12981.3457,no,unemployed
+42,female,40.37,2,yes,Africa,43896.3763,yes,business
+31,male,25.935,1,no,Oceania,4239.89265,no,unemployed
+61,male,33.535,0,no,Oceania,13143.33665,yes,retired
+42,female,32.87,0,no,Asia,7050.0213,yes,unemployed
+51,male,30.03,1,no,Africa,9377.9047,no,salaried
+23,female,24.225,2,no,Africa,22395.74424,no,part-time
+52,male,38.6,2,no,South America,10325.206,no,business
+57,female,25.74,2,no,Europe,12629.1656,no,business
+23,female,33.4,0,no,Asia,10795.93733,no,unemployed
+52,female,44.7,3,no,Europe,11411.685,no,salaried
+50,male,30.97,3,no,Antarctica,10600.5483,no,business
+18,female,31.92,0,no,South America,2205.9808,no,unemployed
+18,female,36.85,0,no,North America,1629.8335,no,student
+21,female,25.8,0,no,Oceania,2007.945,no,student
+61,female,29.07,0,yes,Oceania,29141.3603,yes,unemployed
+23,male,34.4,0,no,Oceania,1826.843,no,unemployed
+56,female,39.82,0,no,South America,11090.7178,no,consultant
+27,male,42.13,0,yes,South America,39611.7577,no,salaried
+19,male,24.6,1,no,Asia,1837.237,no,student
+52,female,30.78,1,no,Antarctica,10797.3362,no,business
+23,male,23.845,0,no,Antarctica,2395.17155,no,student
+56,male,40.3,0,no,Europe,10602.385,no,salaried
+30,male,35.3,0,yes,South America,36837.467,no,business
+58,female,28.215,0,no,Africa,12224.35085,no,unemployed
+37,male,22.705,3,no,North America,6985.50695,no,salaried
+25,female,42.13,1,no,North America,3238.4357,no,business
+52,male,41.8,2,yes,North America,47269.854,yes,business
+64,male,36.96,2,yes,Antarctica,49577.6624,yes,unemployed
+22,female,21.28,3,no,Oceania,4296.2712,no,student
+28,female,33.11,0,no,Antarctica,3171.6149,no,business
+18,male,33.33,0,no,Europe,1135.9407,no,unemployed
+28,male,24.3,5,no,South America,5615.369,no,salaried
+45,female,25.7,3,no,North America,9101.798,no,business
+33,male,29.4,4,no,Europe,6059.173,no,part-time
+18,female,39.82,0,no,Europe,1633.9618,no,unemployed
+32,male,33.63,1,yes,Asia,37607.5277,yes,business
+19,female,23.4,2,no,Antarctica,2913.569,no,student
+57,female,20.1,1,no,Africa,12032.326,no,business
+62,female,39.16,0,no,North America,13470.8044,no,retired
+41,male,34.21,1,no,Africa,6289.7549,yes,salaried
+26,male,46.53,1,no,South America,2927.0647,no,business
+39,female,32.5,1,no,Oceania,6238.298,no,salaried
+46,male,25.8,5,no,Asia,10096.97,yes,salaried
+45,female,35.3,0,no,Antarctica,7348.142,yes,consultant
+32,male,37.18,2,no,Europe,4673.3922,no,unemployed
+59,female,27.5,0,no,Africa,12233.828,no,salaried
+44,male,29.735,2,no,Africa,32108.66282,no,business
+39,female,24.225,5,no,South America,8965.79575,no,salaried
+18,male,26.18,2,no,South America,2304.0022,no,unemployed
+53,male,29.48,0,no,North America,9487.6442,no,salaried
+18,male,23.21,0,no,South America,1121.8739,no,unemployed
+26,female,34.2,2,no,North America,3987.926,no,salaried
+54,female,35.815,3,no,Asia,12495.29085,no,business
+21,female,32.68,2,no,Europe,26018.95052,no,part-time
+51,male,37.0,0,no,Europe,8798.593,no,salaried
+22,female,31.02,3,yes,North America,35595.5898,no,part-time
+47,male,36.08,1,yes,Antarctica,42211.1382,yes,business
+18,male,23.32,1,no,Asia,1711.0268,no,unemployed
+47,female,45.32,1,no,Asia,8569.8618,yes,salaried
+21,female,34.6,0,no,Africa,2020.177,no,part-time
+19,male,26.03,1,yes,Africa,16450.8947,no,unemployed
+23,male,18.715,0,no,North America,21595.38229,no,unemployed
+54,male,31.6,0,no,Antarctica,9850.432,no,salaried

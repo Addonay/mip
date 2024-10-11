@@ -1,5 +1,6 @@
 import streamlit as st
 from streamlit.components.v1 import html
+from st_pages import get_nav_from_toml
 
 st.set_page_config(
     page_title="Medical Insurance Predictor",
@@ -139,7 +140,7 @@ html_page = """
             flex-direction: column;
             justify-content: flex-end;
             gap: 1.5rem;
-            min-height: 300px;
+            min-height: 450px;
         }
 
         .hero h1 {
@@ -296,8 +297,8 @@ html_page = """
                 <nav>
                     <ul>
                         <li><a href="/">Home</a></li>
-                        <li><a href="/app2">Calculator</a></li>
-                        <li><button class="btn">Get Started</button></li>
+                        <li><a href="/about">About Us</a></li>
+                        <li><button href="/app2" class="btn">Get Started</button></li>
                     </ul>
                 </nav>
             </header>
@@ -350,3 +351,11 @@ html_page = """
 """
 
 st.html(html_page)
+st.session_state["logged_in"] = False
+
+
+sections = st.sidebar.toggle(label="Toggle Sections")
+
+nav = get_nav_from_toml("pages.toml")
+pg = st.navigation(nav)
+# pg.run()

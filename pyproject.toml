@@ -17,6 +17,9 @@ streamlit-shadcn-ui = "^0.1.18"
 seaborn = "^0.13.2"
 fastapi = "^0.115.0"
 uvicorn = "^0.31.0"
+xgboost = "^2.1.1"
+streamlit-echarts = "^0.4.0"
+st-pages = "^1.0.1"
 
 
 [tool.poetry.group.dev.dependencies]
