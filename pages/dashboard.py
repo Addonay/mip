@@ -4,11 +4,7 @@ import pandas as pd
 import json
 import numpy as np
 import os
-import matplotlib.pyplot as plt
-import seaborn as sns
-from streamlit.components.v1 import html
 
-st.Page("pages/dashboard.py", title="Medical Insurance Dashboard")
 
 
 # load data
@@ -23,12 +19,6 @@ def load_data(file_path):
     return pd.DataFrame()
 
 def load_dash():
-    st.set_page_config(
-        page_title="Medical Insurance Dashboard",
-        page_icon="🏥",
-        layout="wide",
-        initial_sidebar_state="expanded",
-    )
     file_path = "data.json"
     # file_path = "predicted_data.json"
     df = load_data(file_path)
@@ -192,3 +182,4 @@ if st.session_state["logged_in"]:
     load_dash()
 else:
     st.switch_page("pages/login.py")
+

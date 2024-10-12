@@ -1,12 +1,7 @@
 import streamlit as st
 from streamlit.components.v1 import html
 
-st.set_page_config(
-    page_title="About",
-    page_icon="🏥",
-    layout="wide",
-    initial_sidebar_state="collapsed",
-)
+
 header = """
 <body>
 <style>
@@ -67,6 +62,12 @@ body {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+  font-size: 0.95rem;
+  color: #d8d8d8;
+  font-weight: 500;
+}
 .cta button {
   padding: 8px 20px;
   background-color: #1980e6;
@@ -97,14 +98,13 @@ body {
   </div>
   <div class="nav-links">
     <div class="menu">
-      <a href="#">About</a>
-      <a href="/dashboard">Dashboard</a>
+      <a href="/">Home</a>
+      <a href="/about">About Us</a>
       <a href="mailto:oaddonay@gmail.com">Contact</a>
     </div>
     <div class="cta">
-      <button>Get Started</button>
+      <button><a href="/app2">Get Started</a></button>
     </div>
-    <div class="avatar" style='background-image: url("https://cdn.usegalileo.ai/sdxl10/101f5617-1def-49ab-9188-c2575daeb32f.png");'></div>
   </div>
 </header>
 </body>

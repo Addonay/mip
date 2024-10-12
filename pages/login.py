@@ -1,12 +1,5 @@
 import streamlit as st
 
-st.Page("pages/login.py", title="Login")
-st.set_page_config(
-    page_title="Login",
-    page_icon="🏥",
-    layout="wide",
-    initial_sidebar_state="collapsed",
-)
 
 def display_login_ui():
     st.html(
@@ -173,6 +166,7 @@ elif (
 
 
 if st.session_state["logged_in"]:
+    print("logged in")
     st.switch_page("pages/dashboard.py")
 else:
     display_login_ui()

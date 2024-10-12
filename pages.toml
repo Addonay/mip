@@ -1,6 +1,6 @@
 [[pages]]
 name = "Navigation"
-icon = ":material/menu:"
+icon = ":material/home:"
 is_section = true
 
 [[pages]]

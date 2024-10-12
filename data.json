@@ -544,5 +544,57 @@
         "occupation": "salaried",
         "predicted_amount": 25413,
         "bmi": 24.653739612188367
+    },
+    {
+        "age": "18",
+        "gender": "male",
+        "child_count": "0",
+        "smoker": "no",
+        "region": "africa",
+        "height": "180",
+        "weight": "65",
+        "heartDisease": "no",
+        "occupation": "student",
+        "predicted_amount": 16011,
+        "bmi": 20.06172839506173
+    },
+    {
+        "age": "18",
+        "gender": "male",
+        "child_count": "0",
+        "smoker": "no",
+        "region": "africa",
+        "height": "180",
+        "weight": "65",
+        "heartDisease": "no",
+        "occupation": "student",
+        "predicted_amount": 16011,
+        "bmi": 20.06172839506173
+    },
+    {
+        "age": "18",
+        "gender": "male",
+        "child_count": "0",
+        "smoker": "no",
+        "region": "africa",
+        "height": "180",
+        "weight": "65",
+        "heartDisease": "no",
+        "occupation": "student",
+        "predicted_amount": 16011,
+        "bmi": 20.06172839506173
+    },
+    {
+        "age": "90",
+        "gender": "female",
+        "child_count": "8",
+        "smoker": "no",
+        "region": "europe",
+        "height": "150",
+        "weight": "56",
+        "heartDisease": "yes",
+        "occupation": "retired",
+        "predicted_amount": 27164,
+        "bmi": 24.88888888888889
     }
 ]
