@@ -399,7 +399,7 @@ st.html(html_page)
 
 
 if st.query_params == {}:
-    st.session_state["data"] = None
+    st.session_state["data"] = {}
 
 else:
     st.session_state["data"] = st.query_params.to_dict()

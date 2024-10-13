@@ -7,7 +7,6 @@ from streamlit.components.v1 import html
 
 def predict():
     everything: dict = st.session_state["data"]    
-        
     model = pickle.load(open("rf_model.pkl", "rb"))
     weight = everything.get("weight")
     height = everything.get("height")
@@ -159,8 +158,6 @@ def predict():
 
     with open(file_path, "w") as f:
         json.dump(existing_data, f, indent=4)
-    WEBHOOK_URL = st.secrets["WEBHOOK_URL"]
-    requests.post(WEBHOOK_URL, json=data_dict)
 
 
 if "data" not in st.session_state:
