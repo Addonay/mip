@@ -52,5 +52,5 @@ st.logo("https://cdn.usegalileo.ai/sdxl10/101f5617-1def-49ab-9188-c2575daeb32f.p
 st.sidebar.text("Made with 💙 by Group 12")
 
 pg.run()
-# st.session_state["data"] = None
+st.session_state["data"] = {}
 st.session_state["logged_in"] = False
