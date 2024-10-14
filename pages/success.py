@@ -7,7 +7,7 @@ from streamlit.components.v1 import html
 
 def predict():
     everything: dict = st.session_state["data"]    
-    model = pickle.load(open("rf_model.pkl", "rb"))
+    model = pickle.load(open("rf2_model.pkl", "rb"))
     weight = everything.get("weight")
     height = everything.get("height")
     bmi = float(weight) / (float(height) * float(height)) * 10000

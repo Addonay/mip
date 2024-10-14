@@ -52,5 +52,5 @@ pg = st.navigation(
 st.sidebar.text("Made with 💙 by Group 12")
 
 pg.run()
-st.session_state["data"] = {}
+# st.session_state["data"] = {}
 st.session_state["logged_in"] = False
