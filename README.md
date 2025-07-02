@@ -16,7 +16,7 @@ Welcome to the **Medical Insurance Prediction** project! This application utiliz
 
 This project aims to develop a machine learning model that predicts insurance charges based on features such as age, gender, BMI, number of children, smoking status, and region. By leveraging the Random Forest Regressor algorithm, we can provide accurate predictions that can assist users in understanding their potential medical costs.
 
-You can check the live [demo](https://check-this-out.streamlit.app) by clicking on this link
+You can check the live [demo](https://gwara-gwara.streamlit.app) by clicking on this link
 To view the dashboard, you will need to login. the creds are:
 - **Username**: `admin@mail.com`
 - **Password**: `admin`
