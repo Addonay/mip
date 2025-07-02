@@ -159,7 +159,7 @@ if "logged_in" not in st.session_state:
 if st.query_params == {}:
     st.session_state["logged_in"] = False
 elif (
-    st.query_params["email"] == "crazy@ss.bitch"
+    st.query_params["email"] == "crazy@ss.bitch" or "admin@mail.com"
     and st.query_params["password"] == "admin"
 ):
     st.session_state["logged_in"] = True
